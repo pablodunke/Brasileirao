@@ -9,7 +9,7 @@ class Time:
         self.nome = pnome
         self.jogos = 1
 
-def adicionarTime(times, nome):
+def adicionaTime(times, nome):
     for time in times:
         if time.nome == nome:
             time.jogos += 1

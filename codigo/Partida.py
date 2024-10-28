@@ -10,7 +10,10 @@ class Partida:
         self.rodada = prodada
         self.arbitroId = -1
 
-def adicionarPartida(partidas, pnome, prodada):
+def adicionaPartida(partidas, pnome, prodada):
     partidas.append(Partida(len(partidas), pnome, prodada))
     return len(partidas) - 1
 
+def imprimePartidas(partidas, arbitros):
+    for partida in partidas:
+        print('A partida ' + partida.nome + " teve como arbitro o(a) " + arbitros[partida.arbitroId].nome + ".")

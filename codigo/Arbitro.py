@@ -9,7 +9,7 @@ class Arbitro:
         self.nome = pnome
         self.jogos = 1
 
-def adicionarArbitro(arbitros, nome):
+def adicionaArbitro(arbitros, nome):
     for arbitro in arbitros:
         if arbitro.nome == nome:
             arbitro.jogos += 1
@@ -17,3 +17,7 @@ def adicionarArbitro(arbitros, nome):
 
     arbitros.append(Arbitro(len(arbitros), nome))
     return len(arbitros) - 1
+
+def imprimeArbitros(arbitros):
+    for arbitro in arbitros:
+        print('O arbitro ' + arbitro.nome + ' teve ' + str(arbitro.jogos) + ' jogos')

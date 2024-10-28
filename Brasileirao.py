@@ -7,15 +7,19 @@
 import os
 import PyPDF2
 
-from codigo.Arbitro             import Arbitro,             adicionarArbitro
-from codigo.Campeonato          import Campeonato,          adicionarCampeonato
-from codigo.Partida             import Partida,             adicionarPartida
-from codigo.Time                import Time,                adicionarTime
+from codigo.Arbitro             import Arbitro,             adicionaArbitro, imprimeArbitros
+from codigo.Campeonato          import Campeonato,          adicionaCampeonato
+from codigo.Gol                 import Gol,                 adicionaGol, imprimeGols
+from codigo.Jogador             import Jogador,             adicionaJogador, imprimeJogadores
+from codigo.Partida             import Partida,             adicionaPartida, imprimePartidas
+from codigo.Time                import Time,                adicionaTime
 
 from codigo.Extrator            import                      extrai1Valor, extrai2Valores, extrai3Valores
 
 Arbitros = []
 Campeonatos = []
+Gols = []
+Jogadores = []
 Partidas = []
 Times = []
 
@@ -31,23 +35,23 @@ for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
 
         for pagina_num in range(num_paginas):
 
+            pagina = pdf_reader.pages[pagina_num]
+            texto = pagina.extract_text()
+            linhas = texto.split('\n')
+
             if(pagina_num == 0):
-                pagina = pdf_reader.pages[pagina_num]
-                texto = pagina.extract_text()
-
-                linhas = texto.split('\n')
-            
-                #print(linhas[5])
-
-                jogo = extrai1Valor(linhas[1], 'Jogo')
+                
+                cbf = extrai1Valor(linhas[1], 'Jogo')
                 camp, rodada = extrai2Valores(linhas[3], 'Campeonato', 'Rodada')
                 data, horario, estadio = extrai3Valores(linhas[5], 'Data', 'Horário', 'Estádio')
 
                 arbi = extrai1Valor(linhas[7], 'Arbitro')
-                aid = adicionarArbitro(Arbitros, arbi)
+                arbitroId = adicionaArbitro(Arbitros, arbi)
 
-                cid = adicionarCampeonato(Campeonatos, camp)
-                pid = adicionarPartida(Partidas, jogo, rodada)
+                cid = adicionaCampeonato(Campeonatos, camp)
+
+                jogo = extrai1Valor(linhas[4], 'Jogo')
+                pid = adicionaPartida(Partidas, jogo, rodada)
 
                 # Acessar chave e valor
                 #key = key_value[0]
@@ -62,10 +66,20 @@ for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
                    # aid = adicionarArbitro(Arbitros, value)
                     #Partidas[pid].arbitroId = aid
 
+            num_linhas = len(linhas)
+            for l in range(num_linhas):
+                if(linhas[l] == 'Gols'):
+                    if(linhas[l + 1] != 'NÃO HOUVE MARCADORES'):
+                        current = l + 2
+                        while(linhas[current] != 'NR = Normal | PN = Pênalti | CT = Contra | FT = Falta'):
+                            #print(linhas[current])
+                            adicionaGol(Gols, linhas[current], 0)
+                            current += 1
 
-for arbitro in Arbitros:
-    print(arbitro.nome + ' teve ' + str(arbitro.jogos) + ' jogos')
 
-##for partida in Partidas:
-  ##  print("A partida " + partida.nome + " teve como arbitro o(a) " + Arbitros[partida.arbitroId].nome + ".")
+
+
+#imprimeArbitros(Arbitros)
+imprimeGols(Gols)
+#imprimePartidas(Partidas, Arbitros)
 

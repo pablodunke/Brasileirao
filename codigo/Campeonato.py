@@ -9,7 +9,7 @@ class Campeonato:
         self.nome = pnome
         self.jogos = 1
 
-def adicionarCampeonato(campeonatos, nome):
+def adicionaCampeonato(campeonatos, nome):
     for campeonato in campeonatos:
         if campeonato.nome == nome:
             campeonato.jogos += 1
