@@ -7,59 +7,65 @@
 import os
 import PyPDF2
 
-from banco.Arbitro import Arbitro, adicionarArbitro
-from banco.Partida import Partida, adicionarPartida
+from codigo.Arbitro             import Arbitro,             adicionarArbitro
+from codigo.Campeonato          import Campeonato,          adicionarCampeonato
+from codigo.Partida             import Partida,             adicionarPartida
+from codigo.Time                import Time,                adicionarTime
 
-pasta = "dados"
-arquivos = os.listdir(pasta)
-
-pdfs = [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]
-
-#print("Brasileirao")
-
-#arbitro = Arbitro("Maria")
-
-#print(arbitro.nome)
+from codigo.Extrator            import                      extrai1Valor, extrai2Valores, extrai3Valores
 
 Arbitros = []
+Campeonatos = []
 Partidas = []
+Times = []
 
-for pdf in pdfs:
+pasta = 'dados'
+arquivos = os.listdir(pasta)
+for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
 
     caminho_pdf = os.path.join(pasta, pdf)
-    with open(caminho_pdf, "rb") as pdf_file:
+    with open(caminho_pdf, 'rb') as pdf_file:
 
         pdf_reader = PyPDF2.PdfReader(pdf_file)
         num_paginas = len(pdf_reader.pages)
 
         for pagina_num in range(num_paginas):
 
-            pagina = pdf_reader.pages[pagina_num]
-            texto = pagina.extract_text()
+            if(pagina_num == 0):
+                pagina = pdf_reader.pages[pagina_num]
+                texto = pagina.extract_text()
 
-            linhas = texto.split('\n')
+                linhas = texto.split('\n')
+            
+                #print(linhas[5])
 
-            for linha in linhas:
-                #print({linha})
+                jogo = extrai1Valor(linhas[1], 'Jogo')
+                camp, rodada = extrai2Valores(linhas[3], 'Campeonato', 'Rodada')
+                data, horario, estadio = extrai3Valores(linhas[5], 'Data', 'Horário', 'Estádio')
 
-                s_cleaned = linha.strip("{}'")
+                arbi = extrai1Valor(linhas[7], 'Arbitro')
+                aid = adicionarArbitro(Arbitros, arbi)
 
-                key_value = s_cleaned.split(": ", 1)
+                cid = adicionarCampeonato(Campeonatos, camp)
+                pid = adicionarPartida(Partidas, jogo, rodada)
 
                 # Acessar chave e valor
-                key = key_value[0]
-                if(len(key_value) > 1):
-                    value = key_value[1]
+                #key = key_value[0]
+                #value = key_value[1] if len(key_value) > 1 else None
 
-                if(key == 'Jogo'):
-                    pid = adicionarPartida(Partidas, value)
-                elif(key == 'Arbitro'):
-                    aid = adicionarArbitro(Arbitros, value)
-                    Partidas[pid].arbitroId = aid
+                #if(key == 'Jogo' and nomeado == False):
+                
+                   # nomeado = True
+                #elif(key == 'Jogo'):
+                    #h = 0
+                #elif(key == 'Arbitro'):
+                   # aid = adicionarArbitro(Arbitros, value)
+                    #Partidas[pid].arbitroId = aid
 
 
-##for arbitro in arbitros:
-##    print(arbitro.nome + " teve " + str(arbitro.jogos) + " jogos")
+for arbitro in Arbitros:
+    print(arbitro.nome + ' teve ' + str(arbitro.jogos) + ' jogos')
 
-for partida in Partidas:
-    print("A partida " + partida.nome + " teve como arbitro o(a) " + Arbitros[partida.arbitroId].nome + ".")
+##for partida in Partidas:
+  ##  print("A partida " + partida.nome + " teve como arbitro o(a) " + Arbitros[partida.arbitroId].nome + ".")
+
