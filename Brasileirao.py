@@ -9,6 +9,7 @@ import re
 import PyPDF2
 
 from codigo.Amarelo             import Amarelo,             adicionaAmarelo, imprimeAmarelos
+from codigo.Vermelho            import Vermelho,            adicionaVermelho, imprimeVermelhos
 from codigo.Arbitro             import Arbitro,             adicionaArbitro, imprimeArbitros
 from codigo.Campeonato          import Campeonato,          adicionaCampeonato
 from codigo.Gol                 import Gol,                 adicionaGol, imprimeGols
@@ -20,6 +21,8 @@ from codigo.CSV                 import                      imprimeCSV
 from codigo.Extrator            import                      extrai1Valor, extrai2Valores, extrai3Valores
 
 Amarelos = []
+Vermelhos = []
+
 Arbitros = []
 Campeonatos = []
 Gols = []
@@ -27,14 +30,17 @@ Jogadores = []
 Partidas = []
 Times = []
 
-def buscar_time(linha, times):
-    # Começa a busca do time completo e depois tenta seções menores
+def buscarTime(linha, times):
+
     for time in times:
-        if linha.endswith(time.nome):  # Verifica se a linha termina com o nome do time
+
+        if linha.endswith(time.nome):
             return time.id
-        elif re.search(r"\b" + re.escape(time.nome) + r"\b", linha):  # Ou se o nome está no meio da linha
+
+        elif re.search(r"\b" + re.escape(time.nome) + r"\b", linha):
             return time.id
-    return None  # Caso não encontre
+
+    return None
 
 pasta = 'dados'
 arquivos = os.listdir(pasta)
@@ -52,9 +58,6 @@ for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
             pagina = pdf_reader.pages[pagina_num]
             texto = pagina.extract_text()
             linhas = texto.split('\n')
-            
-            #for linha in linhas:
-                #print(linha)
 
             if(pagina_num == 0):
                 
@@ -98,28 +101,13 @@ for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
                 nome2, estado2 = time2.split(' / ')
                 visitanteId = adicionaTime(Times, nome2, estado2)
 
+                # Complementa a tabela de partidas
                 Partidas[partidaId].casa = casaId
                 Partidas[partidaId].visitante = visitanteId
-
-                #jid = adicionaJogador(Jogadores, 'Jorgi', '13')
-
-                # Acessar chave e valor
-                #key = key_value[0]
-                #value = key_value[1] if len(key_value) > 1 else None
-
-                #if(key == 'Jogo' and nomeado == False):
-                
-                    # nomeado = True
-                #elif(key == 'Jogo'):
-                    #h = 0
-                #elif(key == 'Arbitro'):
-                    # aid = adicionarArbitro(Arbitros, value)
-                    #Partidas[pid].arbitroId = aid
 
             if(pagina_num == 1):
 
                 num_linhas = len(linhas)
-                print(num_linhas)
 
                 # Extrai cartoes amarelos
                 current = 0
@@ -133,87 +121,39 @@ for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
                     tempo = 0
                     jogadorId = -1
                     timeId = -1
+
+                    # Enquanto nao se encontra na secao de cartoes vermelhos
                     while(current < num_linhas and linhas[current] != 'Cartões Vermelhos'):
-                        #print(linhas[current]) 
-                    
 
-                        timeId = buscar_time(linhas[current], Times)
+                        # Busca o time
+                        timeId = buscarTime(linhas[current], Times)
                         if(timeId != None):
-                            #print(f"Time encontrado: {timeId}")
 
+                            # Remove o nome do time da linha e entao extrai o resto
                             recorte = linhas[current].replace(Times[timeId].nome, "").strip()
-
                             match = re.match(r"(\d{2}:\d{2})\s*(\dT)(\d+)([A-Za-z\s]+)", recorte)
 
                             if match:
-                                minutos = match.group(1)          # 44:00
-                                tempo = match.group(2)         # 2T
-                                numero = match.group(3)          # 10
-                                nome = match.group(4).strip()    # Bruno Zapelli
+                                horario = match.group(1)
+                                tempo = match.group(2) 
+                                numero = match.group(3)
+                                nome = match.group(4).strip()
 
-                                print(f"Tempo: {tempo}")
-                                print(f"minutos: {minutos}")
-                                print(f"Numero: {numero}")
-                                print(f"Nome: {nome}")
-
+                                # Cria o jogador e o cartao amarelo
                                 jogadorId = adicionaJogador(Jogadores, nome, numero)
-                                amareloId = adicionaAmarelo(Amarelos, partidaId, timeId, jogadorId, tempo, minutos)
+                                amareloId = adicionaAmarelo(Amarelos, partidaId, timeId, jogadorId, tempo, horario)
 
-                        #print()
+                                # Define o horario em minutos desde a meia noite
+                                #horas, minutos = horario.split(':')
+                                #Amarelos[amareloId].horarioInt = int(horas) * 60 + int(minutos)
+
+                                # Complementa tabela de amarelos
+                                Amarelos[amareloId].jogador = Jogadores[jogadorId].nome
+                                Amarelos[amareloId].time = Times[timeId].nome
+
                         current += 1
-
-                """match = re.match(r"(\d{2}:\d{2})\s+(\w{2})(\d+)([A-Za-z\s]+)([A-Za-z\s]+)/([A-Z]+)", linhas[current])
-
-                if match:
-                    tempo = match.group(1)
-                    tempo_parte = match.group(2)
-                    numero = match.group(3)
-                    nome = match.group(4).strip()
-                    time = match.group(5).strip()
-                    estado = match.group(6)
-
-                    print("Tempo:", tempo)
-                    print("Tempo Parte:", tempo_parte)
-                    print("Número:", numero)
-                    print("Nome:", nome)
-                    print("Time:", time)
-                    print("Estado:", estado)"""
-
-                #adicionaAmarelo(Amarelos, 0, 0, 0, 2, '24:00')
-
-
-                
-
+                 
             """
-            for j in range(num_linhas):
-                if(linhas[j] == 'Relação de Jogadores'):
-                    current = j + 3
-                    while(current < num_linhas and linhas[current] != 'T = Titular | R = Reserva | P = Profissional | A = Amador | (g) = Goleiro '):
-                        if(linhas[current] != 'NºApelido Nome Completo T/RP/A CBF'):
-                            name = linhas[current]
-                            name = name.replace('ã', 'a')
-                            name = name.replace('á', 'a')
-                            name = name.replace('ç', 'c')
-                            name = name.replace('é', 'e')
-                            name = name.replace('ê', 'e')
-                            name = name.replace('É', 'E')
-                            name = name.replace('í', 'e')
-                            name = name.replace('ñ', 'n')
-                            name = name.replace('ó', 'o')
-                            name = name.replace('ô', 'o')
-                            name = name.replace('õ', 'o')
-                            name = name.replace('ú', 'u')
-
-                            partes = re.match(r"(\d+)([A-Za-z\s\.\(\)]+?)\s+[A-Za-z]*([A-Za-z\(\)]*P\d+)", name)
-                            if(partes != None):
-                                numero = partes.group(1)  # '79'
-                                nome = partes.group(2).strip()  # 'Ronie Ronie Edmundo Carril'
-                                codigo = partes.group(3)  # 'TP870027'
-                                idj = adicionaJogador(Jogadores, nome, codigo)
-                            else:
-                                print('Falhou: ' + linhas[current])
-                        current += 1
-
             for l in range(num_linhas):
                 if(linhas[l] == 'Gols'):
                     if(linhas[l + 1] != 'NÃO HOUVE MARCADORES'):
@@ -223,8 +163,6 @@ for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
                             adicionaGol(Gols, 0, 0, 0)
                             current += 1
             """
-
-
 
 #imprimeArbitros(Arbitros)
 #imprimeGols(Gols, Partidas, Times, Jogadores)
@@ -239,4 +177,3 @@ imprimeCSV("amarelos", Amarelos)
 #imprimeCSV("jogadores", Jogadores)
 #imprimeCSV("partidas", Partidas)
 #imprimeCSV("times", Times)
-

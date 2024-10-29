@@ -1,260 +1,361 @@
-id,partidaId,timeId,jogadorId,tempo,minuto
-0,0,1,0,1T,12:00
-1,0,0,1,1T,29:00
-2,0,0,2,1T,40:00
-3,0,0,3,2T,42:00
-4,1,3,4,1T,26:00
-5,1,2,5,1T,31:00
-6,1,2,6,1T,36:00
-7,1,3,7,1T,36:00
-8,1,2,8,2T,20:00
-9,1,3,9,2T,38:00
-10,2,4,10,1T,15:00
-11,2,5,11,1T,16:00
-12,2,4,12,2T,07:00
-13,2,5,13,2T,12:00
-14,2,5,14,2T,40:00
-15,3,6,15,1T,28:00
-16,3,7,16,1T,43:00
-17,3,7,17,2T,09:00
-18,3,6,18,2T,18:00
-19,3,7,19,2T,36:00
-20,3,7,20,2T,38:00
-21,4,9,21,2T,45:00
-22,5,11,22,1T,01:00
-23,5,11,23,1T,21:00
-24,5,10,24,1T,28:00
-25,5,10,25,1T,32:00
-26,5,10,26,1T,33:00
-27,5,11,27,2T,05:00
-28,5,11,28,2T,18:00
-29,5,11,29,2T,22:00
-30,5,10,30,2T,36:00
-31,5,10,31,2T,45:00
-32,6,13,32,1T,22:00
-33,6,13,33,2T,05:00
-34,6,13,34,2T,08:00
-35,6,12,35,2T,30:00
-36,7,15,36,1T,40:00
-37,7,15,37,1T,45:00
-38,7,15,38,2T,35:00
-39,8,16,39,1T,06:00
-40,8,17,40,1T,23:00
-41,8,16,41,1T,36:00
-42,8,17,42,1T,44:00
-43,9,19,43,1T,32:00
-44,9,19,44,1T,33:00
-45,9,18,45,2T,13:00
-46,9,19,46,2T,18:00
-47,9,18,47,2T,21:00
-48,10,14,48,1T,32:00
-49,10,14,49,2T,13:00
-50,10,9,50,2T,25:00
-51,10,14,51,2T,25:00
-52,11,18,52,1T,28:00
-53,11,18,53,1T,44:00
-54,11,11,54,2T,11:00
-55,11,18,55,2T,35:00
-56,11,11,56,2T,37:00
-57,12,1,57,1T,20:00
-58,12,1,58,1T,39:00
-59,12,6,59,2T,01:00
-60,12,6,60,2T,05:00
-61,12,1,61,2T,08:00
-62,12,6,62,2T,24:00
-63,12,6,63,2T,31:00
-64,12,6,64,2T,42:00
-65,12,1,65,2T,42:00
-66,13,12,66,1T,03:00
-67,13,17,67,1T,26:00
-68,13,12,68,1T,39:00
-69,13,12,69,2T,42:00
-70,14,16,70,1T,02:00
-71,14,3,71,1T,14:00
-72,14,3,72,1T,29:00
-73,14,16,73,2T,17:00
-74,14,16,74,2T,20:00
-75,14,16,75,2T,42:00
-76,14,3,76,2T,45:00
-77,15,0,77,1T,42:00
-78,15,0,78,2T,08:00
-79,15,5,79,2T,12:00
-80,15,5,80,2T,13:00
-81,15,0,81,2T,20:00
-82,15,0,82,2T,35:00
-83,16,7,83,2T,42:00
-84,16,7,84,2T,43:00
-85,17,2,85,2T,26:00
-86,17,2,86,2T,37:00
-87,17,13,87,2T,43:00
-88,18,4,88,1T,06:00
-89,18,4,89,1T,11:00
-90,18,15,90,1T,15:00
-91,18,15,91,1T,22:00
-92,18,4,92,2T,32:00
-93,18,4,93,2T,34:00
-94,18,15,94,2T,40:00
-95,19,19,95,2T,24:00
-96,19,10,96,2T,36:00
-97,19,19,97,2T,44:00
-98,20,15,98,1T,12:00
-99,20,15,99,1T,14:00
-100,20,9,100,1T,41:00
-101,20,9,101,2T,32:00
-102,20,9,102,2T,43:00
-103,21,2,103,2T,19:00
-104,21,11,104,2T,23:00
-105,21,2,105,2T,27:00
-106,21,11,106,2T,43:00
-107,22,4,107,1T,22:00
-108,22,4,108,1T,41:00
-109,22,1,109,2T,02:00
-110,22,1,110,2T,05:00
-111,22,4,111,2T,20:00
-112,23,6,112,1T,06:00
-113,23,6,113,1T,28:00
-114,23,6,114,2T,21:00
-115,23,6,115,2T,43:00
-116,24,19,116,1T,07:00
-117,24,19,117,1T,17:00
-118,24,3,118,1T,34:00
-119,24,19,119,1T,36:00
-120,24,3,120,2T,31:00
-121,24,3,121,2T,45:00
-122,25,17,122,1T,14:00
-123,25,5,123,1T,20:00
-124,25,17,124,1T,34:00
-125,25,5,125,1T,41:00
-126,25,5,126,2T,24:00
-127,25,17,127,2T,25:00
-128,25,5,128,2T,38:00
-129,26,7,129,1T,26:00
-130,26,7,130,1T,37:00
-131,26,7,131,1T,39:00
-132,26,10,132,2T,25:00
-133,26,7,133,2T,34:00
-134,27,0,134,1T,07:00
-135,27,14,135,1T,08:00
-136,27,0,136,1T,29:00
-137,27,0,137,1T,35:00
-138,27,0,138,1T,45:00
-139,27,14,139,2T,33:00
-140,27,14,140,2T,36:00
-141,27,0,141,2T,40:00
-142,27,14,142,2T,41:00
-143,28,16,143,1T,32:00
-144,28,16,144,1T,38:00
-145,28,16,145,2T,02:00
-146,28,16,146,2T,38:00
-147,29,13,147,1T,05:00
-148,30,16,148,2T,14:00
-149,30,16,149,2T,39:00
-150,30,16,150,2T,43:00
-151,31,2,151,2T,32:00
-152,31,2,152,2T,45:00
-153,32,9,153,1T,44:00
-154,32,1,154,2T,02:00
-155,32,1,155,2T,11:00
-156,32,9,156,2T,22:00
-157,32,9,157,2T,32:00
-158,33,3,158,1T,14:00
-159,33,3,159,1T,43:00
-160,33,3,160,2T,11:00
-161,33,17,161,2T,13:00
-162,33,3,162,2T,33:00
-163,35,6,163,1T,29:00
-164,35,6,164,1T,35:00
-165,35,10,165,1T,35:00
-166,35,10,166,1T,38:00
-167,35,10,167,1T,42:00
-168,35,10,168,1T,43:00
-169,36,12,169,1T,28:00
-170,36,5,170,1T,39:00
-171,36,12,171,1T,42:00
-172,36,5,172,1T,45:00
-173,36,5,173,2T,14:00
-174,36,12,174,2T,14:00
-175,36,12,175,2T,23:00
-176,37,7,176,1T,15:00
-177,37,13,177,2T,12:00
-178,38,11,178,1T,03:00
-179,38,11,179,1T,36:00
-180,38,15,180,2T,13:00
-181,38,15,181,2T,18:00
-182,38,15,182,2T,31:00
-183,38,11,183,2T,35:00
-184,38,11,184,2T,43:00
-185,39,19,185,2T,03:00
-186,39,19,186,2T,17:00
-187,39,14,187,2T,30:00
-188,40,9,188,1T,17:00
-189,40,18,189,2T,08:00
-190,40,18,190,2T,10:00
-191,40,18,191,2T,26:00
-192,40,9,192,2T,39:00
-193,40,18,193,2T,39:00
-194,41,0,194,1T,10:00
-195,41,0,195,1T,12:00
-196,41,2,196,1T,27:00
-197,41,0,197,2T,06:00
-198,41,2,198,2T,10:00
-199,41,0,199,2T,12:00
-200,41,0,200,2T,26:00
-201,41,0,201,2T,33:00
-202,41,0,202,2T,33:00
-203,42,12,203,1T,13:00
-204,42,4,204,1T,24:00
-205,42,12,205,1T,35:00
-206,42,12,206,1T,37:00
-207,42,4,207,2T,14:00
-208,42,12,208,2T,36:00
-209,42,4,209,2T,41:00
-210,43,6,210,1T,11:00
-211,43,6,211,1T,19:00
-212,43,6,212,1T,30:00
-213,43,6,213,1T,42:00
-214,43,11,214,2T,05:00
-215,44,1,215,1T,35:00
-216,44,1,216,2T,32:00
-217,44,3,217,2T,36:00
-218,45,13,218,1T,22:00
-219,45,13,219,1T,40:00
-220,45,10,220,1T,44:00
-221,45,13,221,2T,18:00
-222,45,13,222,2T,26:00
-223,45,13,223,2T,27:00
-224,45,13,224,2T,38:00
-225,46,7,225,1T,09:00
-226,46,17,226,1T,17:00
-227,46,17,227,1T,32:00
-228,47,14,228,2T,12:00
-229,48,15,229,1T,43:00
-230,48,5,230,2T,04:00
-231,48,5,231,2T,29:00
-232,49,19,232,1T,02:00
-233,49,16,233,1T,09:00
-234,49,16,234,2T,01:00
-235,49,16,235,2T,04:00
-236,49,16,236,2T,18:00
-237,49,19,237,2T,44:00
-238,50,7,238,1T,37:00
-239,50,7,239,2T,24:00
-240,51,17,240,1T,22:00
-241,51,2,241,1T,26:00
-242,51,2,242,2T,18:00
-243,52,15,243,1T,37:00
-244,52,15,244,1T,45:00
-245,52,1,245,1T,45:00
-246,52,1,246,2T,13:00
-247,52,15,247,2T,45:00
-248,53,9,248,2T,22:00
-249,53,9,249,2T,24:00
-250,54,14,250,1T,30:00
-251,54,14,251,1T,45:00
-252,54,0,252,2T,08:00
-253,55,19,253,1T,18:00
-254,55,14,254,1T,22:00
-255,55,14,255,2T,28:00
-256,55,19,256,2T,36:00
-257,55,14,257,2T,40:00
-258,55,14,258,2T,44:00
+id,partidaId,timeId,jogadorId,tempo,minuto,jogador,time
+0,0,1,0,1T,12:00,Jean Lucas de Souza Oliveira,Bahia
+1,0,0,1,1T,29:00,Mauricio Magalhaes Prado,Internacional
+2,0,0,2,1T,40:00,Fernando Francisco Reges,Internacional
+3,0,0,3,2T,42:00,Lucas Nicolas Alario,Internacional
+4,1,3,4,1T,26:00,Gregore de Magalhaes Silva,Botafogo
+5,1,2,5,1T,31:00,Arthur Gomes Lourenco,Cruzeiro Saf
+6,1,2,6,1T,36:00,Jose Ivaldo Almeida Silva,Cruzeiro Saf
+7,1,3,7,1T,36:00,Jose Antonio dos Santos Junior,Botafogo
+8,1,2,8,2T,20:00,Rafael da Silva,Cruzeiro Saf
+9,1,3,9,2T,38:00,Danilo Barbosa da Silva,Botafogo
+10,2,4,10,1T,15:00,Alerrandro Barra Mansa Realino de Souza,Vitória
+11,2,5,11,1T,16:00,Richard Rios Montoya,Palmeiras
+12,2,4,12,2T,07:00,Cleidson Andrade de Souza Silva,Vitória
+13,2,5,13,2T,12:00,Gabriel Vinicius Menino,Palmeiras
+14,2,5,14,2T,40:00,Mayke Rocha de Oliveira,Palmeiras
+15,3,6,15,1T,28:00,Marcus Vinicius Oliveira Alencar,Fluminense
+16,3,7,16,1T,43:00,Luis Antonio da Rocha Junior,Red Bull Bragantino
+17,3,7,17,2T,09:00,Luan Candido de Almeida,Red Bull Bragantino
+18,3,6,18,2T,18:00,Claudio Rodrigues Gomes,Fluminense
+19,3,7,19,2T,36:00,Vitor Hugo Naum dos Santos,Red Bull Bragantino
+20,3,7,20,2T,38:00,Jadsom Meemyas de Oliveira da Silva,Red Bull Bragantino
+21,4,9,21,2T,45:00,Joao Pedro Geraldino dos Santos Galvao,Grêmio
+22,5,11,22,1T,01:00,Rodrigo Andr,Atlético Mineiro Saf
+23,5,11,23,1T,21:00,Jemerson de Jesus Nascimento,Atlético Mineiro Saf
+24,5,10,24,1T,28:00,Angel Rodrigo Romero Villamayor,Corinthians
+25,5,10,25,1T,32:00,Fagner Conserva Lemos,Corinthians
+26,5,10,26,1T,33:00,Raniele Almeida Melo,Corinthians
+27,5,11,27,2T,05:00,Givanildo Vieira de Sousa,Atlético Mineiro Saf
+28,5,11,28,2T,18:00,Everson Felipe Marques Pires,Atlético Mineiro Saf
+29,5,11,29,2T,22:00,Renzo Saravia,Atlético Mineiro Saf
+30,5,10,30,2T,36:00,Matheus Franca Silva,Corinthians
+31,5,10,31,2T,45:00,Hugo Ferreira de Farias,Corinthians
+32,6,13,32,1T,22:00,Tomas Pochettino,Fortaleza
+33,6,13,33,2T,05:00,Emanuel Britez,Fortaleza
+34,6,13,34,2T,08:00,Juan Martin Lucero,Fortaleza
+35,6,12,35,2T,30:00,Luciano da Rocha Neves,São Paulo
+36,7,15,36,1T,40:00,Derik Gean Severino Lacerda,Cuiabá Saf
+37,7,15,37,1T,45:00,Alan Pereira Empereur,Cuiabá Saf
+38,7,15,38,2T,35:00,Filipe Augusto Carvalho Souza,Cuiabá Saf
+39,8,16,39,1T,06:00,Rhaldney Norberto Simi,Atlético
+40,8,17,40,1T,23:00,Leonardo Pereira,Flamengo
+41,8,16,41,1T,36:00,Alejo Cruz Techera,Atlético
+42,8,17,42,1T,44:00,Fabricio Bruno Soares de Faria,Flamengo
+43,9,19,43,1T,32:00,Joao Lucas de Almeida Carvalho,Juventude
+44,9,19,44,1T,33:00,Jose Marcos Alves Luis,Juventude
+45,9,18,45,2T,13:00,Fellipe Mateus de Sena Araujo,Criciúma
+46,9,19,46,2T,18:00,Caique de Jesus Goncalves,Juventude
+47,9,18,47,2T,21:00,Marcos Gabriel do Nascimento,Criciúma
+48,10,14,48,1T,32:00,Alex Paulo Menezes Santana,Athletico Paranaense
+49,10,14,49,2T,13:00,Jose Vitor Silva Neves,Athletico Paranaense
+50,10,9,50,2T,25:00,Gustavo Nunes Fernandes Gomes,Grêmio
+51,10,14,51,2T,25:00,Lucas Angel Esquivel,Athletico Paranaense
+52,11,18,52,1T,28:00,Rodrigo Fagundes de Freitas,Criciúma
+53,11,18,53,1T,44:00,Marcelo Hermes,Criciúma
+54,11,11,54,2T,11:00,Guilherme Antonio Arana Lopes,Atlético Mineiro Saf
+55,11,18,55,2T,35:00,Higor Matheus Meritao,Criciúma
+56,11,11,56,2T,37:00,Alan Steven Franco Palma,Atlético Mineiro Saf
+57,12,1,57,1T,20:00,Caio Alexandre Sousa E Silva,Bahia
+58,12,1,58,1T,39:00,Thaciano Mickael da Silva,Bahia
+59,12,6,59,2T,01:00,Vinicius Moreira de Lima,Fluminense
+60,12,6,60,2T,05:00,Matheus Martinelli Lima,Fluminense
+61,12,1,61,2T,08:00,Everton Augusto de Barros Ribeiro,Bahia
+62,12,6,62,2T,24:00,John Kennedy Batista de Souza,Fluminense
+63,12,6,63,2T,31:00,Alexsander Cristhian Gomes da Costa,Fluminense
+64,12,6,64,2T,42:00,Paulo Henrique Chagas de Lima,Fluminense
+65,12,1,65,2T,42:00,Everaldo Stum,Bahia
+66,13,12,66,1T,03:00,Igor Vinicius de Souza,São Paulo
+67,13,17,67,1T,26:00,Fabricio Bruno Soares de Faria,Flamengo
+68,13,12,68,1T,39:00,Michel Daryl Araujo Villar,São Paulo
+69,13,12,69,2T,42:00,Luciano da Rocha Neves,São Paulo
+70,14,16,70,1T,02:00,Pedro Henrique Pereira da Silva,Atlético
+71,14,3,71,1T,14:00,Lucas Halter,Botafogo
+72,14,3,72,1T,29:00,Francisco das Chagas Soares dos Santos,Botafogo
+73,14,16,73,2T,17:00,Rhaldney Norberto Simi,Atlético
+74,14,16,74,2T,20:00,Luiz Felipe do Nascimento dos Santos,Atlético
+75,14,16,75,2T,42:00,Bruno Nunes de Barros,Atlético
+76,14,3,76,2T,45:00,Patrick de Paula Carreiro,Botafogo
+77,15,0,77,1T,42:00,Rafael Santos Borre Maury,Internacional
+78,15,0,78,2T,08:00,Gabriel Ivan Mercado,Internacional
+79,15,5,79,2T,12:00,Jose Manuel Alberto Lopez,Palmeiras
+80,15,5,80,2T,13:00,Anibal Ismael Moreno,Palmeiras
+81,15,0,81,2T,20:00,Wesley Ribeiro Silva,Internacional
+82,15,0,82,2T,35:00,Rene Rodrigues Martins,Internacional
+83,16,7,83,2T,42:00,Vitor Hugo Naum dos Santos,Red Bull Bragantino
+84,16,7,84,2T,43:00,Luan Candido de Almeida,Red Bull Bragantino
+85,17,2,85,2T,26:00,Lucas Daniel Romero,Cruzeiro Saf
+86,17,2,86,2T,37:00,Matheus Fellipe Costa Pereira,Cruzeiro Saf
+87,17,13,87,2T,43:00,Pedro Augusto Borges da Costa,Fortaleza
+88,18,4,88,1T,06:00,Wagner Leonardo Calvelo de Souza,Vitória
+89,18,4,89,1T,11:00,Caio Vinicius da Conceicao,Vitória
+90,18,15,90,1T,15:00,Lucas da Silva Izidoro,Cuiabá Saf
+91,18,15,91,1T,22:00,Railan Reis Ferreira,Cuiabá Saf
+92,18,4,92,2T,32:00,Luiz Adriano Souza da Silva,Vitória
+93,18,4,93,2T,34:00,Willean Bernardo Willemen,Vitória
+94,18,15,94,2T,40:00,Marllon Goncalves Jeronimo Borges,Cuiabá Saf
+95,19,19,95,2T,24:00,Caique de Jesus Goncalves,Juventude
+96,19,10,96,2T,36:00,Rodrigo Garro,Corinthians
+97,19,19,97,2T,44:00,Jadson Alves dos Santos,Juventude
+98,20,15,98,1T,12:00,Denilson Alves Borges,Cuiabá Saf
+99,20,15,99,1T,14:00,Fernando Pereira do Nascimento,Cuiabá Saf
+100,20,9,100,1T,41:00,Eduardo Santos Queiroz,Grêmio
+101,20,9,101,2T,32:00,Everton Galdino Moreira,Grêmio
+102,20,9,102,2T,43:00,Nathan Ribeiro Fernandes,Grêmio
+103,21,2,103,2T,19:00,Joao Marcelo Messias Ferreira,Cruzeiro Saf
+104,21,11,104,2T,23:00,Paulo Henrique Sampaio Filho,Atlético Mineiro Saf
+105,21,2,105,2T,27:00,Lucas Silva Borges,Cruzeiro Saf
+106,21,11,106,2T,43:00,Paolo Mauricio Lemos Merladett,Atlético Mineiro Saf
+107,22,4,107,1T,22:00,Leonardo Naldi de Matos,Vitória
+108,22,4,108,1T,41:00,Matheus Martins Fogaca de Paulo,Vitória
+109,22,1,109,2T,02:00,Santiago Arias Naranjo,Bahia
+110,22,1,110,2T,05:00,Victor Leandro Cuesta,Bahia
+111,22,4,111,2T,20:00,Jose Carlos Cracco Neto,Vitória
+112,23,6,112,1T,06:00,Felipe Melo de Carvalho,Fluminense
+113,23,6,113,1T,28:00,Paulo Henrique Chagas de Lima,Fluminense
+114,23,6,114,2T,21:00,Andr,Fluminense
+115,23,6,115,2T,43:00,Vinicius Moreira de Lima,Fluminense
+116,24,19,116,1T,07:00,Lucas de Freitas Molarinho Chagas,Juventude
+117,24,19,117,1T,17:00,Gabriel de Souza Inocencio,Juventude
+118,24,3,118,1T,34:00,Jefferson Ruan Pereira dos Santos,Botafogo
+119,24,19,119,1T,36:00,Gabriel Vasconcelos Ferreira,Juventude
+120,24,3,120,2T,31:00,Marlon Rodrigues Freitas,Botafogo
+121,24,3,121,2T,45:00,Diego Manuel Hernandez Gonzalez,Botafogo
+122,25,17,122,1T,14:00,Allan Rodrigues de Souza,Flamengo
+123,25,5,123,1T,20:00,Mayke Rocha de Oliveira,Palmeiras
+124,25,17,124,1T,34:00,Leonardo Pereira,Flamengo
+125,25,5,125,1T,41:00,Murilo Cerqueira Paim,Palmeiras
+126,25,5,126,2T,24:00,Gustavo Raul Gomez Portillo,Palmeiras
+127,25,17,127,2T,25:00,Erick Antonio Pulgar Farfan,Flamengo
+128,25,5,128,2T,38:00,Ronielson da Silva Barbosa,Palmeiras
+129,26,7,129,1T,26:00,Douglas Mendes Moreira,Red Bull Bragantino
+130,26,7,130,1T,37:00,Eduardo Colcenti Antunes,Red Bull Bragantino
+131,26,7,131,1T,39:00,Eric dos Santos Rodrigues,Red Bull Bragantino
+132,26,10,132,2T,25:00,Raniele Almeida Melo,Corinthians
+133,26,7,133,2T,34:00,Henry David Mosquera Sanchez,Red Bull Bragantino
+134,27,0,134,1T,07:00,Hugo Mallo Novegil,Internacional
+135,27,14,135,1T,08:00,Leonardo Ezequiel Godoy,Athletico Paranaense
+136,27,0,136,1T,29:00,Robert Renan Alves Barbosa,Internacional
+137,27,0,137,1T,35:00,Romulo Zanre Zwarg,Internacional
+138,27,0,138,1T,45:00,Vitor Eduardo da Silva Matos,Internacional
+139,27,14,139,2T,33:00,Fernando Luiz Roza,Athletico Paranaense
+140,27,14,140,2T,36:00,Thiago Heleno Henrique Ferreira,Athletico Paranaense
+141,27,0,141,2T,40:00,Wesley Ribeiro Silva,Internacional
+142,27,14,142,2T,41:00,Agustin Canobbio Graviz,Athletico Paranaense
+143,28,16,143,1T,32:00,Gabriel Baralhas dos Santos,Atlético
+144,28,16,144,1T,38:00,Roni Medeiros de Moura,Atlético
+145,28,16,145,2T,02:00,Gabriel de Sousa Barros,Atlético
+146,28,16,146,2T,38:00,Luiz Fernando Moraes dos Santos,Atlético
+147,29,13,147,1T,05:00,Christian Chagas Tarouco,Fortaleza
+148,30,16,148,2T,14:00,Ronaldo de Oliveira Strada,Atlético
+149,30,16,149,2T,39:00,Roni Medeiros de Moura,Atlético
+150,30,16,150,2T,43:00,Rhaldney Norberto Simi,Atlético
+151,31,2,151,2T,32:00,Jose Ivaldo Almeida Silva,Cruzeiro Saf
+152,31,2,152,2T,45:00,Rafael Elias da Silva,Cruzeiro Saf
+153,32,9,153,1T,44:00,Walter Kannemann,Grêmio
+154,32,1,154,2T,02:00,Gabriel Lheman Xavier,Bahia
+155,32,1,155,2T,11:00,Everton Augusto de Barros Ribeiro,Bahia
+156,32,9,156,2T,22:00,Douglas Moreira Fagundes,Grêmio
+157,32,9,157,2T,32:00,Gustavo Nunes Fernandes Gomes,Grêmio
+158,33,3,158,1T,14:00,Jefferson David Savarino Quintero,Botafogo
+159,33,3,159,1T,43:00,Danilo Barbosa da Silva,Botafogo
+160,33,3,160,2T,11:00,Luiz Henrique Andre Rosa da Silva,Botafogo
+161,33,17,161,2T,13:00,Diego Nicolas de La Cruz Arcosa,Flamengo
+162,33,3,162,2T,33:00,Jefferson Ruan Pereira dos Santos,Botafogo
+163,35,6,163,1T,29:00,Claudio Rodrigues Gomes,Fluminense
+164,35,6,164,1T,35:00,Marcus Vinicius Oliveira Alencar,Fluminense
+165,35,10,165,1T,35:00,Wesley Gassova Ribeiro Teixeira,Corinthians
+166,35,10,166,1T,38:00,Rodrigo Garro,Corinthians
+167,35,10,167,1T,42:00,Gustavo Henric da Silva,Corinthians
+168,35,10,168,1T,43:00,Breno de Souza Bidon,Corinthians
+169,36,12,169,1T,28:00,Diego Henrique Costa Barbosa,São Paulo
+170,36,5,170,1T,39:00,Gustavo Raul Gomez Portillo,Palmeiras
+171,36,12,171,1T,42:00,Igor Vinicius de Souza,São Paulo
+172,36,5,172,1T,45:00,Endrick Felipe Moreira de Sousa,Palmeiras
+173,36,5,173,2T,14:00,Murilo Cerqueira Paim,Palmeiras
+174,36,12,174,2T,14:00,Jonathan Calleri,São Paulo
+175,36,12,175,2T,23:00,Michel Daryl Araujo Villar,São Paulo
+176,37,7,176,1T,15:00,Luis Antonio da Rocha Junior,Red Bull Bragantino
+177,37,13,177,2T,12:00,Pedro Augusto Borges da Costa,Fortaleza
+178,38,11,178,1T,03:00,Paolo Mauricio Lemos Merladett,Atlético Mineiro Saf
+179,38,11,179,1T,36:00,Alan Steven Franco Palma,Atlético Mineiro Saf
+180,38,15,180,2T,13:00,Matheus Alexandre Anastacio de Souza,Cuiabá Saf
+181,38,15,181,2T,18:00,Alan Pereira Empereur,Cuiabá Saf
+182,38,15,182,2T,31:00,Marllon Goncalves Jeronimo Borges,Cuiabá Saf
+183,38,11,183,2T,35:00,Bruno de Lara Fuchs,Atlético Mineiro Saf
+184,38,11,184,2T,43:00,Igor Silveira Gomes,Atlético Mineiro Saf
+185,39,19,185,2T,03:00,Caique de Jesus Goncalves,Juventude
+186,39,19,186,2T,17:00,Lucas Henrique Barbosa,Juventude
+187,39,14,187,2T,30:00,Julimar Silva Oliveira Junior,Athletico Paranaense
+188,40,9,188,1T,17:00,Miguel Angel Monsalve Gonzalez,Grêmio
+189,40,18,189,2T,08:00,Newton Araujo da Costa Junior,Criciúma
+190,40,18,190,2T,10:00,Fellipe Mateus de Sena Araujo,Criciúma
+191,40,18,191,2T,26:00,Matheus Leonardo Sales Cardoso,Criciúma
+192,40,9,192,2T,39:00,Diego da Silva Costa,Grêmio
+193,40,18,193,2T,39:00,Walisson Moreira Farias Maia,Criciúma
+194,41,0,194,1T,10:00,Agustin Maximiliano Rogel Paita,Internacional
+195,41,0,195,1T,12:00,Gabriel Carvalho Teixeira,Internacional
+196,41,2,196,1T,27:00,Joao Wellington Gadelha Melo de Oliveira,Cruzeiro Saf
+197,41,0,197,2T,06:00,Gabriel Ivan Mercado,Internacional
+198,41,2,198,2T,10:00,Joao Marcelo Messias Ferreira,Cruzeiro Saf
+199,41,0,199,2T,12:00,Bruno Vinicius Souza Ramos,Internacional
+200,41,0,200,2T,26:00,Fernando Francisco Reges,Internacional
+201,41,0,201,2T,33:00,Enner Remberto Valencia Lastra,Internacional
+202,41,0,202,2T,33:00,Rafael Santos Borre Maury,Internacional
+203,42,12,203,1T,13:00,Damian Josue Bobadilla Benitez,São Paulo
+204,42,4,204,1T,24:00,Bruno Uvini Bortolanca,Vitória
+205,42,12,205,1T,35:00,Giuliano Galoppo,São Paulo
+206,42,12,206,1T,37:00,Alan Javier Franco,São Paulo
+207,42,4,207,2T,14:00,Lucas Esteves Souza,Vitória
+208,42,12,208,2T,36:00,Michel Daryl Araujo Villar,São Paulo
+209,42,4,209,2T,41:00,Eduardo Marcelo Rodrigues Nunes,Vitória
+210,43,6,210,1T,11:00,Diogo Barbosa Mendanha,Fluminense
+211,43,6,211,1T,19:00,Jhon Adolfo Arias Andrade,Fluminense
+212,43,6,212,1T,30:00,German Ezequiel Cano,Fluminense
+213,43,6,213,1T,42:00,Felipe Melo de Carvalho,Fluminense
+214,43,11,214,2T,05:00,Paulo Henrique Sampaio Filho,Atlético Mineiro Saf
+215,44,1,215,1T,35:00,Victor Hugo Soares dos Santos,Bahia
+216,44,1,216,2T,32:00,Julio Cesar de Rezende Miranda,Bahia
+217,44,3,217,2T,36:00,Bartolomeu Jacinto Quissanga,Botafogo
+218,45,13,218,1T,22:00,Breno Henrique Vasconcelos Lopes,Fortaleza
+219,45,13,219,1T,40:00,Guilherme de Jesus da Silva,Fortaleza
+220,45,10,220,1T,44:00,Raniele Almeida Melo,Corinthians
+221,45,13,221,2T,18:00,Emanuel Britez,Fortaleza
+222,45,13,222,2T,26:00,Glaybson Yago Souza Lisboa,Fortaleza
+223,45,13,223,2T,27:00,Pedro Augusto Borges da Costa,Fortaleza
+224,45,13,224,2T,38:00,Bruno de Jesus Pacheco,Fortaleza
+225,46,7,225,1T,09:00,Nathan Gabriel de Souza Mendes,Red Bull Bragantino
+226,46,17,226,1T,17:00,Igor Jesus Lima,Flamengo
+227,46,17,227,1T,32:00,Allan Rodrigues de Souza,Flamengo
+228,47,14,228,2T,12:00,Fernando Luiz Roza,Athletico Paranaense
+229,48,15,229,1T,43:00,Derik Gean Severino Lacerda,Cuiabá Saf
+230,48,5,230,2T,04:00,Murilo Cerqueira Paim,Palmeiras
+231,48,5,231,2T,29:00,Gabriel Vinicius Menino,Palmeiras
+232,49,19,232,1T,02:00,Jadson Alves dos Santos,Juventude
+233,49,16,233,1T,09:00,Guilherme Kennedy Romao,Atlético
+234,49,16,234,2T,01:00,Alix Vinicius de Souza Sampaio,Atlético
+235,49,16,235,2T,04:00,Rhaldney Norberto Simi,Atlético
+236,49,16,236,2T,18:00,Magno Jose da Silva,Atlético
+237,49,19,237,2T,44:00,Joao Lucas de Almeida Carvalho,Juventude
+238,50,19,238,2T,14:00,Anderson Luis de Carvalho,Juventude
+239,50,19,239,2T,18:00,Lucas Henrique Barbosa,Juventude
+240,50,0,240,2T,28:00,Bruno Gomes da Silva Clevelario,Internacional
+241,50,19,241,2T,32:00,Jose Marcos Alves Luis,Juventude
+242,50,0,242,2T,38:00,Ricardo Mathias da Silva,Internacional
+243,50,19,243,2T,43:00,Jadson Alves dos Santos,Juventude
+244,51,11,244,1T,17:00,Lyanco Evangelista Silveira Neves Vojnovic,Atlético Mineiro Saf
+245,51,9,245,1T,32:00,Jemerson de Jesus Nascimento,Grêmio
+246,51,9,246,1T,34:00,Agustin Federico Marchesin,Grêmio
+247,51,11,247,2T,08:00,Deyverson Brum Silva,Atlético Mineiro Saf
+248,51,9,248,2T,08:00,Reinaldo Manoel da Silva,Grêmio
+249,51,11,249,2T,09:00,Fausto Mariano Vera,Atlético Mineiro Saf
+250,51,11,250,2T,44:00,Givanildo Vieira de Sousa,Atlético Mineiro Saf
+251,52,1,251,1T,14:00,Victor Hugo Soares dos Santos,Bahia
+252,52,7,252,1T,19:00,Lucas Evangelista Santana de Oliveira,Red Bull Bragantino
+253,52,1,253,2T,07:00,Thaciano Mickael da Silva,Bahia
+254,52,7,254,2T,14:00,Jadsom Meemyas de Oliveira da Silva,Red Bull Bragantino
+255,53,17,255,2T,17:00,Leonardo Pereira,Flamengo
+256,54,4,256,2T,11:00,Eduardo Marcelo Rodrigues Nunes,Vitória
+257,54,4,257,2T,13:00,Iury Lirio Freitas de Castilho,Vitória
+258,55,14,258,1T,25:00,Pablo Felipe Teixeira,Athletico Paranaense
+259,55,5,259,1T,33:00,Mayke Rocha de Oliveira,Palmeiras
+260,55,14,260,2T,01:00,Leonardo Ezequiel Godoy,Athletico Paranaense
+261,55,14,261,2T,10:00,Mateo Gamarra Gonzalez,Athletico Paranaense
+262,55,5,262,2T,20:00,Jose Manuel Alberto Lopez,Palmeiras
+263,55,5,263,2T,35:00,Raphael Cavalcante Veiga,Palmeiras
+264,55,14,264,2T,35:00,Fernando Luiz Roza,Athletico Paranaense
+265,56,12,265,1T,08:00,Rodrigo Nestor Bertalia,São Paulo
+266,56,6,266,1T,23:00,Vinicius Moreira de Lima,Fluminense
+267,56,6,267,1T,24:00,Manoel Messias Silva Carvalho,Fluminense
+268,56,12,268,1T,33:00,Alisson Euler de Freitas Castro,São Paulo
+269,56,6,269,2T,11:00,Alexsander Cristhian Gomes da Costa,Fluminense
+270,56,12,270,2T,13:00,Igor Vinicius de Souza,São Paulo
+271,57,3,271,1T,01:00,John Victor Maciel Furtado,Botafogo
+272,57,13,272,1T,24:00,Christian Chagas Tarouco,Fortaleza
+273,57,13,273,2T,03:00,Hercules Pereira do Nascimento,Fortaleza
+274,57,3,274,2T,09:00,Oscar David Romero Villamayor,Botafogo
+275,57,3,275,2T,15:00,Mateo Ponte Costa,Botafogo
+276,57,3,276,2T,29:00,Luis Eduardo Soares da Silva,Botafogo
+277,57,3,277,2T,35:00,Diego Manuel Hernandez Gonzalez,Botafogo
+278,57,3,278,2T,42:00,Alexander Nahuel Barboza Ullua,Botafogo
+279,58,2,279,2T,11:00,William de Asevedo Furtado,Cruzeiro Saf
+280,58,16,280,2T,18:00,Luiz Fernando Moraes dos Santos,Atlético
+281,58,2,281,2T,20:00,Matheus Fellipe Costa Pereira,Cruzeiro Saf
+282,59,15,282,1T,29:00,Matheus Alexandre Anastacio de Souza,Cuiabá Saf
+283,59,18,283,2T,24:00,Eder Citadin Martins,Criciúma
+284,59,18,284,2T,29:00,Marcos Gabriel do Nascimento,Criciúma
+285,59,15,285,2T,30:00,Walter Leandro Capeloza Artune,Cuiabá Saf
+286,59,18,286,2T,31:00,Ronald dos Santos Lopes,Criciúma
+287,59,15,287,2T,40:00,Fernando Pereira do Nascimento,Cuiabá Saf
+288,59,18,288,2T,40:00,Tobias Pereira Figueiredo,Criciúma
+289,59,18,289,2T,42:00,Rodrigo Fagundes de Freitas,Criciúma
+290,59,15,290,2T,45:00,Guilherme Miranda Madruga Gomes,Cuiabá Saf
+291,60,9,291,1T,18:00,Eduardo Santos Queiroz,Grêmio
+292,60,9,292,1T,22:00,Fabio Pereira da Silva,Grêmio
+293,60,9,293,2T,04:00,Gustavo Nunes Fernandes Gomes,Grêmio
+294,60,9,294,2T,17:00,Mathias Adalberto Villasanti Rolon,Grêmio
+295,60,7,295,2T,40:00,Vitor Hugo Naum dos Santos,Red Bull Bragantino
+296,60,7,296,2T,43:00,Nathan Gabriel de Souza Mendes,Red Bull Bragantino
+297,61,11,297,1T,15:00,Guilherme Antonio Arana Lopes,Atlético Mineiro Saf
+298,61,1,298,1T,44:00,Thaciano Mickael da Silva,Bahia
+299,61,1,299,2T,15:00,Gabriel Lheman Xavier,Bahia
+300,61,11,300,2T,31:00,Gustavo Henrique Furtado Scarpa,Atlético Mineiro Saf
+301,61,1,301,2T,34:00,Gabriel Teixeira Aragao,Bahia
+302,61,11,302,2T,38:00,Pedro Victor Delmino da Silva,Atlético Mineiro Saf
+303,62,16,303,1T,22:00,Shaylon Kallyson Cardozo,Atlético
+304,62,4,304,1T,28:00,Willean Bernardo Willemen,Vitória
+305,62,16,305,1T,32:00,Adriano Martins da Fonseca,Atlético
+306,62,4,306,2T,03:00,Eduardo Marcelo Rodrigues Nunes,Vitória
+307,63,6,307,2T,19:00,Matheus Martinelli Lima,Fluminense
+308,63,19,308,2T,30:00,Werik Silva Pinto,Juventude
+309,63,19,309,2T,36:00,Jose Marcos Alves Luis,Juventude
+310,63,19,310,2T,45:00,Jadson Alves dos Santos,Juventude
+311,65,3,311,1T,28:00,Luiz Henrique Andre Rosa da Silva,Botafogo
+312,65,10,312,1T,34:00,Wesley Gassova Ribeiro Teixeira,Corinthians
+313,65,10,313,1T,39:00,Felix Eduardo Torres Caicedo,Corinthians
+314,65,3,314,2T,19:00,Oscar David Romero Villamayor,Botafogo
+315,65,3,315,2T,25:00,Danilo Barbosa da Silva,Botafogo
+316,65,3,316,2T,34:00,Marlon Rodrigues Freitas,Botafogo
+317,66,2,317,1T,12:00,Alvaro Martin Barreal,Cruzeiro Saf
+318,66,2,318,2T,18:00,Kaiki Bruno da Silva,Cruzeiro Saf
+319,66,12,319,2T,35:00,Alisson Euler de Freitas Castro,São Paulo
+320,67,14,320,1T,18:00,Antonio Feliphe Costa Silva,Athletico Paranaense
+321,67,13,321,1T,41:00,Pedro Augusto Borges da Costa,Fortaleza
+322,67,13,322,1T,42:00,Leandro Emmanuel Martinez,Fortaleza
+323,67,14,323,2T,01:00,Madson Ferreira dos Santos,Athletico Paranaense
+324,67,14,324,2T,03:00,Christian Roberto Alves Cardoso,Athletico Paranaense
+325,67,14,325,2T,23:00,Jose Vitor Silva Neves,Athletico Paranaense
+326,68,0,326,1T,18:00,Rafael Santos Borre Maury,Internacional
+327,68,15,327,1T,40:00,Clayson Henrique da Silva Vieira,Cuiabá Saf
+328,68,15,328,2T,04:00,Denilson Alves Borges,Cuiabá Saf
+329,68,15,329,2T,31:00,Ramon Ramos Lima,Cuiabá Saf
+330,68,0,330,2T,31:00,Gabriel Ivan Mercado,Internacional
+331,68,15,331,2T,37:00,Eliel Chrystian Pereira Silva,Cuiabá Saf
+332,69,18,332,1T,18:00,Matheus Leonardo Sales Cardoso,Criciúma
+333,69,18,333,1T,32:00,Gustavo Bonatto Barreto,Criciúma
+334,69,18,334,2T,16:00,Higor Matheus Meritao,Criciúma
+335,69,18,335,2T,18:00,Rodrigo Fagundes de Freitas,Criciúma
+336,69,18,336,2T,42:00,Luiz Gustavo Almeida Pinto,Criciúma
+337,70,7,337,1T,37:00,Eric dos Santos Rodrigues,Red Bull Bragantino
+338,70,7,338,2T,24:00,Vitor Hugo Naum dos Santos,Red Bull Bragantino
+339,71,17,339,1T,22:00,Luiz de Araujo Guimaraes Neto,Flamengo
+340,71,2,340,1T,26:00,Kaiki Bruno da Silva,Cruzeiro Saf
+341,71,2,341,2T,18:00,Joao Marcelo Messias Ferreira,Cruzeiro Saf
+342,72,15,342,1T,37:00,Denilson Alves Borges,Cuiabá Saf
+343,72,15,343,1T,45:00,Alan Pereira Empereur,Cuiabá Saf
+344,72,1,344,1T,45:00,Carlos Maria de Pena Bonino,Bahia
+345,72,1,345,2T,13:00,Gabriel Lheman Xavier,Bahia
+346,72,15,346,2T,45:00,Walter Leandro Capeloza Artune,Cuiabá Saf
+347,73,9,347,2T,22:00,Douglas Moreira Fagundes,Grêmio
+348,73,9,348,2T,24:00,Walter Kannemann,Grêmio
+349,74,14,349,1T,30:00,Fernando Augusto Pereira Bueno Junior,Athletico Paranaense
+350,74,14,350,1T,45:00,Mateo Gamarra Gonzalez,Athletico Paranaense
+351,74,0,351,2T,08:00,Bruno Henrique Corsini,Internacional
+352,75,19,352,1T,18:00,Jadson Alves dos Santos,Juventude
+353,75,14,353,1T,22:00,Mateo Gamarra Gonzalez,Athletico Paranaense
+354,75,14,354,2T,28:00,Gabriel Girotto Franco,Athletico Paranaense
+355,75,19,355,2T,36:00,Alan Luciano Ruschel,Juventude
+356,75,14,356,2T,40:00,Christian Roberto Alves Cardoso,Athletico Paranaense
+357,75,14,357,2T,44:00,Bruno Zapelli,Athletico Paranaense
+358,76,2,358,1T,22:00,Fabrizio Jose Peralta Ramirez,Cruzeiro Saf
+359,76,2,359,2T,05:00,Jose Ivaldo Almeida Silva,Cruzeiro Saf
