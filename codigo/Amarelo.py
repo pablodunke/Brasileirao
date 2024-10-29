@@ -11,6 +11,7 @@ class Amarelo:
         self.jogadorId = pJogadorId
         self.tempo = pTempo
         self.minuto = pMinuto
+        self.minutoGeral = int(pMinuto[:2]) + ((pTempo - 1) * 45)
 
 def adicionaAmarelo(amarelos, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
     amarelos.append(Amarelo(len(amarelos), pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto))

@@ -4,176 +4,103 @@
 # @createdBy Pablo Giovani Dunke
 # @createdDate 2024/10/28
 
-import os
-import re
-import PyPDF2
+import pandas as pd
+import matplotlib.pyplot as plt
 
-from codigo.Amarelo             import Amarelo,             adicionaAmarelo, imprimeAmarelos
-from codigo.Vermelho            import Vermelho,            adicionaVermelho, imprimeVermelhos
-from codigo.Arbitro             import Arbitro,             adicionaArbitro, imprimeArbitros
-from codigo.Campeonato          import Campeonato,          adicionaCampeonato
-from codigo.Gol                 import Gol,                 adicionaGol, imprimeGols
-from codigo.Jogador             import Jogador,             adicionaJogador, imprimeJogadores
-from codigo.Partida             import Partida,             adicionaPartida, imprimePartidas, imprimeHorarioPartidas
-from codigo.Time                import Time,                adicionaTime, imprimeTimes
+from ConverteCSV                import                      converteCSVs
 
-from codigo.CSV                 import                      imprimeCSV
-from codigo.Extrator            import                      extrai1Valor, extrai2Valores, extrai3Valores
 
-Amarelos = []
-Vermelhos = []
 
-Arbitros = []
-Campeonatos = []
-Gols = []
-Jogadores = []
-Partidas = []
-Times = []
 
-def buscarTime(linha, times):
 
-    for time in times:
+converteCSVs()
+"""
+df = pd.read_csv('csv/amarelos.csv', encoding='utf-8')
+# Passo 2: Contar as ocorrências por horarioInt
+# Contando as ocorrências de cada minuto
+ocorrencias_por_horario = df['horarioString'].value_counts().sort_index()
 
-        if linha.endswith(time.nome):
-            return time.id
+# Passo 3: Garantir que todos os minutos de 0 a 1439 estejam presentes no gráfico
+# Cria um índice completo de 0 a 1439 e reindexa as ocorrências
+ocorrencias_por_horario = ocorrencias_por_horario.reindex(range(1440), fill_value=0)
 
-        elif re.search(r"\b" + re.escape(time.nome) + r"\b", linha):
-            return time.id
+# Passo 4: Criar o gráfico
+plt.figure(figsize=(15, 6))
+ocorrencias_por_horario.plot(kind='bar', color='lightgreen')
+plt.title('Quantidade de Ocorrências por Horário (minutos)')
+plt.xlabel('Minuto do Jogo')
+plt.ylabel('Quantidade de Ocorrências')
+plt.xticks(rotation=45)
+plt.grid(axis='y')
 
-    return None
+# Exibir o gráfico
+plt.tight_layout()
+plt.show()
+"""
+"""
+df = pd.read_csv('csv/amarelos.csv', encoding='utf-8')
 
-pasta = 'dados'
-arquivos = os.listdir(pasta)
-for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
+# Agrupar os dados pela coluna 'tempo' e contar a quantidade de cartões
+cartoes_por_tempo = df.groupby('minutoGeral').size()
 
-    caminho_pdf = os.path.join(pasta, pdf)
-    with open(caminho_pdf, 'rb') as pdf_file:
+# Plotar o gráfico
+plt.figure(figsize=(10, 6))
+cartoes_por_tempo.plot(kind='bar', color='skyblue')
+plt.title('Quantidade de Cartões por Tempo')
+plt.xlabel('Tempo')
+plt.ylabel('Quantidade de Cartões')
+plt.xticks(rotation=45)  # Rotacionar os rótulos do eixo x para melhor legibilidade
+plt.grid(axis='y', linestyle='--', alpha=0.7)
 
-        pdf_reader = PyPDF2.PdfReader(pdf_file)
-        num_paginas = len(pdf_reader.pages)
+# Mostrar o gráfico
+plt.tight_layout()  # Ajusta o layout para evitar sobreposição
+plt.show()
+"""
 
-        partidaId = -1
-        for pagina_num in range(num_paginas):
 
-            pagina = pdf_reader.pages[pagina_num]
-            texto = pagina.extract_text()
-            linhas = texto.split('\n')
+"""
+cartoes_por_time = df['time'].value_counts()
 
-            if(pagina_num == 0):
-                
-                # Extrai as informacoes iniciais
-                cbf = extrai1Valor(linhas[1], 'Jogo')
-                camp, rodada = extrai2Valores(linhas[3], 'Campeonato', 'Rodada')
-                data, horario, estadio = extrai3Valores(linhas[5], 'Data', 'Horário', 'Estádio')
+# Passo 3: Criar o gráfico
+plt.figure(figsize=(10, 6))
+cartoes_por_time.plot(kind='bar', color='skyblue')
+plt.title('Quantidade de Cartões por Time')
+plt.xlabel('Time')
+plt.ylabel('Quantidade de Cartões')
+plt.xticks(rotation=45)
+plt.grid(axis='y')
 
-                # Extrai e cria o arbitro
-                arbitroString = extrai1Valor(linhas[7], 'Arbitro')
-                arbitroGrupo = re.match(r"(.+?)\s\((.+?)\s\/\s([A-Z]{2})\)", arbitroString)
-                arbitroNome = arbitroGrupo.group(1)
-                arbitroCredencial = arbitroGrupo.group(2)
-                arbitroEstado = arbitroGrupo.group(3)
-                arbitroId = adicionaArbitro(Arbitros, arbitroNome, arbitroCredencial, arbitroEstado)
+# Exibir o gráfico
+plt.tight_layout()
+plt.show()
+"""
 
-                # Cria o campeonato
-                campeonatoId = adicionaCampeonato(Campeonatos, camp)
 
-                # Cria e preenche a partida
-                jogo = extrai1Valor(linhas[1], 'Jogo')
-                partidaId = adicionaPartida(Partidas, jogo)
-                Partidas[partidaId].campeonatoId = campeonatoId
-                Partidas[partidaId].arbitroId = arbitroId
-                Partidas[partidaId].rodada = rodada.strip(' ')
-                Partidas[partidaId].data = data
-                Partidas[partidaId].horario = horario
-                Partidas[partidaId].estadio = estadio
+# Passo 1: Ler o arquivo CSV
+df = pd.read_csv('csv/amarelos.csv', encoding='utf-8')
 
-                # Define o horario em minutos desde a meia noite
-                horas, minutos = horario.split(':')
-                Partidas[partidaId].horarioInt = int(horas) * 60 + int(minutos)
+# Passo 2: Contar as ocorrências por horarioInt
+# Contando as ocorrências de cada minuto
+ocorrencias_por_horario = df['horarioInt'].value_counts().sort_index()
 
-                # Extrai os times
-                times = extrai1Valor(linhas[4], 'Jogo')
-                time1, time2 = times.split(' X ')
+# Passo 3: Garantir que todos os minutos de 0 a 1439 estejam presentes no gráfico
+# Cria um índice completo de 0 a 1439 e reindexa as ocorrências
+ocorrencias_por_horario = ocorrencias_por_horario.reindex(range(1440), fill_value=0)
 
-                nome1, estado1 = time1.split(' / ')
-                casaId = adicionaTime(Times, nome1, estado1)
-                
-                nome2, estado2 = time2.split(' / ')
-                visitanteId = adicionaTime(Times, nome2, estado2)
+# Passo 4: Criar o gráfico
+plt.figure(figsize=(15, 6))
+ocorrencias_por_horario.plot(kind='bar', color='lightgreen')
+plt.title('Quantidade de Ocorrências por Horário (minutos)')
+plt.xlabel('Minuto do Jogo')
+plt.ylabel('Quantidade de Ocorrências')
 
-                # Complementa a tabela de partidas
-                Partidas[partidaId].casa = casaId
-                Partidas[partidaId].visitante = visitanteId
+# Formatar o eixo x para mostrar HH:MM
+plt.xticks(ticks=range(0, 1440, 5), 
+           labels=[f"{i//60:02}:{i%60:02}" for i in range(0, 1440, 5)], 
+           rotation=45)
 
-            if(pagina_num == 1):
+plt.grid(axis='y')
 
-                num_linhas = len(linhas)
-
-                # Extrai cartoes amarelos
-                current = 0
-                while(current < num_linhas and linhas[current] != 'Cartões Amarelos'):
-                    current += 1
-
-                if(current < num_linhas and linhas[current] == 'Cartões Amarelos'):
-                    current += 1
-
-                    minuto = ''
-                    tempo = 0
-                    jogadorId = -1
-                    timeId = -1
-
-                    # Enquanto nao se encontra na secao de cartoes vermelhos
-                    while(current < num_linhas and linhas[current] != 'Cartões Vermelhos'):
-
-                        # Busca o time
-                        timeId = buscarTime(linhas[current], Times)
-                        if(timeId != None):
-
-                            # Remove o nome do time da linha e entao extrai o resto
-                            recorte = linhas[current].replace(Times[timeId].nome, "").strip()
-                            match = re.match(r"(\d{2}:\d{2})\s*(\dT)(\d+)([A-Za-z\s]+)", recorte)
-
-                            if match:
-                                horario = match.group(1)
-                                tempo = match.group(2) 
-                                numero = match.group(3)
-                                nome = match.group(4).strip()
-
-                                # Cria o jogador e o cartao amarelo
-                                jogadorId = adicionaJogador(Jogadores, nome, numero)
-                                amareloId = adicionaAmarelo(Amarelos, partidaId, timeId, jogadorId, tempo, horario)
-
-                                # Define o horario em minutos desde a meia noite
-                                #horas, minutos = horario.split(':')
-                                #Amarelos[amareloId].horarioInt = int(horas) * 60 + int(minutos)
-
-                                # Complementa tabela de amarelos
-                                Amarelos[amareloId].jogador = Jogadores[jogadorId].nome
-                                Amarelos[amareloId].time = Times[timeId].nome
-
-                        current += 1
-                 
-            """
-            for l in range(num_linhas):
-                if(linhas[l] == 'Gols'):
-                    if(linhas[l + 1] != 'NÃO HOUVE MARCADORES'):
-                        current = l + 2
-                        while(linhas[current] != 'NR = Normal | PN = Pênalti | CT = Contra | FT = Falta'):
-                            #print(linhas[current])
-                            adicionaGol(Gols, 0, 0, 0)
-                            current += 1
-            """
-
-#imprimeArbitros(Arbitros)
-#imprimeGols(Gols, Partidas, Times, Jogadores)
-#imprimeJogadores(Jogadores)
-#imprimePartidas(Partidas, Arbitros)
-#imprimeHorarioPartidas(Partidas)
-#imprimeTimes(Times)
-
-imprimeCSV("amarelos", Amarelos)
-#imprimeCSV("arbitros", Arbitros)
-#imprimeCSV("gols", Gols)
-#imprimeCSV("jogadores", Jogadores)
-#imprimeCSV("partidas", Partidas)
-#imprimeCSV("times", Times)
+# Exibir o gráfico
+plt.tight_layout()
+plt.show()

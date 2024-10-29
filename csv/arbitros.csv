@@ -1,6 +1,6 @@
 id,nome,credencial,estado
 0,Rodrigo Jose Pereira de Lima,FIFA,PE
-1,Matheus Delgado Candançan,CD,SP
+1,Matheus Delgado CandanÃ§an,CD,SP
 2,Braulio da Silva Machado,FIFA,SC
 3,Maguielson Lima Barbosa,AB,DF
 4,Flavio Rodrigues de Souza,FIFA,SP
@@ -29,3 +29,9 @@ id,nome,credencial,estado
 27,Caio Max Augusto Vieira,AB,RN
 28,Davi de Oliveira Lacerda,CD,ES
 29,Savio Pereira Sampaio,MTR,DF
+30,Gustavo Ervino Bauermann,AB,SC
+31,Kleber Ariel Goncalves da Silva,BAS,PR
+32,Anderson Ribeiro Goncalves,CD,GO
+33,Wagner do Nascimento Magalhaes,MTR,RJ
+34,Emerson Ricardo de Almeida Andrade,AB,BA
+35,Jefferson Ferreira de Moraes,AB,GO

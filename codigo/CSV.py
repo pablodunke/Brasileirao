@@ -7,7 +7,7 @@ import csv
 
 def imprimeCSV(nome, objetos):
 
-    with open("csv/" + nome + ".csv", mode="w", newline="") as arquivo_csv:
+    with open("csv/" + nome + ".csv", mode="w", newline="", encoding="utf-8") as arquivo_csv:
         colunas = vars(objetos[0]).keys()
         escritor = csv.DictWriter(arquivo_csv, fieldnames=colunas)
         escritor.writeheader()
