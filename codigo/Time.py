@@ -4,16 +4,19 @@
 # @createdDate 2024/10/28
 
 class Time:
-    def __init__(self, pid, pnome):
+    def __init__(self, pid, pnome, pestado):
         self.id = pid
         self.nome = pnome
-        self.jogos = 1
+        self.estado = pestado
 
-def adicionaTime(times, nome):
+def adicionaTime(times, pnome, pestado):
     for time in times:
-        if time.nome == nome:
-            time.jogos += 1
+        if time.nome == pnome:
             return time.id
 
-    times.append(Time(len(times), nome))
+    times.append(Time(len(times), pnome, pestado))
     return len(times) - 1
+
+def imprimeTimes(times):
+    for time in times:
+        print('Time ' + time.nome + ' do estado de ' + time.estado + '.')

@@ -7,7 +7,7 @@ class Jogador:
     def __init__(self, pid, pnome, pcbf):
         self.id = pid
         self.nome = pnome
-        self.cbf = cbf
+        self.cbf = pcbf
         #self.timeId = ptime
 
 def adicionaJogador(jogadores, pnome, pcbf):

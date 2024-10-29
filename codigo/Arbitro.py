@@ -4,18 +4,18 @@
 # @createdDate 2024/10/28
 
 class Arbitro:
-    def __init__(self, pid, pnome):
+    def __init__(self, pid, pnome, pcredencial, pestado):
         self.id = pid
         self.nome = pnome
-        self.jogos = 1
+        self.credencial = pcredencial
+        self.estado = pestado
 
-def adicionaArbitro(arbitros, nome):
+def adicionaArbitro(arbitros, pnome, pcredencial, pestado):
     for arbitro in arbitros:
-        if arbitro.nome == nome:
-            arbitro.jogos += 1
+        if arbitro.nome == pnome:
             return arbitro.id
 
-    arbitros.append(Arbitro(len(arbitros), nome))
+    arbitros.append(Arbitro(len(arbitros), pnome, pcredencial, pestado))
     return len(arbitros) - 1
 
 def imprimeArbitros(arbitros):
