@@ -4,3 +4,5 @@ https://portaldegovernanca.cbf.com.br/documentos-da-partida
 Base:
 Analisar se horário de início do jogo tem associação com
 cartões amarelos e vermelhos de uma partida
+
+![Grafico01](graficos/Grafico01.png)
