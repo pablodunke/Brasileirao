@@ -153,7 +153,7 @@ def converteCSVs():
                                     Amarelos[amareloId].time = Times[timeId].nome
 
                                     sMinutos, sSegundos = minuto.split(':')
-                                    Amarelos[amareloId].horarioInt = Partidas[partidaId].horarioInt + (int(sMinutos))
+                                    Amarelos[amareloId].horarioInt = Partidas[partidaId].horarioInt + (int(sMinutos)) + ((int(tempo[0]) - 1) * 60)
                                     Amarelos[amareloId].horarioString = f"{Amarelos[amareloId].horarioInt // 60:02}:{Amarelos[amareloId].horarioInt % 60:02}"
 
                             current += 1
