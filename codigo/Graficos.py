@@ -9,10 +9,8 @@ import matplotlib.pyplot as plt
 
 def exibeGraficos():
 
-
-
     """
-    df = pd.read_csv('../csv/amarelos.csv', encoding='utf-8')
+    df = pd.read_csv('csv/amarelos.csv', encoding='utf-8')
     # Passo 2: Contar as ocorrências por horarioInt
     # Contando as ocorrências de cada minuto
     ocorrencias_por_horario = df['horarioString'].value_counts().sort_index()
@@ -36,7 +34,7 @@ def exibeGraficos():
     """
 
     """
-    df = pd.read_csv('../csv/amarelos.csv', encoding='utf-8')
+    df = pd.read_csv('csv/amarelos.csv', encoding='utf-8')
 
     # Agrupar os dados pela coluna 'tempo' e contar a quantidade de cartões
     cartoes_por_tempo = df.groupby('minutoGeral').size()
@@ -75,7 +73,7 @@ def exibeGraficos():
 
 
     # Passo 1: Ler o arquivo CSV
-    df = pd.read_csv('../csv/amarelos.csv', encoding='utf-8')
+    df = pd.read_csv('csv/amarelos.csv', encoding='utf-8')
 
     # Passo 2: Contar as ocorrências por horarioInt
     # Contando as ocorrências de cada minuto

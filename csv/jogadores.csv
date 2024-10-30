@@ -804,14 +804,473 @@ id,nome,cbf
 802,Gustavo Ribeiro Neves,22
 803,Douglas Moreira Fagundes,17
 804,Walter Kannemann,4
-805,Fernando Augusto Pereira Bueno Junior,6
-806,Mateo Gamarra Gonzalez,15
-807,Bruno Henrique Corsini,8
-808,Jadson Alves dos Santos,16
-809,Mateo Gamarra Gonzalez,15
-810,Gabriel Girotto Franco,3
-811,Alan Luciano Ruschel,28
-812,Christian Roberto Alves Cardoso,88
-813,Bruno Zapelli,10
-814,Fabrizio Jose Peralta Ramirez,33
-815,Jose Ivaldo Almeida Silva,5
+805,Bruno de Lara Fuchs,3
+806,Hugo de Souza Nogueira,1
+807,Fabricio Tomas Bustos Sein,16
+808,Sergio Ramon Rochet Alvarez,1
+809,Gabriel Ivan Mercado,25
+810,Gilberto Moraes Junior,2
+811,Jan Carlos Hurtado Anchico  Goianiense Saf,9
+812,Erick Antonio Pulgar Farfan,5
+813,Pedro Henrique Pereira da Silva  Goianiense Saf,4
+814,Luiz de Araujo Guimaraes Neto,7
+815,Pedro Guilherme Abreu dos Santos,9
+816,Fernando Marcal de Oliveira,21
+817,William de Asevedo Furtado,12
+818,Cassio Ramos,1
+819,Allan Marques Loureiro,28
+820,Muriel Gustavo Becker,22
+821,Lucas Esteves Souza,16
+822,Osvaldo Lourenco Filho,11
+823,Gabriel Vinicius Menino,25
+824,Lucas Eduardo Ribeiro de Souza,43
+825,Janderson de Carvalho Costa,39
+826,Jose Manuel Alberto Lopez,42
+827,Luan Candido de Almeida,36
+828,Luciano da Rocha Neves,10
+829,Welington Damascena Santos,6
+830,Emanuel Britez,19
+831,Damian Josue Bobadilla Benitez,21
+832,Kervin Mario Andrade Navarro,77
+833,Hercules Pereira do Nascimento,35
+834,Julimar Silva Oliveira Junior,20
+835,Leonardo Ezequiel Godoy,29
+836,Wilker Jos,4
+837,Lucas Henrique Barbosa,21
+838,Rodrigo Fagundes de Freitas,3
+839,Mario Sergio Santos Costa,11
+840,Breno Henrique Vasconcelos Lopes,26
+841,Jose Ivaldo Almeida Silva,5
+842,Lautaro Ariel Diaz,26
+843,Joao Ricardo Riedi,1
+844,Janderson de Carvalho Costa,39
+845,Luan Vinicius da Silva Santos,8
+846,Ramon Ramos Lima,23
+847,Derik Gean Severino Lacerda,22
+848,Filipe Augusto Carvalho Souza,5
+849,Diogo Barbosa Mendanha,6
+850,Thiago dos Santos,29
+851,Thiago Emiliano da Silva,3
+852,Carlos Maria de Pena Bonino,14
+853,Lucas de Souza Cunha,4
+854,Igor Caique Coronado,77
+855,Jadson Alves dos Santos,16
+856,Alan Luciano Ruschel,28
+857,Rodrigo Garro,10
+858,Wellington Soares da Silva,27
+859,Matheus Gon,20
+860,David Luiz Moreira Marinho,23
+861,Bruno Henrique Pinto,27
+862,Mateo Gamarra Gonzalez,15
+863,Tomas Esteban Cuello,28
+864,Igor Jesus Maciel da Cruz,0
+865,Guilherme Kennedy Romao  Goianiense Saf,6
+866,Adriano Martins da Fonseca  Goianiense Saf,3
+867,Allan Marques Loureiro,28
+868,Luiz Henrique Andre Rosa da Silva,7
+869,Joel Nathaniel Campbell Samuels  Goianiense Saf,7
+870,Otavio Henrique Passos Santos,5
+871,Junior Osmar Ignacio Alonso Mujica,8
+872,Fellipe Mateus de Sena Araujo,7
+873,Fernando Augusto Pereira Bueno Junior,6
+874,Mateo Gamarra Gonzalez,15
+875,Bruno Henrique Corsini,8
+876,Kaio Jorge Pinto Ramos,9
+877,Carlos Eduardo Amaral Pereira de Castro,42
+878,Alvaro Martin Barreal,21
+879,Matheus Henrique de Souza,97
+880,Alerrandro Barra Mansa Realino de Souza,9
+881,Victor Hugo Soares dos Santos,4
+882,Caio Alexandre Sousa E Silva,19
+883,Pablo Santos de Alcantara,62
+884,Willian Osmar de Oliveira Silva,29
+885,Yago Felipe da Costa Rocha,20
+886,Anibal Ismael Moreno,5
+887,Erick Antonio Pulgar Farfan,5
+888,Murilo Cerqueira Paim,26
+889,Gustavo Raul Gomez Portillo,15
+890,Paulo Henrique Chagas de Lima,10
+891,Alexsander Cristhian Gomes da Costa,5
+892,Jhon Adolfo Arias Andrade,21
+893,Angel Rodrigo Romero Villamayor,11
+894,Raul L,23
+895,Eduardo Colcenti Antunes,19
+896,Lucas Alexandre Galdino de Azevedo,40
+897,Hugo Ferreira de Farias,46
+898,Jadsom Meemyas de Oliveira da Silva,5
+899,Gabriel Baralhas dos Santos  Goianiense Saf,8
+900,Igor Matheus Liziero Pereira,26
+901,Guilherme Kennedy Romao  Goianiense Saf,6
+902,Christian Chagas Tarouco,4
+903,Miguel Angel Trauco Saavedra,14
+904,Lucas Pacheco Affini,88
+905,Marcos Gabriel do Nascimento,10
+906,Caique Luiz Santos da Purificacao,97
+907,Edenilson Andrade dos Santos,15
+908,Davi Goes Silva Ferreira Carvalho,88
+909,Oscar David Romero Villamayor,70
+910,Erick Samuel Correa Farias,7
+911,Alexander Nahuel Barboza Ullua,20
+912,Marlon Rodrigues Freitas,17
+913,Fernando Marcal de Oliveira,21
+914,Mateus Eduardo Claus,77
+915,Gabriel Lheman Xavier,3
+916,Yeferson Julio Soteldo Martinez,7
+917,Diego da Silva Costa,19
+918,Lucas da Silva Izidoro,30
+919,Mariano Ferreira Filho,25
+920,Bruno de Lara Fuchs,3
+921,Matheus Alexandre Anastacio de Souza,2
+922,Denilson Alves Borges,27
+923,Bruno Fabiano Alves,34
+924,Juan Pablo Vilela Tavares,63
+925,Alan Steven Franco Palma,23
+926,Leonardo Naldi de Matos,5
+927,Matheus Fellipe Costa Pereira,10
+928,Charles Rigon Matos,8
+929,Andr,7
+930,Samuel Xavier Brito,2
+931,Luis Eduardo Soares da Silva,66
+932,Mateo Ponte Costa,4
+933,Alexander Nahuel Barboza Ullua,20
+934,Ayrton Lucas Dantas de Medeiros,6
+935,Carlos Moises de Lima,22
+936,Jefferson David Savarino Quintero,10
+937,Jose Sabino Chagas Monteiro,35
+938,Vitor de Oliveira Nunes dos Reis,44
+939,Gustavo Raul Gomez Portillo,15
+940,Luciano da Rocha Neves,10
+941,Christian Chagas Tarouco,4
+942,Helio Junio Nunes de Castro,11
+943,Jadson Alves dos Santos,16
+944,Mateo Gamarra Gonzalez,15
+945,Gabriel Girotto Franco,3
+946,Alan Luciano Ruschel,28
+947,Christian Roberto Alves Cardoso,88
+948,Bruno Zapelli,10
+949,Gonzalo Gaston Freitas Silva  Goianiense Saf,5
+950,Pedro Felipe de Faria Rangel  Goianiense Saf,12
+951,Allano Brendon de Souza Lima,2
+952,Rodrigo Fagundes de Freitas,3
+953,Wilker Jos,4
+954,Wesley Ribeiro Silva,21
+955,Lucas Daniel Romero,29
+956,William de Asevedo Furtado,12
+957,Sergio Ramon Rochet Alvarez,1
+958,Bruno de Lara Fuchs,3
+959,Lyanco Evangelista Silveira Neves Vojnovic,2
+960,Paulo Henrique Chagas de Lima,10
+961,Rubens Antonio Dias,44
+962,Matheus Martinelli Lima,8
+963,Guilherme Antonio Arana Lopes,13
+964,Paulo Henrique Sampaio Filho,10
+965,Jean Lucas de Souza Oliveira,6
+966,Gregore de Magalhaes Silva,26
+967,Caio Alexandre Sousa E Silva,19
+968,Marlon Rodrigues Freitas,17
+969,Marcos Felipe de Freitas Monteiro,22
+970,Lucas Halter,3
+971,Santiago Arias Naranjo,13
+972,Fernando Marcal de Oliveira,21
+973,Jadsom Meemyas de Oliveira da Silva,5
+974,Bruno Henrique Pinto,27
+975,Thiago Heleno Henrique Ferreira,44
+976,Jo,57
+977,Richard Rios Montoya,27
+978,Clayson Henrique da Silva Vieira,25
+979,Willian Osmar de Oliveira Silva,29
+980,Jose Hugo Sousa dos Santos,17
+981,Hercules Pereira do Nascimento,35
+982,Gustavo Henrique Vernes,13
+983,Tomas Cardona,25
+984,Charles Rigon Matos,8
+985,Andre Ramalho Silva,5
+986,Renato Kayzer de Souza,79
+987,Carlos Eduardo de Souza Vieira,30
+988,Rhaldney Norberto Simi,8
+989,Jose Marcos Alves Luis,3
+990,Bruno Nunes de Barros  Goianiense Saf,2
+991,Anderson Luis de Carvalho,10
+992,Janderson Santos de Souza  Goianiense Saf,7
+993,Danilo Boza Junior,4
+994,Jorge de Moura Xavier  Goianiense Saf,18
+995,Higor Matheus Meritao,5
+996,Franco Sebastian Cristaldo,10
+997,Marcelo Hermes,22
+998,Bernard Anicio Caldeira Duarte,20
+999,Deyverson Brum Silva,9
+1000,Walter Kannemann,4
+1001,Brahian Palacios Alzate,30
+1002,Luiz Felipe do Nascimento dos Santos  Goianiense Saf,4
+1003,Gabriel Baralhas dos Santos  Goianiense Saf,8
+1004,Matheus Fellipe Costa Pereira,10
+1005,Roni Medeiros de Moura  Goianiense Saf,15
+1006,Cassio Ramos,1
+1007,Emiliano Rodriguez Rosales  Goianiense Saf,19
+1008,Hueglo dos Santos Neris,77
+1009,Willean Bernardo Willemen,97
+1010,Marcio Rafael Ferreira de Souza,13
+1011,Jonathan Calleri,9
+1012,Damian Josue Bobadilla Benitez,21
+1013,Thiago dos Santos,29
+1014,Facundo Bernal Cruz,5
+1015,Marcos da Silva Franca,11
+1016,Thiago Emiliano da Silva,3
+1017,Tomas Cardona,25
+1018,Gregore de Magalhaes Silva,26
+1019,Emanuel Britez,19
+1020,Bartolomeu Jacinto Quissanga,15
+1021,Fernando Marcal de Oliveira,21
+1022,Pedro Augusto Borges da Costa,28
+1023,Erick Antonio Pulgar Farfan,5
+1024,Ayrton Lucas Dantas de Medeiros,6
+1025,Talles Magno Bacelar Martins,43
+1026,Jose Andres Martinez Torres,70
+1027,Charles Rigon Matos,8
+1028,Angel Rodrigo Romero Villamayor,11
+1029,Allan Rodrigues de Souza,21
+1030,Jhonatan dos Santos Rosa,6
+1031,Thaciano Mickael da Silva,16
+1032,Lincoln Henrique Oliveira dos Santos,10
+1033,Luciano Batista da Silva Junior,46
+1034,Victor Hugo Soares dos Santos,4
+1035,Christian Roberto Alves Cardoso,88
+1036,Agustin Canobbio Graviz,14
+1037,Marcos Luis Rocha Aquino,2
+1038,Fernando Pereira do Nascimento,88
+1039,Isidro Miguel Pitta Saldivar,9
+1040,Thiago Maia Alencar,29
+1041,Wesley Ribeiro Silva,21
+1042,Lucas Henrique Barbosa,21
+1043,Clayson Henrique da Silva Vieira,25
+1044,Isidro Miguel Pitta Saldivar,9
+1045,Gabriel Carvalho Teixeira,34
+1046,Nahuel Adolfo Ferraresi Hernandez,32
+1047,Kaio Jorge Pinto Ramos,9
+1048,Matheus Henrique de Souza,97
+1049,Michel Daryl Araujo Villar,15
+1050,Gabriel Veron Fonseca de Souza,30
+1051,Igor Silveira Gomes,17
+1052,Victor Hugo Soares dos Santos,4
+1053,Everson Felipe Marques Pires,22
+1054,Deyverson Brum Silva,9
+1055,Marlon Rodrigues Freitas,17
+1056,Matheus Lima Beltrao Oliveira,21
+1057,Luis Eduardo Marques dos Santos,20
+1058,Walisson Moreira Farias Maia,33
+1059,Tobias Pereira Figueiredo,29
+1060,Jadsom Meemyas de Oliveira da Silva,5
+1061,Eduardo Colcenti Antunes,19
+1062,Guilherme Lopes de Almeida,31
+1063,Jose Andres Hurtado Cheme,34
+1064,Thiago Nicolas Borbas Silva,18
+1065,Jemerson de Jesus Nascimento,28
+1066,Benjamin Kuscevic Jaramillo,13
+1067,Jo,57
+1068,Joao Ricardo Riedi,1
+1069,Agustin Canobbio Graviz,14
+1070,Alerrandro Barra Mansa Realino de Souza,9
+1071,Luiz Fernando Moraes dos Santos  Goianiense Saf,11
+1072,Lucas Esteves Souza,16
+1073,Gustavo Henric da Silva,7
+1074,Lucas Willians Assis Arcanjo,1
+1075,Joel Nathaniel Campbell Samuels  Goianiense Saf,8
+1076,Rhaldney Norberto Simi,5
+1077,Matheus Martins Fogaca de Paulo,30
+1078,Willian Osmar de Oliveira Silva,29
+1079,Jadson Alves dos Santos,16
+1080,Anderson Luis de Carvalho,10
+1081,Facundo Bernal Cruz,5
+1082,Marcelo Vieira da Silva Junior,12
+1083,Thiago dos Santos,29
+1084,Gilberto Oliveira Souza Junior,9
+1085,Fabio Deivson Lopes Maciel,1
+1086,Joao Pedro Maturano dos Santos,18
+1087,Arthur Sousa Araujo,27
+1088,Eduardo Gonzaga Mendes Santos,3
+1089,Everson Felipe Marques Pires,22
+1090,Matheus Fernandes Siqueira,35
+1091,Jose Marcos Alves Luis,3
+1092,Carlos Eduardo Ferreira de Souza,96
+1093,Matheus Martins Fogaca de Paulo,30
+1094,Lucas Henrique Barbosa,21
+1095,Felipe Melo de Carvalho,30
+1096,Richard Rios Montoya,27
+1097,Jose Andres Martinez Torres,70
+1098,Gonzalo Gaston Freitas Silva  Goianiense Saf,5
+1099,Joel Nathaniel Campbell Samuels  Goianiense Saf,10
+1100,Breno de Souza Bidon,27
+1101,Igor Caique Coronado,77
+1102,Luiz Fernando Moraes dos Santos  Goianiense Saf,11
+1103,Erick de Arruda Serafim,33
+1104,William Gomes Carvalho Santos,39
+1105,Jonathan Calleri,9
+1106,Rodrigo Nestor Bertalia,11
+1107,Matheus Rossetto,16
+1108,Jean Lucas de Souza Oliveira,6
+1109,Juan Martin Lucero,197
+1110,Fabrizio Jose Peralta Ramirez,33
+1111,Bolasie Yala,11
+1112,Gabriel Girotto Franco,3
+1113,Tobias Pereira Figueiredo,29
+1114,Luiz Filipe da Rosa Machado,36
+1115,Thiago Maia Alencar,29
+1116,Enner Remberto Valencia Lastra,13
+1117,Fernando Francisco Reges,5
+1118,Allano Brendon de Souza Lima,2
+1119,Everton Augusto de Barros Ribeiro,10
+1120,Arthur Caike do Nascimento Cruz,45
+1121,Gabriel Barbosa Almeida,99
+1122,Mateo Gamarra Gonzalez,15
+1123,David Luiz Moreira Marinho,23
+1124,Christian Roberto Alves Cardoso,88
+1125,Bartolomeu Jacinto Quissanga,15
+1126,Mathias Adalberto Villasanti Rolon,20
+1127,Walter Kannemann,4
+1128,Luiz Henrique Andre Rosa da Silva,7
+1129,Agustin Federico Marchesin,1
+1130,Fabio Silva de Freitas,35
+1131,Rubens Antonio Dias,44
+1132,Igor Silveira Gomes,17
+1133,Fagner Conserva Lemos,23
+1134,Luciano da Rocha Neves,10
+1135,Igor Caique Coronado,77
+1136,Marcio Rafael Ferreira de Souza,13
+1137,Charles Rigon Matos,8
+1138,Alan Javier Franco,28
+1139,Pedro Henrique Konzen Medina da Silva,16
+1140,Nahuel Adolfo Ferraresi Hernandez,32
+1141,Fernando Pereira do Nascimento,88
+1142,Mario Sergio Santos Costa,11
+1143,Denilson Alves Borges,27
+1144,Emanuel Britez,19
+1145,Alan Pereira Empereur,33
+1146,Marcos da Silva Franca,11
+1147,Luis Felipe Oyama,5
+1148,Jhonatan dos Santos Rosa,6
+1149,Eduardo Colcenti Antunes,19
+1150,Matheus Fernandes Siqueira,35
+1151,Douglas Mendes Moreira,39
+1152,Cleiton Schwengber,1
+1153,Eros Nazareno Mancuso,33
+1154,Juan Martin Lucero,9
+1155,Joao Pedro Maturano dos Santos,18
+1156,Douglas Moreira Fagundes,17
+1157,Benjamin Kuscevic Jaramillo,13
+1158,Bruno de Lara Fuchs,3
+1159,Everaldo Stum,9
+1160,Bruno Henrique Pinto,27
+1161,Neuciano de Jesus Gusmao,40
+1162,Leonardo Pereira,4
+1163,Caio Alexandre Sousa E Silva,19
+1164,Victor Hugo Soares dos Santos,4
+1165,Allan Rodrigues de Souza,29
+1166,Victor Hugo Ramos de Souza,20
+1167,Marcos da Silva Franca,11
+1168,Jhon Adolfo Arias Andrade,21
+1169,Kau,19
+1170,Walace Souza Silva,20
+1171,Marcelo Vieira da Silva Junior,12
+1172,Alvaro Martin Barreal,21
+1173,Gabriel Rafael Fuentes G,31
+1174,Jose Marcos Alves Luis,3
+1175,Thiago Maia Alencar,29
+1176,Andre Martin Carrillo Diaz,19
+1177,Clayton Sampaio Pereira,20
+1178,Breno de Souza Bidon,27
+1179,Carlos de Menezes Junior,25
+1180,Alexandro Ezequiel Bernabei,26
+1181,Yuri Alberto Monteiro da Silva,9
+1182,Memphis Depay,94
+1183,Agustin Giay,4
+1184,Richard Rios Montoya,27
+1185,Ivan Ricardo Neves Abreu Cavaleiro,9
+1186,Gregore de Magalhaes Silva,26
+1187,Madson Ferreira dos Santos,22
+1188,Kaique Rocha Lima,4
+1189,Danilo Barbosa da Silva,5
+1190,Francisco das Chagas Soares dos Santos,9
+1191,Lucas Fernandes da Silva,18
+1192,Andre Oliveira Silva,17
+1193,Robert Abel Arboleda Escobar,5
+1194,Matheus Alexandre Anastacio de Souza,2
+1195,Pedro Felipe de Faria Rangel  Goianiense Saf,1
+1196,Alejo Cruz Techera  Goianiense Saf,6
+1197,Alix Vinicius de Souza Sampaio  Goianiense Saf,3
+1198,Allano Brendon de Souza Lima,2
+1199,Luiz Fernando Moraes dos Santos  Goianiense Saf,18
+1200,Douglas Moreira Fagundes,17
+1201,Alexandro Ezequiel Bernabei,26
+1202,Rodrigo Ely,5
+1203,Diego da Silva Costa,19
+1204,Everton Augusto de Barros Ribeiro,10
+1205,Luciano Batista da Silva Junior,46
+1206,Matheus Fellipe Costa Pereira,10
+1207,Wagner Leonardo Calvelo de Souza,4
+1208,Jadsom Meemyas de Oliveira da Silva,5
+1209,Hueglo dos Santos Neris,77
+1210,Bruno Henrique Pinto,27
+1211,Samuel Xavier Brito,2
+1212,Matheus Martinelli Lima,8
+1213,Paulo Henrique Chagas de Lima,10
+1214,Allano Brendon de Souza Lima,2
+1215,Thiago Heleno Henrique Ferreira,44
+1216,Memphis Depay,94
+1217,Julimar Silva Oliveira Junior,20
+1218,Lucas Belezi Barbosa,45
+1219,Yuri Alberto Monteiro da Silva,9
+1220,Welington Damascena Santos,6
+1221,Bruno de Jesus Pacheco,6
+1222,Brahian Palacios Alzate,30
+1223,Paulo Vitor Monteiro,27
+1224,Caio da Silva Maia,39
+1225,Railan Reis Ferreira,21
+1226,Gabriel Baralhas dos Santos  Goianiense Saf,8
+1227,Lucas da Silva Izidoro,30
+1228,Max Alves da Silva,10
+1229,Marcos Luis Rocha Aquino,2
+1230,Anibal Ismael Moreno,5
+1231,Gustavo Raul Gomez Portillo,15
+1232,Richard Rios Montoya,27
+1233,Mayke Rocha de Oliveira,12
+1234,Jadson Alves dos Santos,16
+1235,Jemerson de Jesus Nascimento,28
+1236,Luiz Fernando Moraes dos Santos  Goianiense Saf,10
+1237,Adriano Martins da Fonseca  Goianiense Saf,3
+1238,Derek Freitas Ribeiro  Goianiense Saf,9
+1239,Martin Christensen Braithwaite,22
+1240,Luiz Felipe do Nascimento dos Santos  Goianiense Saf,4
+1241,Janderson Santos de Souza  Goianiense Saf,17
+1242,Thiago Maia Alencar,29
+1243,Eduardo Jesus Vargas Rojas,11
+1244,Igor Silveira Gomes,17
+1245,Wesley Ribeiro Silva,21
+1246,Gustavo Henrique Furtado Scarpa,6
+1247,Alisson Santana Lopes da Fonseca,45
+1248,Mariano Ferreira Filho,25
+1249,Thiago dos Santos,29
+1250,Raul Alejandro Caceres Bogado,27
+1251,Gustavo Henric da Silva,7
+1252,Alerrandro Barra Mansa Realino de Souza,9
+1253,Leonardo Naldi de Matos,5
+1254,Vinicius Moreira de Lima,45
+1255,Joao Lucas de Almeida Carvalho,2
+1256,Anderson Luis de Carvalho,10
+1257,Davi Goes Silva Ferreira Carvalho,88
+1258,Giorgian Daniel de Arrascaeta Benedetti,14
+1259,Gabriel Lheman Xavier,3
+1260,Thaciano Mickael da Silva,16
+1261,Mayke Rocha de Oliveira,12
+1262,Eros Nazareno Mancuso,33
+1263,Christian Chagas Tarouco,4
+1264,Juan Martin Lucero,9
+1265,Jadsom Meemyas de Oliveira da Silva,5
+1266,Fabrizio Jose Peralta Ramirez,33
+1267,Jose Ivaldo Almeida Silva,5
+1268,Ramon Ramos Lima,23
+1269,Filipe Augusto Carvalho Souza,5
+1270,Fernando Pereira do Nascimento,88
+1271,Raniele Almeida Melo,14
+1272,Marllon Goncalves Jeronimo Borges,4
+1273,Newton Araujo da Costa Junior,8
+1274,Jonathan Francisco Lemos,13

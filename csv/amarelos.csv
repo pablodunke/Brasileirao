@@ -804,14 +804,473 @@ id,partidaId,timeId,jogadorId,tempo,minuto,minutoGeral,jogador,time,horarioInt,h
 802,187,7,802,2,35:00,80,Gustavo Ribeiro Neves,Red Bull Bragantino,1265,21:05
 803,188,9,803,2,22:00,67,Douglas Moreira Fagundes,Grêmio,1222,20:22
 804,188,9,804,2,24:00,69,Walter Kannemann,Grêmio,1224,20:24
-805,189,14,805,1,30:00,30,Fernando Augusto Pereira Bueno Junior,Athletico Paranaense,1170,19:30
-806,189,14,806,1,45:00,45,Mateo Gamarra Gonzalez,Athletico Paranaense,1185,19:45
-807,189,0,807,2,08:00,53,Bruno Henrique Corsini,Internacional,1208,20:08
-808,190,19,808,1,18:00,18,Jadson Alves dos Santos,Juventude,1128,18:48
-809,190,14,809,1,22:00,22,Mateo Gamarra Gonzalez,Athletico Paranaense,1132,18:52
-810,190,14,810,2,28:00,73,Gabriel Girotto Franco,Athletico Paranaense,1198,19:58
-811,190,19,811,2,36:00,81,Alan Luciano Ruschel,Juventude,1206,20:06
-812,190,14,812,2,40:00,85,Christian Roberto Alves Cardoso,Athletico Paranaense,1210,20:10
-813,190,14,813,2,44:00,89,Bruno Zapelli,Athletico Paranaense,1214,20:14
-814,191,2,814,1,22:00,22,Fabrizio Jose Peralta Ramirez,Cruzeiro Saf,1132,18:52
-815,191,2,815,2,05:00,50,Jose Ivaldo Almeida Silva,Cruzeiro Saf,1175,19:35
+805,189,11,805,1,23:00,23,Bruno de Lara Fuchs,Atlético Mineiro Saf,1163,19:23
+806,189,10,806,2,36:00,81,Hugo de Souza Nogueira,Corinthians,1236,20:36
+807,190,0,807,2,15:00,60,Fabricio Tomas Bustos Sein,Internacional,1275,21:15
+808,190,0,808,2,20:00,65,Sergio Ramon Rochet Alvarez,Internacional,1280,21:20
+809,190,0,809,2,35:00,80,Gabriel Ivan Mercado,Internacional,1295,21:35
+810,190,1,810,2,41:00,86,Gilberto Moraes Junior,Bahia,1301,21:41
+811,191,16,811,1,14:00,14,Jan Carlos Hurtado Anchico  Goianiense Saf,Atlético,974,16:14
+812,191,17,812,1,35:00,35,Erick Antonio Pulgar Farfan,Flamengo,995,16:35
+813,191,16,813,1,36:00,36,Pedro Henrique Pereira da Silva  Goianiense Saf,Atlético,996,16:36
+814,191,17,814,2,28:00,73,Luiz de Araujo Guimaraes Neto,Flamengo,1048,17:28
+815,191,17,815,2,35:00,80,Pedro Guilherme Abreu dos Santos,Flamengo,1055,17:35
+816,192,3,816,1,03:00,3,Fernando Marcal de Oliveira,Botafogo,1293,21:33
+817,192,2,817,1,30:00,30,William de Asevedo Furtado,Cruzeiro Saf,1320,22:00
+818,192,2,818,2,26:00,71,Cassio Ramos,Cruzeiro Saf,1376,22:56
+819,192,3,819,2,28:00,73,Allan Marques Loureiro,Botafogo,1378,22:58
+820,193,4,820,1,27:00,27,Muriel Gustavo Becker,Vitória,1167,19:27
+821,193,4,821,1,35:00,35,Lucas Esteves Souza,Vitória,1175,19:35
+822,193,4,822,2,05:00,50,Osvaldo Lourenco Filho,Vitória,1205,20:05
+823,193,5,823,2,05:00,50,Gabriel Vinicius Menino,Palmeiras,1205,20:05
+824,193,4,824,2,27:00,72,Lucas Eduardo Ribeiro de Souza,Vitória,1227,20:27
+825,193,4,825,2,34:00,79,Janderson de Carvalho Costa,Vitória,1234,20:34
+826,193,5,826,2,44:00,89,Jose Manuel Alberto Lopez,Palmeiras,1244,20:44
+827,194,7,827,2,40:00,85,Luan Candido de Almeida,Red Bull Bragantino,760,12:40
+828,195,12,828,1,12:00,12,Luciano da Rocha Neves,São Paulo,1302,21:42
+829,195,12,829,2,12:00,57,Welington Damascena Santos,São Paulo,1362,22:42
+830,195,13,830,2,20:00,65,Emanuel Britez,Fortaleza,1370,22:50
+831,195,12,831,2,24:00,69,Damian Josue Bobadilla Benitez,São Paulo,1374,22:54
+832,195,13,832,2,34:00,79,Kervin Mario Andrade Navarro,Fortaleza,1384,23:04
+833,195,13,833,2,43:00,88,Hercules Pereira do Nascimento,Fortaleza,1393,23:13
+834,196,14,834,2,12:00,57,Julimar Silva Oliveira Junior,Athletico Paranaense,1212,20:12
+835,196,14,835,2,41:00,86,Leonardo Ezequiel Godoy,Athletico Paranaense,1241,20:41
+836,197,18,836,1,30:00,30,Wilker Jos,Criciúma,1170,19:30
+837,197,19,837,2,13:00,58,Lucas Henrique Barbosa,Juventude,1213,20:13
+838,197,18,838,2,23:00,68,Rodrigo Fagundes de Freitas,Criciúma,1223,20:23
+839,199,13,839,1,28:00,28,Mario Sergio Santos Costa,Fortaleza,1288,21:28
+840,199,13,840,1,31:00,31,Breno Henrique Vasconcelos Lopes,Fortaleza,1291,21:31
+841,199,2,841,2,12:00,57,Jose Ivaldo Almeida Silva,Cruzeiro Saf,1332,22:12
+842,199,2,842,2,21:00,66,Lautaro Ariel Diaz,Cruzeiro Saf,1341,22:21
+843,199,13,843,2,45:00,90,Joao Ricardo Riedi,Fortaleza,1365,22:45
+844,200,4,844,1,32:00,32,Janderson de Carvalho Costa,Vitória,992,16:32
+845,200,4,845,2,07:00,52,Luan Vinicius da Silva Santos,Vitória,1027,17:07
+846,200,15,846,2,20:00,65,Ramon Ramos Lima,Cuiabá Saf,1040,17:20
+847,200,15,847,2,28:00,73,Derik Gean Severino Lacerda,Cuiabá Saf,1048,17:28
+848,200,15,848,2,35:00,80,Filipe Augusto Carvalho Souza,Cuiabá Saf,1055,17:35
+849,201,6,849,1,24:00,24,Diogo Barbosa Mendanha,Fluminense,984,16:24
+850,201,6,850,1,35:00,35,Thiago dos Santos,Fluminense,995,16:35
+851,201,6,851,2,16:00,61,Thiago Emiliano da Silva,Fluminense,1036,17:16
+852,201,1,852,2,39:00,84,Carlos Maria de Pena Bonino,Bahia,1059,17:39
+853,202,7,853,2,33:00,78,Lucas de Souza Cunha,Red Bull Bragantino,1233,20:33
+854,203,10,854,1,28:00,28,Igor Caique Coronado,Corinthians,988,16:28
+855,203,19,855,2,02:00,47,Jadson Alves dos Santos,Juventude,1022,17:02
+856,203,19,856,2,06:00,51,Alan Luciano Ruschel,Juventude,1026,17:06
+857,203,10,857,2,10:00,55,Rodrigo Garro,Corinthians,1030,17:10
+858,204,12,858,1,32:00,32,Wellington Soares da Silva,São Paulo,1322,22:02
+859,204,17,859,2,24:00,69,Matheus Gon,Flamengo,1374,22:54
+860,204,17,860,2,29:00,74,David Luiz Moreira Marinho,Flamengo,1379,22:59
+861,204,17,861,2,33:00,78,Bruno Henrique Pinto,Flamengo,1383,23:03
+862,205,14,862,1,16:00,16,Mateo Gamarra Gonzalez,Athletico Paranaense,976,16:16
+863,205,14,863,2,36:00,81,Tomas Esteban Cuello,Athletico Paranaense,1056,17:36
+864,206,3,864,1,44:00,44,Igor Jesus Maciel da Cruz,Botafogo,1244,20:44
+865,206,16,865,2,07:00,52,Guilherme Kennedy Romao  Goianiense Saf,Atlético,1267,21:07
+866,206,16,866,2,14:00,59,Adriano Martins da Fonseca  Goianiense Saf,Atlético,1274,21:14
+867,206,3,867,2,20:00,65,Allan Marques Loureiro,Botafogo,1280,21:20
+868,206,3,868,2,32:00,77,Luiz Henrique Andre Rosa da Silva,Botafogo,1292,21:32
+869,206,16,869,2,45:00,90,Joel Nathaniel Campbell Samuels  Goianiense Saf,Atlético,1305,21:45
+870,207,11,870,2,04:00,49,Otavio Henrique Passos Santos,Atlético Mineiro Saf,1264,21:04
+871,207,11,871,2,18:00,63,Junior Osmar Ignacio Alonso Mujica,Atlético Mineiro Saf,1278,21:18
+872,207,18,872,2,37:00,82,Fellipe Mateus de Sena Araujo,Criciúma,1297,21:37
+873,208,14,873,1,30:00,30,Fernando Augusto Pereira Bueno Junior,Athletico Paranaense,1170,19:30
+874,208,14,874,1,45:00,45,Mateo Gamarra Gonzalez,Athletico Paranaense,1185,19:45
+875,208,0,875,2,08:00,53,Bruno Henrique Corsini,Internacional,1208,20:08
+876,209,2,876,1,41:00,41,Kaio Jorge Pinto Ramos,Cruzeiro Saf,1331,22:11
+877,209,11,877,2,12:00,57,Carlos Eduardo Amaral Pereira de Castro,Atlético Mineiro Saf,1362,22:42
+878,209,2,878,2,12:00,57,Alvaro Martin Barreal,Cruzeiro Saf,1362,22:42
+879,209,2,879,2,40:00,85,Matheus Henrique de Souza,Cruzeiro Saf,1390,23:10
+880,210,4,880,2,03:00,48,Alerrandro Barra Mansa Realino de Souza,Vitória,1023,17:03
+881,210,1,881,2,03:00,48,Victor Hugo Soares dos Santos,Bahia,1023,17:03
+882,210,1,882,2,35:00,80,Caio Alexandre Sousa E Silva,Bahia,1055,17:35
+883,210,4,883,2,36:00,81,Pablo Santos de Alcantara,Vitória,1056,17:36
+884,210,4,884,2,41:00,86,Willian Osmar de Oliveira Silva,Vitória,1061,17:41
+885,210,1,885,2,45:00,90,Yago Felipe da Costa Rocha,Bahia,1065,17:45
+886,211,5,886,1,13:00,13,Anibal Ismael Moreno,Palmeiras,973,16:13
+887,211,17,887,1,21:00,21,Erick Antonio Pulgar Farfan,Flamengo,981,16:21
+888,211,5,888,1,41:00,41,Murilo Cerqueira Paim,Palmeiras,1001,16:41
+889,211,5,889,2,05:00,50,Gustavo Raul Gomez Portillo,Palmeiras,1025,17:05
+890,212,6,890,1,42:00,42,Paulo Henrique Chagas de Lima,Fluminense,1332,22:12
+891,212,6,891,2,10:00,55,Alexsander Cristhian Gomes da Costa,Fluminense,1360,22:40
+892,212,6,892,2,33:00,78,Jhon Adolfo Arias Andrade,Fluminense,1383,23:03
+893,213,10,893,1,20:00,20,Angel Rodrigo Romero Villamayor,Corinthians,1310,21:50
+894,213,7,894,2,08:00,53,Raul L,Red Bull Bragantino,1358,22:38
+895,213,7,895,2,11:00,56,Eduardo Colcenti Antunes,Red Bull Bragantino,1361,22:41
+896,213,7,896,2,15:00,60,Lucas Alexandre Galdino de Azevedo,Red Bull Bragantino,1365,22:45
+897,213,10,897,2,16:00,61,Hugo Ferreira de Farias,Corinthians,1366,22:46
+898,213,7,898,2,42:00,87,Jadsom Meemyas de Oliveira da Silva,Red Bull Bragantino,1392,23:12
+899,214,16,899,2,07:00,52,Gabriel Baralhas dos Santos  Goianiense Saf,Atlético,1027,17:07
+900,214,12,900,2,13:00,58,Igor Matheus Liziero Pereira,São Paulo,1033,17:13
+901,214,16,901,2,24:00,69,Guilherme Kennedy Romao  Goianiense Saf,Atlético,1044,17:24
+902,215,13,902,1,13:00,13,Christian Chagas Tarouco,Fortaleza,973,16:13
+903,215,18,903,1,43:00,43,Miguel Angel Trauco Saavedra,Criciúma,1003,16:43
+904,215,13,904,2,24:00,69,Lucas Pacheco Affini,Fortaleza,1044,17:24
+905,215,18,905,2,30:00,75,Marcos Gabriel do Nascimento,Criciúma,1050,17:30
+906,216,9,906,2,25:00,70,Caique Luiz Santos da Purificacao,Grêmio,1225,20:25
+907,216,9,907,2,28:00,73,Edenilson Andrade dos Santos,Grêmio,1228,20:28
+908,217,19,908,1,13:00,13,Davi Goes Silva Ferreira Carvalho,Juventude,673,11:13
+909,217,3,909,1,28:00,28,Oscar David Romero Villamayor,Botafogo,688,11:28
+910,217,19,910,1,40:00,40,Erick Samuel Correa Farias,Juventude,700,11:40
+911,217,3,911,1,41:00,41,Alexander Nahuel Barboza Ullua,Botafogo,701,11:41
+912,217,3,912,2,27:00,72,Marlon Rodrigues Freitas,Botafogo,747,12:27
+913,217,3,913,2,36:00,81,Fernando Marcal de Oliveira,Botafogo,756,12:36
+914,217,19,914,2,40:00,85,Mateus Eduardo Claus,Juventude,760,12:40
+915,218,1,915,2,19:00,64,Gabriel Lheman Xavier,Bahia,1039,17:19
+916,218,9,916,2,22:00,67,Yeferson Julio Soteldo Martinez,Grêmio,1042,17:22
+917,218,9,917,2,26:00,71,Diego da Silva Costa,Grêmio,1046,17:26
+918,219,15,918,1,30:00,30,Lucas da Silva Izidoro,Cuiabá Saf,990,16:30
+919,219,11,919,1,41:00,41,Mariano Ferreira Filho,Atlético Mineiro Saf,1001,16:41
+920,219,11,920,1,43:00,43,Bruno de Lara Fuchs,Atlético Mineiro Saf,1003,16:43
+921,219,15,921,2,04:00,49,Matheus Alexandre Anastacio de Souza,Cuiabá Saf,1024,17:04
+922,219,15,922,2,26:00,71,Denilson Alves Borges,Cuiabá Saf,1046,17:26
+923,219,15,923,2,34:00,79,Bruno Fabiano Alves,Cuiabá Saf,1054,17:34
+924,219,15,924,2,44:00,89,Juan Pablo Vilela Tavares,Cuiabá Saf,1064,17:44
+925,219,11,925,2,45:00,90,Alan Steven Franco Palma,Atlético Mineiro Saf,1065,17:45
+926,220,4,926,2,32:00,77,Leonardo Naldi de Matos,Vitória,1292,21:32
+927,220,2,927,2,37:00,82,Matheus Fellipe Costa Pereira,Cruzeiro Saf,1297,21:37
+928,221,10,928,1,14:00,14,Charles Rigon Matos,Corinthians,1274,21:14
+929,221,6,929,1,43:00,43,Andr,Fluminense,1303,21:43
+930,221,6,930,2,43:00,88,Samuel Xavier Brito,Fluminense,1363,22:43
+931,222,3,931,1,32:00,32,Luis Eduardo Soares da Silva,Botafogo,1142,19:02
+932,222,3,932,2,06:00,51,Mateo Ponte Costa,Botafogo,1176,19:36
+933,222,3,933,2,10:00,55,Alexander Nahuel Barboza Ullua,Botafogo,1180,19:40
+934,222,17,934,2,19:00,64,Ayrton Lucas Dantas de Medeiros,Flamengo,1189,19:49
+935,222,17,935,2,24:00,69,Carlos Moises de Lima,Flamengo,1194,19:54
+936,222,3,936,2,41:00,86,Jefferson David Savarino Quintero,Botafogo,1211,20:11
+937,223,12,937,1,42:00,42,Jose Sabino Chagas Monteiro,São Paulo,1002,16:42
+938,223,5,938,1,45:00,45,Vitor de Oliveira Nunes dos Reis,Palmeiras,1005,16:45
+939,223,5,939,2,15:00,60,Gustavo Raul Gomez Portillo,Palmeiras,1035,17:15
+940,223,12,940,2,28:00,73,Luciano da Rocha Neves,São Paulo,1048,17:28
+941,224,13,941,2,23:00,68,Christian Chagas Tarouco,Fortaleza,1193,19:53
+942,224,7,942,2,42:00,87,Helio Junio Nunes de Castro,Red Bull Bragantino,1212,20:12
+943,225,19,943,1,18:00,18,Jadson Alves dos Santos,Juventude,1128,18:48
+944,225,14,944,1,22:00,22,Mateo Gamarra Gonzalez,Athletico Paranaense,1132,18:52
+945,225,14,945,2,28:00,73,Gabriel Girotto Franco,Athletico Paranaense,1198,19:58
+946,225,19,946,2,36:00,81,Alan Luciano Ruschel,Juventude,1206,20:06
+947,225,14,947,2,40:00,85,Christian Roberto Alves Cardoso,Athletico Paranaense,1210,20:10
+948,225,14,948,2,44:00,89,Bruno Zapelli,Athletico Paranaense,1214,20:14
+949,226,16,949,2,08:00,53,Gonzalo Gaston Freitas Silva  Goianiense Saf,Atlético,1028,17:08
+950,226,16,950,2,38:00,83,Pedro Felipe de Faria Rangel  Goianiense Saf,Atlético,1058,17:38
+951,227,18,951,1,21:00,21,Allano Brendon de Souza Lima,Criciúma,981,16:21
+952,227,18,952,1,43:00,43,Rodrigo Fagundes de Freitas,Criciúma,1003,16:43
+953,227,18,953,2,36:00,81,Wilker Jos,Criciúma,1056,17:36
+954,228,0,954,1,16:00,16,Wesley Ribeiro Silva,Internacional,1156,19:16
+955,228,2,955,2,03:00,48,Lucas Daniel Romero,Cruzeiro Saf,1203,20:03
+956,228,2,956,2,16:00,61,William de Asevedo Furtado,Cruzeiro Saf,1216,20:16
+957,228,0,957,2,30:00,75,Sergio Ramon Rochet Alvarez,Internacional,1230,20:30
+958,229,11,958,1,23:00,23,Bruno de Lara Fuchs,Atlético Mineiro Saf,1283,21:23
+959,229,11,959,1,41:00,41,Lyanco Evangelista Silveira Neves Vojnovic,Atlético Mineiro Saf,1301,21:41
+960,229,6,960,1,42:00,42,Paulo Henrique Chagas de Lima,Fluminense,1302,21:42
+961,229,11,961,2,17:00,62,Rubens Antonio Dias,Atlético Mineiro Saf,1337,22:17
+962,229,6,962,2,25:00,70,Matheus Martinelli Lima,Fluminense,1345,22:25
+963,229,11,963,2,32:00,77,Guilherme Antonio Arana Lopes,Atlético Mineiro Saf,1352,22:32
+964,229,11,964,2,35:00,80,Paulo Henrique Sampaio Filho,Atlético Mineiro Saf,1355,22:35
+965,230,1,965,1,26:00,26,Jean Lucas de Souza Oliveira,Bahia,986,16:26
+966,230,3,966,1,31:00,31,Gregore de Magalhaes Silva,Botafogo,991,16:31
+967,230,1,967,1,34:00,34,Caio Alexandre Sousa E Silva,Bahia,994,16:34
+968,230,3,968,1,34:00,34,Marlon Rodrigues Freitas,Botafogo,994,16:34
+969,230,1,969,1,39:00,39,Marcos Felipe de Freitas Monteiro,Bahia,999,16:39
+970,230,3,970,2,08:00,53,Lucas Halter,Botafogo,1028,17:08
+971,230,1,971,2,26:00,71,Santiago Arias Naranjo,Bahia,1046,17:26
+972,230,3,972,2,38:00,83,Fernando Marcal de Oliveira,Botafogo,1058,17:38
+973,231,7,973,1,30:00,30,Jadsom Meemyas de Oliveira da Silva,Red Bull Bragantino,1230,20:30
+974,231,17,974,2,21:00,66,Bruno Henrique Pinto,Flamengo,1281,21:21
+975,232,14,975,1,14:00,14,Thiago Heleno Henrique Ferreira,Athletico Paranaense,1274,21:14
+976,232,14,976,1,27:00,27,Jo,Athletico Paranaense,1287,21:27
+977,233,5,977,2,07:00,52,Richard Rios Montoya,Palmeiras,1177,19:37
+978,233,15,978,2,38:00,83,Clayson Henrique da Silva Vieira,Cuiabá Saf,1208,20:08
+979,234,4,979,2,40:00,85,Willian Osmar de Oliveira Silva,Vitória,1210,20:10
+980,234,4,980,2,41:00,86,Jose Hugo Sousa dos Santos,Vitória,1211,20:11
+981,235,13,981,1,35:00,35,Hercules Pereira do Nascimento,Fortaleza,995,16:35
+982,235,10,982,1,41:00,41,Gustavo Henrique Vernes,Corinthians,1001,16:41
+983,235,13,983,2,09:00,54,Tomas Cardona,Fortaleza,1029,17:09
+984,235,10,984,2,24:00,69,Charles Rigon Matos,Corinthians,1044,17:24
+985,235,10,985,2,27:00,72,Andre Ramalho Silva,Corinthians,1047,17:27
+986,235,13,986,2,36:00,81,Renato Kayzer de Souza,Fortaleza,1056,17:36
+987,236,19,987,1,06:00,6,Carlos Eduardo de Souza Vieira,Juventude,966,16:06
+988,236,16,988,1,08:00,8,Rhaldney Norberto Simi,Atlético,968,16:08
+989,236,19,989,1,18:00,18,Jose Marcos Alves Luis,Juventude,978,16:18
+990,236,16,990,1,44:00,44,Bruno Nunes de Barros  Goianiense Saf,Atlético,1004,16:44
+991,236,19,991,1,45:00,45,Anderson Luis de Carvalho,Juventude,1005,16:45
+992,236,16,992,2,09:00,54,Janderson Santos de Souza  Goianiense Saf,Atlético,1029,17:09
+993,236,19,993,2,19:00,64,Danilo Boza Junior,Juventude,1039,17:19
+994,236,16,994,2,44:00,89,Jorge de Moura Xavier  Goianiense Saf,Atlético,1064,17:44
+995,237,18,995,1,19:00,19,Higor Matheus Meritao,Criciúma,979,16:19
+996,237,9,996,1,40:00,40,Franco Sebastian Cristaldo,Grêmio,1000,16:40
+997,237,18,997,2,10:00,55,Marcelo Hermes,Criciúma,1030,17:10
+998,238,11,998,1,28:00,28,Bernard Anicio Caldeira Duarte,Atlético Mineiro Saf,688,11:28
+999,238,11,999,1,39:00,39,Deyverson Brum Silva,Atlético Mineiro Saf,699,11:39
+1000,238,9,1000,2,25:00,70,Walter Kannemann,Grêmio,745,12:25
+1001,238,11,1001,2,32:00,77,Brahian Palacios Alzate,Atlético Mineiro Saf,752,12:32
+1002,239,16,1002,2,03:00,48,Luiz Felipe do Nascimento dos Santos  Goianiense Saf,Atlético,723,12:03
+1003,239,16,1003,2,14:00,59,Gabriel Baralhas dos Santos  Goianiense Saf,Atlético,734,12:14
+1004,239,2,1004,2,18:00,63,Matheus Fellipe Costa Pereira,Cruzeiro Saf,738,12:18
+1005,239,16,1005,2,21:00,66,Roni Medeiros de Moura  Goianiense Saf,Atlético,741,12:21
+1006,239,2,1006,2,37:00,82,Cassio Ramos,Cruzeiro Saf,757,12:37
+1007,239,16,1007,2,39:00,84,Emiliano Rodriguez Rosales  Goianiense Saf,Atlético,759,12:39
+1008,240,4,1008,2,29:00,74,Hueglo dos Santos Neris,Vitória,1199,19:59
+1009,240,4,1009,2,38:00,83,Willean Bernardo Willemen,Vitória,1208,20:08
+1010,241,12,1010,1,31:00,31,Marcio Rafael Ferreira de Souza,São Paulo,1141,19:01
+1011,241,12,1011,1,37:00,37,Jonathan Calleri,São Paulo,1147,19:07
+1012,241,12,1012,1,41:00,41,Damian Josue Bobadilla Benitez,São Paulo,1151,19:11
+1013,241,6,1013,2,04:00,49,Thiago dos Santos,Fluminense,1174,19:34
+1014,241,6,1014,2,12:00,57,Facundo Bernal Cruz,Fluminense,1182,19:42
+1015,241,6,1015,2,34:00,79,Marcos da Silva Franca,Fluminense,1204,20:04
+1016,241,6,1016,2,40:00,85,Thiago Emiliano da Silva,Fluminense,1210,20:10
+1017,242,13,1017,1,39:00,39,Tomas Cardona,Fortaleza,1299,21:39
+1018,242,3,1018,1,43:00,43,Gregore de Magalhaes Silva,Botafogo,1303,21:43
+1019,242,13,1019,2,03:00,48,Emanuel Britez,Fortaleza,1323,22:03
+1020,242,3,1020,2,26:00,71,Bartolomeu Jacinto Quissanga,Botafogo,1346,22:26
+1021,242,3,1021,2,45:00,90,Fernando Marcal de Oliveira,Botafogo,1365,22:45
+1022,242,13,1022,2,45:00,90,Pedro Augusto Borges da Costa,Fortaleza,1365,22:45
+1023,243,17,1023,1,07:00,7,Erick Antonio Pulgar Farfan,Flamengo,967,16:07
+1024,243,17,1024,1,16:00,16,Ayrton Lucas Dantas de Medeiros,Flamengo,976,16:16
+1025,243,10,1025,1,20:00,20,Talles Magno Bacelar Martins,Corinthians,980,16:20
+1026,243,10,1026,1,29:00,29,Jose Andres Martinez Torres,Corinthians,989,16:29
+1027,243,10,1027,2,02:00,47,Charles Rigon Matos,Corinthians,1022,17:02
+1028,243,10,1028,2,16:00,61,Angel Rodrigo Romero Villamayor,Corinthians,1036,17:16
+1029,243,17,1029,2,20:00,65,Allan Rodrigues de Souza,Flamengo,1040,17:20
+1030,244,7,1030,1,19:00,19,Jhonatan dos Santos Rosa,Red Bull Bragantino,1129,18:49
+1031,244,1,1031,1,28:00,28,Thaciano Mickael da Silva,Bahia,1138,18:58
+1032,244,7,1032,1,29:00,29,Lincoln Henrique Oliveira dos Santos,Red Bull Bragantino,1139,18:59
+1033,244,1,1033,1,33:00,33,Luciano Batista da Silva Junior,Bahia,1143,19:03
+1034,244,1,1034,2,31:00,76,Victor Hugo Soares dos Santos,Bahia,1201,20:01
+1035,245,14,1035,1,30:00,30,Christian Roberto Alves Cardoso,Athletico Paranaense,1140,19:00
+1036,245,14,1036,1,45:00,45,Agustin Canobbio Graviz,Athletico Paranaense,1155,19:15
+1037,245,5,1037,2,02:00,47,Marcos Luis Rocha Aquino,Palmeiras,1172,19:32
+1038,246,15,1038,2,25:00,70,Fernando Pereira do Nascimento,Cuiabá Saf,1195,19:55
+1039,246,15,1039,2,30:00,75,Isidro Miguel Pitta Saldivar,Cuiabá Saf,1200,20:00
+1040,247,0,1040,1,03:00,3,Thiago Maia Alencar,Internacional,1113,18:33
+1041,247,0,1041,2,22:00,67,Wesley Ribeiro Silva,Internacional,1192,19:52
+1042,247,19,1042,2,30:00,75,Lucas Henrique Barbosa,Juventude,1200,20:00
+1043,248,15,1043,1,12:00,12,Clayson Henrique da Silva Vieira,Cuiabá Saf,1212,20:12
+1044,248,15,1044,1,12:00,12,Isidro Miguel Pitta Saldivar,Cuiabá Saf,1212,20:12
+1045,248,0,1045,1,35:00,35,Gabriel Carvalho Teixeira,Internacional,1235,20:35
+1046,249,12,1046,1,04:00,4,Nahuel Adolfo Ferraresi Hernandez,São Paulo,1114,18:34
+1047,249,2,1047,1,18:00,18,Kaio Jorge Pinto Ramos,Cruzeiro Saf,1128,18:48
+1048,249,2,1048,1,42:00,42,Matheus Henrique de Souza,Cruzeiro Saf,1152,19:12
+1049,249,12,1049,1,42:00,42,Michel Daryl Araujo Villar,São Paulo,1152,19:12
+1050,249,2,1050,2,28:00,73,Gabriel Veron Fonseca de Souza,Cruzeiro Saf,1198,19:58
+1051,250,11,1051,1,22:00,22,Igor Silveira Gomes,Atlético Mineiro Saf,1132,18:52
+1052,250,1,1052,2,34:00,79,Victor Hugo Soares dos Santos,Bahia,1204,20:04
+1053,250,11,1053,2,37:00,82,Everson Felipe Marques Pires,Atlético Mineiro Saf,1207,20:07
+1054,250,11,1054,2,45:00,90,Deyverson Brum Silva,Atlético Mineiro Saf,1215,20:15
+1055,252,3,1055,2,15:00,60,Marlon Rodrigues Freitas,Botafogo,1335,22:15
+1056,252,10,1056,2,43:00,88,Matheus Lima Beltrao Oliveira,Corinthians,1363,22:43
+1057,253,18,1057,2,14:00,59,Luis Eduardo Marques dos Santos,Criciúma,1034,17:14
+1058,253,18,1058,2,15:00,60,Walisson Moreira Farias Maia,Criciúma,1035,17:15
+1059,253,18,1059,2,18:00,63,Tobias Pereira Figueiredo,Criciúma,1038,17:18
+1060,254,7,1060,1,09:00,9,Jadsom Meemyas de Oliveira da Silva,Red Bull Bragantino,969,16:09
+1061,254,7,1061,1,34:00,34,Eduardo Colcenti Antunes,Red Bull Bragantino,994,16:34
+1062,254,7,1062,2,21:00,66,Guilherme Lopes de Almeida,Red Bull Bragantino,1041,17:21
+1063,254,7,1063,2,23:00,68,Jose Andres Hurtado Cheme,Red Bull Bragantino,1043,17:23
+1064,254,7,1064,2,32:00,77,Thiago Nicolas Borbas Silva,Red Bull Bragantino,1052,17:32
+1065,254,9,1065,2,32:00,77,Jemerson de Jesus Nascimento,Grêmio,1052,17:32
+1066,255,13,1066,1,38:00,38,Benjamin Kuscevic Jaramillo,Fortaleza,1148,19:08
+1067,255,14,1067,2,16:00,61,Jo,Athletico Paranaense,1186,19:46
+1068,255,13,1068,2,38:00,83,Joao Ricardo Riedi,Fortaleza,1208,20:08
+1069,255,14,1069,2,45:00,90,Agustin Canobbio Graviz,Athletico Paranaense,1215,20:15
+1070,256,4,1070,1,11:00,11,Alerrandro Barra Mansa Realino de Souza,Vitória,971,16:11
+1071,256,16,1071,1,11:00,11,Luiz Fernando Moraes dos Santos  Goianiense Saf,Atlético,971,16:11
+1072,256,4,1072,1,12:00,12,Lucas Esteves Souza,Vitória,972,16:12
+1073,256,4,1073,1,16:00,16,Gustavo Henric da Silva,Vitória,976,16:16
+1074,256,4,1074,2,07:00,52,Lucas Willians Assis Arcanjo,Vitória,1027,17:07
+1075,256,16,1075,2,09:00,54,Joel Nathaniel Campbell Samuels  Goianiense Saf,Atlético,1029,17:09
+1076,256,16,1076,2,19:00,64,Rhaldney Norberto Simi,Atlético,1039,17:19
+1077,256,4,1077,2,41:00,86,Matheus Martins Fogaca de Paulo,Vitória,1061,17:41
+1078,256,4,1078,2,45:00,90,Willian Osmar de Oliveira Silva,Vitória,1065,17:45
+1079,257,19,1079,1,08:00,8,Jadson Alves dos Santos,Juventude,968,16:08
+1080,257,19,1080,1,16:00,16,Anderson Luis de Carvalho,Juventude,976,16:16
+1081,257,6,1081,1,33:00,33,Facundo Bernal Cruz,Fluminense,993,16:33
+1082,257,6,1082,2,07:00,52,Marcelo Vieira da Silva Junior,Fluminense,1027,17:07
+1083,257,6,1083,2,16:00,61,Thiago dos Santos,Fluminense,1036,17:16
+1084,257,19,1084,2,19:00,64,Gilberto Oliveira Souza Junior,Juventude,1039,17:19
+1085,257,6,1085,2,31:00,76,Fabio Deivson Lopes Maciel,Fluminense,1051,17:31
+1086,258,9,1086,2,34:00,79,Joao Pedro Maturano dos Santos,Grêmio,1204,20:04
+1087,259,7,1087,2,24:00,69,Arthur Sousa Araujo,Red Bull Bragantino,1044,17:24
+1088,259,7,1088,2,36:00,81,Eduardo Gonzaga Mendes Santos,Red Bull Bragantino,1056,17:36
+1089,259,11,1089,2,38:00,83,Everson Felipe Marques Pires,Atlético Mineiro Saf,1058,17:38
+1090,259,7,1090,2,39:00,84,Matheus Fernandes Siqueira,Red Bull Bragantino,1059,17:39
+1091,260,19,1091,1,20:00,20,Jose Marcos Alves Luis,Juventude,980,16:20
+1092,260,4,1092,1,38:00,38,Carlos Eduardo Ferreira de Souza,Vitória,998,16:38
+1093,260,4,1093,2,04:00,49,Matheus Martins Fogaca de Paulo,Vitória,1024,17:04
+1094,260,19,1094,2,12:00,57,Lucas Henrique Barbosa,Juventude,1032,17:12
+1095,261,6,1095,2,37:00,82,Felipe Melo de Carvalho,Fluminense,1207,20:07
+1096,262,5,1096,2,29:00,74,Richard Rios Montoya,Palmeiras,1049,17:29
+1097,263,10,1097,1,04:00,4,Jose Andres Martinez Torres,Corinthians,964,16:04
+1098,263,16,1098,1,28:00,28,Gonzalo Gaston Freitas Silva  Goianiense Saf,Atlético,988,16:28
+1099,263,16,1099,1,31:00,31,Joel Nathaniel Campbell Samuels  Goianiense Saf,Atlético,991,16:31
+1100,263,10,1100,1,34:00,34,Breno de Souza Bidon,Corinthians,994,16:34
+1101,263,10,1101,2,03:00,48,Igor Caique Coronado,Corinthians,1023,17:03
+1102,263,16,1102,2,13:00,58,Luiz Fernando Moraes dos Santos  Goianiense Saf,Atlético,1033,17:13
+1103,264,12,1103,2,14:00,59,Erick de Arruda Serafim,São Paulo,1184,19:44
+1104,264,12,1104,2,33:00,78,William Gomes Carvalho Santos,São Paulo,1203,20:03
+1105,264,12,1105,2,38:00,83,Jonathan Calleri,São Paulo,1208,20:08
+1106,264,12,1106,2,44:00,89,Rodrigo Nestor Bertalia,São Paulo,1214,20:14
+1107,265,13,1107,1,17:00,17,Matheus Rossetto,Fortaleza,1277,21:17
+1108,265,1,1108,1,19:00,19,Jean Lucas de Souza Oliveira,Bahia,1279,21:19
+1109,265,13,1109,1,40:00,40,Juan Martin Lucero,Fortaleza,1300,21:40
+1110,266,2,1110,1,39:00,39,Fabrizio Jose Peralta Ramirez,Cruzeiro Saf,1149,19:09
+1111,267,18,1111,1,08:00,8,Bolasie Yala,Criciúma,1208,20:08
+1112,267,14,1112,2,28:00,73,Gabriel Girotto Franco,Athletico Paranaense,1288,21:28
+1113,267,18,1113,2,39:00,84,Tobias Pereira Figueiredo,Criciúma,1299,21:39
+1114,268,4,1114,1,35:00,35,Luiz Filipe da Rosa Machado,Vitória,1145,19:05
+1115,268,0,1115,2,09:00,54,Thiago Maia Alencar,Internacional,1179,19:39
+1116,268,0,1116,2,22:00,67,Enner Remberto Valencia Lastra,Internacional,1192,19:52
+1117,268,0,1117,2,25:00,70,Fernando Francisco Reges,Internacional,1195,19:55
+1118,270,18,1118,2,07:00,52,Allano Brendon de Souza Lima,Criciúma,1177,19:37
+1119,270,1,1119,2,35:00,80,Everton Augusto de Barros Ribeiro,Bahia,1205,20:05
+1120,270,18,1120,2,42:00,87,Arthur Caike do Nascimento Cruz,Criciúma,1212,20:12
+1121,271,17,1121,1,26:00,26,Gabriel Barbosa Almeida,Flamengo,1226,20:26
+1122,271,14,1122,1,26:00,26,Mateo Gamarra Gonzalez,Athletico Paranaense,1226,20:26
+1123,271,17,1123,1,36:00,36,David Luiz Moreira Marinho,Flamengo,1236,20:36
+1124,271,14,1124,2,34:00,79,Christian Roberto Alves Cardoso,Athletico Paranaense,1294,21:34
+1125,272,3,1125,1,11:00,11,Bartolomeu Jacinto Quissanga,Botafogo,1271,21:11
+1126,272,9,1126,2,20:00,65,Mathias Adalberto Villasanti Rolon,Grêmio,1340,22:20
+1127,272,9,1127,2,37:00,82,Walter Kannemann,Grêmio,1357,22:37
+1128,272,3,1128,2,40:00,85,Luiz Henrique Andre Rosa da Silva,Botafogo,1360,22:40
+1129,272,9,1129,2,42:00,87,Agustin Federico Marchesin,Grêmio,1362,22:42
+1130,273,5,1130,1,24:00,24,Fabio Silva de Freitas,Palmeiras,1134,18:54
+1131,273,11,1131,1,25:00,25,Rubens Antonio Dias,Atlético Mineiro Saf,1135,18:55
+1132,273,11,1132,1,44:00,44,Igor Silveira Gomes,Atlético Mineiro Saf,1154,19:14
+1133,274,10,1133,1,27:00,27,Fagner Conserva Lemos,Corinthians,987,16:27
+1134,274,12,1134,1,38:00,38,Luciano da Rocha Neves,São Paulo,998,16:38
+1135,274,10,1135,2,02:00,47,Igor Caique Coronado,Corinthians,1022,17:02
+1136,274,12,1136,2,06:00,51,Marcio Rafael Ferreira de Souza,São Paulo,1026,17:06
+1137,274,10,1137,2,18:00,63,Charles Rigon Matos,Corinthians,1038,17:18
+1138,274,12,1138,2,23:00,68,Alan Javier Franco,São Paulo,1043,17:23
+1139,274,10,1139,2,40:00,85,Pedro Henrique Konzen Medina da Silva,Corinthians,1060,17:40
+1140,274,12,1140,2,42:00,87,Nahuel Adolfo Ferraresi Hernandez,São Paulo,1062,17:42
+1141,275,15,1141,1,16:00,16,Fernando Pereira do Nascimento,Cuiabá Saf,976,16:16
+1142,275,13,1142,2,10:00,55,Mario Sergio Santos Costa,Fortaleza,1030,17:10
+1143,275,15,1143,2,17:00,62,Denilson Alves Borges,Cuiabá Saf,1037,17:17
+1144,275,13,1144,2,26:00,71,Emanuel Britez,Fortaleza,1046,17:26
+1145,275,15,1145,2,41:00,86,Alan Pereira Empereur,Cuiabá Saf,1061,17:41
+1146,276,6,1146,1,30:00,30,Marcos da Silva Franca,Fluminense,990,16:30
+1147,277,19,1147,1,21:00,21,Luis Felipe Oyama,Juventude,681,11:21
+1148,277,7,1148,1,23:00,23,Jhonatan dos Santos Rosa,Red Bull Bragantino,683,11:23
+1149,277,7,1149,2,04:00,49,Eduardo Colcenti Antunes,Red Bull Bragantino,724,12:04
+1150,277,7,1150,2,10:00,55,Matheus Fernandes Siqueira,Red Bull Bragantino,730,12:10
+1151,277,7,1151,2,33:00,78,Douglas Mendes Moreira,Red Bull Bragantino,753,12:33
+1152,277,7,1152,2,44:00,89,Cleiton Schwengber,Red Bull Bragantino,764,12:44
+1153,278,13,1153,1,35:00,35,Eros Nazareno Mancuso,Fortaleza,1325,22:05
+1154,278,13,1154,2,23:00,68,Juan Martin Lucero,Fortaleza,1373,22:53
+1155,278,9,1155,2,40:00,85,Joao Pedro Maturano dos Santos,Grêmio,1390,23:10
+1156,278,9,1156,2,42:00,87,Douglas Moreira Fagundes,Grêmio,1392,23:12
+1157,278,13,1157,2,45:00,90,Benjamin Kuscevic Jaramillo,Fortaleza,1395,23:15
+1158,279,11,1158,1,25:00,25,Bruno de Lara Fuchs,Atlético Mineiro Saf,1015,16:55
+1159,280,1,1159,2,15:00,60,Everaldo Stum,Bahia,1215,20:15
+1160,280,17,1160,2,21:00,66,Bruno Henrique Pinto,Flamengo,1221,20:21
+1161,280,1,1161,2,25:00,70,Neuciano de Jesus Gusmao,Bahia,1225,20:25
+1162,280,17,1162,2,27:00,72,Leonardo Pereira,Flamengo,1227,20:27
+1163,280,1,1163,2,27:00,72,Caio Alexandre Sousa E Silva,Bahia,1227,20:27
+1164,280,1,1164,2,43:00,88,Victor Hugo Soares dos Santos,Bahia,1243,20:43
+1165,280,17,1165,2,45:00,90,Allan Rodrigues de Souza,Flamengo,1245,20:45
+1166,281,6,1166,1,25:00,25,Victor Hugo Ramos de Souza,Fluminense,1315,21:55
+1167,281,6,1167,1,43:00,43,Marcos da Silva Franca,Fluminense,1333,22:13
+1168,281,6,1168,2,17:00,62,Jhon Adolfo Arias Andrade,Fluminense,1367,22:47
+1169,281,6,1169,2,20:00,65,Kau,Fluminense,1370,22:50
+1170,281,2,1170,2,22:00,67,Walace Souza Silva,Cruzeiro Saf,1372,22:52
+1171,281,6,1171,2,35:00,80,Marcelo Vieira da Silva Junior,Fluminense,1385,23:05
+1172,281,2,1172,2,37:00,82,Alvaro Martin Barreal,Cruzeiro Saf,1387,23:07
+1173,281,6,1173,2,44:00,89,Gabriel Rafael Fuentes G,Fluminense,1394,23:14
+1174,282,19,1174,2,30:00,75,Jose Marcos Alves Luis,Juventude,1350,22:30
+1175,283,0,1175,1,40:00,40,Thiago Maia Alencar,Internacional,1180,19:40
+1176,283,10,1176,1,43:00,43,Andre Martin Carrillo Diaz,Corinthians,1183,19:43
+1177,283,0,1177,2,08:00,53,Clayton Sampaio Pereira,Internacional,1208,20:08
+1178,283,10,1178,2,09:00,54,Breno de Souza Bidon,Corinthians,1209,20:09
+1179,283,10,1179,2,16:00,61,Carlos de Menezes Junior,Corinthians,1216,20:16
+1180,283,0,1180,2,23:00,68,Alexandro Ezequiel Bernabei,Internacional,1223,20:23
+1181,283,10,1181,2,27:00,72,Yuri Alberto Monteiro da Silva,Corinthians,1227,20:27
+1182,283,10,1182,2,27:00,72,Memphis Depay,Corinthians,1227,20:27
+1183,284,5,1183,1,27:00,27,Agustin Giay,Palmeiras,1017,16:57
+1184,284,5,1184,1,40:00,40,Richard Rios Montoya,Palmeiras,1030,17:10
+1185,284,7,1185,2,19:00,64,Ivan Ricardo Neves Abreu Cavaleiro,Red Bull Bragantino,1069,17:49
+1186,285,3,1186,1,42:00,42,Gregore de Magalhaes Silva,Botafogo,1032,17:12
+1187,285,14,1187,2,29:00,74,Madson Ferreira dos Santos,Athletico Paranaense,1079,17:59
+1188,285,14,1188,2,30:00,75,Kaique Rocha Lima,Athletico Paranaense,1080,18:00
+1189,285,3,1189,2,39:00,84,Danilo Barbosa da Silva,Botafogo,1089,18:09
+1190,285,3,1190,2,45:00,90,Francisco das Chagas Soares dos Santos,Botafogo,1095,18:15
+1191,286,15,1191,1,18:00,18,Lucas Fernandes da Silva,Cuiabá Saf,1158,19:18
+1192,286,12,1192,1,20:00,20,Andre Oliveira Silva,São Paulo,1160,19:20
+1193,286,12,1193,1,37:00,37,Robert Abel Arboleda Escobar,São Paulo,1177,19:37
+1194,286,15,1194,2,32:00,77,Matheus Alexandre Anastacio de Souza,Cuiabá Saf,1232,20:32
+1195,287,16,1195,1,29:00,29,Pedro Felipe de Faria Rangel  Goianiense Saf,Atlético,1169,19:29
+1196,287,16,1196,2,25:00,70,Alejo Cruz Techera  Goianiense Saf,Atlético,1225,20:25
+1197,287,16,1197,2,31:00,76,Alix Vinicius de Souza Sampaio  Goianiense Saf,Atlético,1231,20:31
+1198,287,18,1198,2,43:00,88,Allano Brendon de Souza Lima,Criciúma,1243,20:43
+1199,287,16,1199,2,45:00,90,Luiz Fernando Moraes dos Santos  Goianiense Saf,Atlético,1245,20:45
+1200,288,9,1200,1,37:00,37,Douglas Moreira Fagundes,Grêmio,997,16:37
+1201,288,0,1201,1,44:00,44,Alexandro Ezequiel Bernabei,Internacional,1004,16:44
+1202,288,9,1202,2,25:00,70,Rodrigo Ely,Grêmio,1045,17:25
+1203,288,9,1203,2,28:00,73,Diego da Silva Costa,Grêmio,1048,17:28
+1204,289,1,1204,1,28:00,28,Everton Augusto de Barros Ribeiro,Bahia,1318,21:58
+1205,289,1,1205,2,13:00,58,Luciano Batista da Silva Junior,Bahia,1363,22:43
+1206,289,2,1206,2,28:00,73,Matheus Fellipe Costa Pereira,Cruzeiro Saf,1378,22:58
+1207,290,4,1207,1,30:00,30,Wagner Leonardo Calvelo de Souza,Vitória,990,16:30
+1208,290,7,1208,1,40:00,40,Jadsom Meemyas de Oliveira da Silva,Red Bull Bragantino,1000,16:40
+1209,290,4,1209,2,02:00,47,Hueglo dos Santos Neris,Vitória,1022,17:02
+1210,291,17,1210,1,22:00,22,Bruno Henrique Pinto,Flamengo,1222,20:22
+1211,291,6,1211,1,44:00,44,Samuel Xavier Brito,Fluminense,1244,20:44
+1212,291,6,1212,2,17:00,62,Matheus Martinelli Lima,Fluminense,1277,21:17
+1213,291,6,1213,2,26:00,71,Paulo Henrique Chagas de Lima,Fluminense,1286,21:26
+1214,292,18,1214,2,10:00,55,Allano Brendon de Souza Lima,Criciúma,1270,21:10
+1215,293,14,1215,1,25:00,25,Thiago Heleno Henrique Ferreira,Athletico Paranaense,1225,20:25
+1216,293,10,1216,1,25:00,25,Memphis Depay,Corinthians,1225,20:25
+1217,293,14,1217,1,43:00,43,Julimar Silva Oliveira Junior,Athletico Paranaense,1243,20:43
+1218,293,14,1218,2,08:00,53,Lucas Belezi Barbosa,Athletico Paranaense,1268,21:08
+1219,293,10,1219,2,14:00,59,Yuri Alberto Monteiro da Silva,Corinthians,1274,21:14
+1220,294,12,1220,2,20:00,65,Welington Damascena Santos,São Paulo,1385,23:05
+1221,295,13,1221,2,07:00,52,Bruno de Jesus Pacheco,Fortaleza,1372,22:52
+1222,295,11,1222,2,14:00,59,Brahian Palacios Alzate,Atlético Mineiro Saf,1379,22:59
+1223,295,11,1223,2,36:00,81,Paulo Vitor Monteiro,Atlético Mineiro Saf,1401,23:21
+1224,295,11,1224,2,42:00,87,Caio da Silva Maia,Atlético Mineiro Saf,1407,23:27
+1225,296,15,1225,1,34:00,34,Railan Reis Ferreira,Cuiabá Saf,1174,19:34
+1226,296,16,1226,2,12:00,57,Gabriel Baralhas dos Santos  Goianiense Saf,Atlético,1212,20:12
+1227,296,15,1227,2,23:00,68,Lucas da Silva Izidoro,Cuiabá Saf,1223,20:23
+1228,296,15,1228,2,26:00,71,Max Alves da Silva,Cuiabá Saf,1226,20:26
+1229,297,5,1229,1,30:00,30,Marcos Luis Rocha Aquino,Palmeiras,1230,20:30
+1230,297,5,1230,2,07:00,52,Anibal Ismael Moreno,Palmeiras,1267,21:07
+1231,297,5,1231,2,26:00,71,Gustavo Raul Gomez Portillo,Palmeiras,1286,21:26
+1232,297,5,1232,2,28:00,73,Richard Rios Montoya,Palmeiras,1288,21:28
+1233,297,5,1233,2,29:00,74,Mayke Rocha de Oliveira,Palmeiras,1289,21:29
+1234,297,19,1234,2,33:00,78,Jadson Alves dos Santos,Juventude,1293,21:33
+1235,298,9,1235,1,18:00,18,Jemerson de Jesus Nascimento,Grêmio,1008,16:48
+1236,298,16,1236,1,21:00,21,Luiz Fernando Moraes dos Santos  Goianiense Saf,Atlético,1011,16:51
+1237,298,16,1237,1,29:00,29,Adriano Martins da Fonseca  Goianiense Saf,Atlético,1019,16:59
+1238,298,16,1238,1,33:00,33,Derek Freitas Ribeiro  Goianiense Saf,Atlético,1023,17:03
+1239,298,9,1239,1,45:00,45,Martin Christensen Braithwaite,Grêmio,1035,17:15
+1240,298,16,1240,2,20:00,65,Luiz Felipe do Nascimento dos Santos  Goianiense Saf,Atlético,1070,17:50
+1241,298,16,1241,2,37:00,82,Janderson Santos de Souza  Goianiense Saf,Atlético,1087,18:07
+1242,299,0,1242,1,04:00,4,Thiago Maia Alencar,Internacional,1144,19:04
+1243,299,11,1243,1,13:00,13,Eduardo Jesus Vargas Rojas,Atlético Mineiro Saf,1153,19:13
+1244,299,11,1244,1,17:00,17,Igor Silveira Gomes,Atlético Mineiro Saf,1157,19:17
+1245,299,0,1245,1,20:00,20,Wesley Ribeiro Silva,Internacional,1160,19:20
+1246,299,11,1246,2,21:00,66,Gustavo Henrique Furtado Scarpa,Atlético Mineiro Saf,1221,20:21
+1247,299,11,1247,2,21:00,66,Alisson Santana Lopes da Fonseca,Atlético Mineiro Saf,1221,20:21
+1248,299,11,1248,2,25:00,70,Mariano Ferreira Filho,Atlético Mineiro Saf,1225,20:25
+1249,300,6,1249,1,26:00,26,Thiago dos Santos,Fluminense,1016,16:56
+1250,300,4,1250,1,28:00,28,Raul Alejandro Caceres Bogado,Vitória,1018,16:58
+1251,300,4,1251,1,35:00,35,Gustavo Henric da Silva,Vitória,1025,17:05
+1252,300,4,1252,2,02:00,47,Alerrandro Barra Mansa Realino de Souza,Vitória,1052,17:32
+1253,300,4,1253,2,41:00,86,Leonardo Naldi de Matos,Vitória,1091,18:11
+1254,300,6,1254,2,45:00,90,Vinicius Moreira de Lima,Fluminense,1095,18:15
+1255,301,19,1255,2,05:00,50,Joao Lucas de Almeida Carvalho,Juventude,1055,17:35
+1256,301,19,1256,2,29:00,74,Anderson Luis de Carvalho,Juventude,1079,17:59
+1257,301,19,1257,2,42:00,87,Davi Goes Silva Ferreira Carvalho,Juventude,1092,18:12
+1258,301,17,1258,2,45:00,90,Giorgian Daniel de Arrascaeta Benedetti,Flamengo,1095,18:15
+1259,302,1,1259,1,24:00,24,Gabriel Lheman Xavier,Bahia,1284,21:24
+1260,302,1,1260,2,05:00,50,Thaciano Mickael da Silva,Bahia,1325,22:05
+1261,303,5,1261,1,18:00,18,Mayke Rocha de Oliveira,Palmeiras,1008,16:48
+1262,303,13,1262,1,24:00,24,Eros Nazareno Mancuso,Fortaleza,1014,16:54
+1263,303,13,1263,2,27:00,72,Christian Chagas Tarouco,Fortaleza,1077,17:57
+1264,303,13,1264,2,30:00,75,Juan Martin Lucero,Fortaleza,1080,18:00
+1265,304,7,1265,2,13:00,58,Jadsom Meemyas de Oliveira da Silva,Red Bull Bragantino,1213,20:13
+1266,305,2,1266,1,22:00,22,Fabrizio Jose Peralta Ramirez,Cruzeiro Saf,1132,18:52
+1267,305,2,1267,2,05:00,50,Jose Ivaldo Almeida Silva,Cruzeiro Saf,1175,19:35
+1268,306,15,1268,2,02:00,47,Ramon Ramos Lima,Cuiabá Saf,1202,20:02
+1269,306,15,1269,2,09:00,54,Filipe Augusto Carvalho Souza,Cuiabá Saf,1209,20:09
+1270,306,15,1270,2,18:00,63,Fernando Pereira do Nascimento,Cuiabá Saf,1218,20:18
+1271,306,10,1271,2,24:00,69,Raniele Almeida Melo,Corinthians,1224,20:24
+1272,306,15,1272,2,37:00,82,Marllon Goncalves Jeronimo Borges,Cuiabá Saf,1237,20:37
+1273,307,18,1273,1,39:00,39,Newton Araujo da Costa Junior,Criciúma,1299,21:39
+1274,307,18,1274,2,44:00,89,Jonathan Francisco Lemos,Criciúma,1364,22:44

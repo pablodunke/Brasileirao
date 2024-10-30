@@ -9,7 +9,7 @@ from codigo.Graficos            import              exibeGraficos
 from codigo.Selenium            import              baixaPDFs
 
 #converteCSVs()
-#exibeGraficos
+exibeGraficos()
 
 #for rodada in range(17, 39):
     #baixaPDFs('2024', 'Campeonato Brasileiro - Série A', str(rodada))
