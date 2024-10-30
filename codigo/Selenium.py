@@ -5,52 +5,71 @@
 # @createdDate 2024/10/30
 
 import os
+import requests
+from io import BytesIO
+from PyPDF2 import PdfReader
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by       import      By
+from selenium.webdriver.support.ui      import      Select
+from selenium.webdriver.support.ui      import      WebDriverWait
+from selenium.webdriver.support         import      expected_conditions as EC
 from time import sleep
 
-def baixaPDFs():
+from codigo.Extrator                    import      extrai1Valor, extrai2Valores, extrai3Valores
 
-    download_dir = "../download"
+def baixaPDFs(pAno, pCampeonato, pRodada):
 
     chrome_options = webdriver.ChromeOptions()
-    prefs = {
-        "download.default_directory": download_dir,
-        "download.prompt_for_download": False,
-        "download.directory_upgrade": True,
-        "safebrowsing.enabled": True
-    }
-
-    chrome_options.add_experimental_option("prefs", prefs)
-
     driver = webdriver.Chrome(options=chrome_options)
 
     url = 'https://portaldegovernanca.cbf.com.br/documentos-da-partida'
     driver.get(url)
-
-    # Espera e seleciona a primeira opção
     wait = WebDriverWait(driver, 10)
+
+    # Seleciona o ano
     select1 = wait.until(EC.presence_of_element_located((By.ID, 'ano')))
-    Select(select1).select_by_visible_text('2024')
-    sleep(2)
+    Select(select1).select_by_visible_text(pAno)
+    sleep(1)
 
-    # Espera e seleciona a segunda opção
+    # Seleciona o campeonato
     select2 = wait.until(EC.presence_of_element_located((By.ID, 'campeonato')))
-    Select(select2).select_by_visible_text('Campeonato Brasileiro - Série A')
-    sleep(2)
+    Select(select2).select_by_visible_text(pCampeonato)
+    sleep(1)
 
-    # Espera e seleciona a terceira opção
+    # Seleciona a rodada
     select3 = wait.until(EC.presence_of_element_located((By.ID, 'rodada')))
-    Select(select3).select_by_visible_text('22')
-    sleep(2)
+    Select(select3).select_by_visible_text(pRodada)
+    sleep(1)
 
-    # Clica no link para iniciar o download
-    link = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, 'Súmula')))
-    print(link)
-    sleep(2)
-    link.click()
+    # Pega o link
+    #links = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, 'Súmula')))
+    links = driver.find_elements(By.LINK_TEXT, 'Súmula')
+    sleep(1)
+
+    for link in links:
+
+        pdf_url = link.get_attribute("href")
+        print(pdf_url)
+
+        if(pdf_url != None):
+
+            response = requests.get(pdf_url)
+            pdf_data = BytesIO(response.content)
+
+            pdf_reader = PdfReader(pdf_data)
+
+            first_page = pdf_reader.pages[0]
+            first_page_text = first_page.extract_text()
+            linhas = first_page_text.split('\n')
+
+            jogo = linhas[1].split(' CBF')[0].split('Jogo: ')[1]
+            srodada = "{:03}".format(int(jogo))
+
+            times = extrai1Valor(linhas[4], 'Jogo')
+
+            nome_arquivo = srodada + ' - ' + times.replace(' / ', ' ')
+
+            with open(f"download/{nome_arquivo}.pdf", "wb") as file:
+                file.write(response.content)
 
     # driver.quit()
