@@ -1,22 +1,22 @@
-id,nome,estado
-0,Internacional,RS
-1,Bahia,BA
-2,Cruzeiro Saf,MG
-3,Botafogo,RJ
-4,Vitória,BA
-5,Palmeiras,SP
-6,Fluminense,RJ
-7,Red Bull Bragantino,SP
-8,Vasco da Gama S.a.f.,RJ
-9,Grêmio,RS
-10,Corinthians,SP
-11,Atlético Mineiro Saf,MG
-12,São Paulo,SP
-13,Fortaleza,CE
-14,Athletico Paranaense,PR
-15,Cuiabá Saf,MT
-16,Atlético,GO
-17,Flamengo,RJ
-18,Criciúma,SC
-19,Juventude,RS
-20,Atlético Goianiense Saf,GO
+id,nome,estado,completo
+0,Internacional,RS,Internacional/RS
+1,Bahia,BA,Bahia/BA
+2,Cruzeiro Saf,MG,Cruzeiro Saf/MG
+3,Botafogo,RJ,Botafogo/RJ
+4,Vitória,BA,Vitória/BA
+5,Palmeiras,SP,Palmeiras/SP
+6,Fluminense,RJ,Fluminense/RJ
+7,Red Bull Bragantino,SP,Red Bull Bragantino/SP
+8,Vasco da Gama S.a.f.,RJ,Vasco da Gama S.a.f./RJ
+9,Grêmio,RS,Grêmio/RS
+10,Corinthians,SP,Corinthians/SP
+11,Atlético Mineiro Saf,MG,Atlético Mineiro Saf/MG
+12,São Paulo,SP,São Paulo/SP
+13,Fortaleza,CE,Fortaleza/CE
+14,Athletico Paranaense,PR,Athletico Paranaense/PR
+15,Cuiabá Saf,MT,Cuiabá Saf/MT
+16,Atlético,GO,Atlético/GO
+17,Flamengo,RJ,Flamengo/RJ
+18,Criciúma,SC,Criciúma/SC
+19,Juventude,RS,Juventude/RS
+20,Atlético Goianiense Saf,GO,Atlético Goianiense Saf/GO

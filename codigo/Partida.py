@@ -16,6 +16,8 @@ class Partida:
         self.estadio = ''
         self.casa = ''
         self.visitante = ''
+        self.numAmarelos = 0
+        self.numVermelhos = 0
 
 def adicionaPartida(partidas, pnome):
     partidas.append(Partida(len(partidas), pnome))

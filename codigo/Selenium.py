@@ -10,6 +10,7 @@ from io import BytesIO
 from PyPDF2 import PdfReader
 from selenium import webdriver
 from selenium.webdriver.common.by       import      By
+from selenium.webdriver.chrome.service  import      Service
 from selenium.webdriver.support.ui      import      Select
 from selenium.webdriver.support.ui      import      WebDriverWait
 from selenium.webdriver.support         import      expected_conditions as EC
@@ -20,7 +21,15 @@ from codigo.Extrator                    import      extrai1Valor, extrai2Valores
 def baixaPDFs(pAno, pCampeonato, pRodada):
 
     chrome_options = webdriver.ChromeOptions()
-    driver = webdriver.Chrome(options=chrome_options)
+
+    # Caminho para o chromedriver no cache
+    driver_path = r"C:\Users\Pablo\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe"
+
+    # Configurando o serviço com o caminho do chromedriver
+    service = Service(driver_path)
+
+    # Iniciando o WebDriver com o serviço configurado
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     url = 'https://portaldegovernanca.cbf.com.br/documentos-da-partida'
     driver.get(url)
@@ -61,6 +70,9 @@ def baixaPDFs(pAno, pCampeonato, pRodada):
             first_page = pdf_reader.pages[0]
             first_page_text = first_page.extract_text()
             linhas = first_page_text.split('\n')
+
+            #print('Ué')
+            #print(linhas[1])
 
             jogo = linhas[1].split(' CBF')[0].split('Jogo: ')[1]
             srodada = "{:03}".format(int(jogo))

@@ -8,6 +8,7 @@ class Time:
         self.id = pid
         self.nome = pnome
         self.estado = pestado
+        self.completo = pnome + "/" + pestado
 
 def adicionaTime(times, pnome, pestado):
     for time in times:
