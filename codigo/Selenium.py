@@ -20,6 +20,8 @@ from codigo.Extrator                    import      extrai1Valor, extrai2Valores
 
 def baixaPDFs(pAno, pCampeonato, pRodada):
 
+    pCampeonato = pCampeonato.replace("_", " ")
+
     chrome_options = webdriver.ChromeOptions()
 
     # Caminho para o chromedriver no cache
@@ -79,7 +81,7 @@ def baixaPDFs(pAno, pCampeonato, pRodada):
 
             times = extrai1Valor(linhas[4], 'Jogo')
 
-            nome_arquivo = srodada + ' - ' + times.replace(' / ', ' ')
+            nome_arquivo = pCampeonato + ' ' + pAno + ' ' + srodada + ' - ' + times.replace(' / ', ' ')
 
             with open(f"download/{nome_arquivo}.pdf", "wb") as file:
                 file.write(response.content)

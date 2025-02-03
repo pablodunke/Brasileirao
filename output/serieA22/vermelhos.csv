@@ -1,0 +1,131 @@
+id,partidaId,timeId,jogadorId,tempo,minuto,minutoGeral,jogador,time,horarioInt,horarioString
+0,8,17,58,1,44:00,44,Marlon Matheus Lopes do Nascimento -,América Fc Saf,1184,19:44
+1,8,17,59,2,50:00,95,Matheus Leonardo Sales Cardoso -,América Fc Saf,1250,20:50
+2,10,10,69,1,38:00,38,Paulo Roberto Moccelin -,Juventude,1178,19:38
+3,16,7,106,2,48:00,93,Vinicius Moreira de Lima -,Ceará,1248,20:48
+4,22,4,141,2,45:00,90,Rogerio Ceni -,São Paulo,1095,18:15
+5,25,10,153,2,37:00,82,Vitor Mendes Alves -,Juventude,1177,19:37
+6,26,12,164,1,19:00,19,Luis Antonio Ferreira Rodrigues -,Fortaleza,1249,20:49
+7,26,12,165,1,19:00,19,Gaston Ricardo Liendo -,Fortaleza,1249,20:49
+8,28,16,179,1,25:00,25,Andrew Erik Feitosa -,Avaí,1225,20:25
+9,36,11,229,2,48:00,93,Ramon Ramos Lima -,Red Bull Bragantino,1098,18:18
+10,39,2,245,2,5:00,50,André Trindade da Costa Neto -,Fluminense,1025,17:05
+11,40,17,254,2,41:00,86,Felipe Azevedo dos Santos -,América Fc Saf,1091,18:11
+12,43,6,269,2,27:00,72,Joao Miguel Barreto Martins -,Palmeiras,1047,17:27
+13,47,19,296,1,25:00,25,Henrique Lordelo Souza de Oliveira -,Goiás,985,16:25
+14,52,13,325,2,29:00,74,Jonathan Renato Barbosa -,Cuiabá Saf,1049,17:29
+15,54,12,335,1,39:00,39,Brayan Andres Ceballos Jimenez -,Fortaleza,1119,18:39
+16,58,10,359,2,16:00,61,Francisco Hyun Sol Kim -,Juventude,1156,19:16
+17,58,10,360,2,39:00,84,Paulo Roberto Moccelin -,Juventude,1179,19:39
+18,59,17,368,1,39:00,39,Iago Justen Maidana Martins -,América Fc Saf,1089,18:09
+19,64,7,394,2,19:00,64,Richard Candido Coelho -,Ceará,1189,19:49
+20,67,18,408,2,40:00,85,Henrique Adriano Buss -,Coritiba,1090,18:10
+21,67,18,409,2,48:00,93,Luciano Castan da Silva -,Coritiba,1098,18:18
+22,68,13,420,2,22:00,67,Luiz Fernando Iubel -,Cuiabá Saf,1342,22:22
+23,68,13,421,2,36:00,81,Rafael Gustavo Meneghel Gava -,Cuiabá Saf,1356,22:36
+24,68,13,422,2,35:00,80,Joao Lucas de Almeida Carvalho -,Cuiabá Saf,1355,22:35
+25,70,16,437,2,40:00,85,Douglas Alan Schuck Friedrich -,Avaí,1240,20:40
+26,71,2,446,2,47:00,92,David Braz de Oliveira Filho -,Fluminense,1187,19:47
+27,71,15,447,2,47:00,92,Rodinei Marcelo de Almeida -,Flamengo,1187,19:47
+28,72,4,457,2,44:00,89,Igor Silveira Gomes -,São Paulo,1244,20:44
+29,74,6,467,2,49:00,94,PFMarco Aurelio Schiavo Reis -,Palmeiras,1069,17:49
+30,77,11,482,2,47:00,92,Eric dos Santos Rodrigues -,Red Bull Bragantino,1097,18:17
+31,79,18,499,2,49:00,94,TGJose Luiz Baptista de Leao -,Coritiba,1069,17:49
+32,82,1,514,2,50:00,95,MDGuilherme Velho Caputo -,Internacional,1250,20:50
+33,85,2,532,2,48:00,93,Gustavo Nonato Santana -,Fluminense,768,12:48
+34,85,2,533,2,22:00,67,MDRicardo Reiniger Olivero -,Fluminense,742,12:22
+35,92,11,576,2,22:00,67,Luan Candido de Almeida -,Red Bull Bragantino,1312,21:52
+36,94,3,582,1,45:00,45,Lucas Gabriel Ochandorena -,Santos,1335,22:15
+37,96,12,593,2,44:00,89,TGNahuel Dario Martinez -,Fortaleza,1304,21:44
+38,97,16,599,2,50:00,95,Diego Daniel Rodrigues de Matos -,Avaí,1340,22:20
+39,98,13,603,2,46:00,91,Wanderson Ferreira de Oliveira -,Cuiabá Saf,1396,23:16
+40,100,3,618,2,15:00,60,Lucas Pires Silva -,Santos,1215,20:15
+41,101,2,624,1,20:00,20,David Braz de Oliveira Filho -,Fluminense,1160,19:20
+42,104,16,643,2,51:00,96,Bruno Cesar Pereira Silva -,Avaí,1251,20:51
+43,107,7,663,2,35:00,80,Bruno de Jesus Pacheco -,Ceará,1055,17:35
+44,109,18,673,2,26:00,71,Thonny Anderson da Silva Carvalho -,Coritiba,1166,19:26
+45,110,17,678,1,10:00,10,Alexandre Egea -,América Fc Saf,1300,21:40
+46,113,14,691,2,28:00,73,Arthur Henrique Peixoto Santos -,Atlético,1168,19:28
+47,115,10,705,1,47:00,47,Yuri Oliveira Lima -,Juventude,1337,22:17
+48,119,5,726,2,26:00,71,Hugo Moura Arruda da Silva -,Athletico Paranaense,1376,22:56
+49,119,9,727,2,26:00,71,Roni Medeiros de Moura -,Corinthians,1376,22:56
+50,124,3,754,2,29:00,74,PFSebastiao Martins de Oliveira Junior -,Santos,1349,22:29
+51,124,3,755,2,28:00,73,Fabian Daniel Bustos -,Santos,1348,22:28
+52,126,12,768,2,43:00,88,Juan Pablo Vojvoda -,Fortaleza,1183,19:43
+53,127,10,776,2,4:00,49,William Matheus da Silva -,Juventude,1144,19:04
+54,129,18,790,2,40:00,85,Diego Porfirio da Silva -,Coritiba,1060,17:40
+55,133,9,813,2,37:00,82,TGLuis Miguel Moreira da Silva -,Corinthians,1237,20:37
+56,137,13,838,2,37:00,82,Alan Pereira Empereur -,Cuiabá Saf,1177,19:37
+57,142,11,860,2,49:00,94,Eric dos Santos Rodrigues -,Red Bull Bragantino,1309,21:49
+58,143,6,866,2,45:00,90,Gabriel Vinicius Menino -,Palmeiras,1365,22:45
+59,146,1,883,2,44:00,89,Matheus Alfredo Cadorini da Silva -,Internacional,1244,20:44
+60,149,18,901,2,38:00,83,Nathan Gabriel de Souza Mendes -,Coritiba,1178,19:38
+61,153,9,919,1,35:00,35,Vitor Manuel de Oliveira Lopes Pereira -,Corinthians,995,16:35
+62,158,13,943,2,21:00,66,Bruno Amorim Lazaroni -,Cuiabá Saf,1221,20:21
+63,158,8,944,2,47:00,92,Daniel Fortunato Borges -,Botafogo,1247,20:47
+64,158,8,945,2,26:00,71,Hugo Gonçalves Ferreira Neto -,Botafogo,1226,20:26
+65,171,10,1007,1,38:00,38,Jadson Alves dos Santos -,Juventude,1268,21:08
+66,175,4,1033,1,33:00,33,Charles Alexandre Patrice Francis Hembert -,São Paulo,1263,21:03
+67,181,2,1057,2,51:00,96,Marrony da Silva Liberato Silveira -,Fluminense,1071,17:51
+68,182,19,1065,1,45:00,45,PFEdnilson de Sena Goes -,Goiás,1185,19:45
+69,189,18,1094,2,43:00,88,Thonny Anderson da Silva Carvalho -,Coritiba,1303,21:43
+70,191,14,1103,2,40:00,85,Luiz Fernando Moraes dos Santos -,Atlético,1330,22:10
+71,196,7,1123,2,4:00,49,Richardson Fernandes dos Santos -,Ceará,1054,17:34
+72,197,18,1127,2,40:00,85,Egidio de Araujo Pereira Junior -,Coritiba,1090,18:10
+73,206,12,1173,1,29:00,29,Jose Romario Silva de Souza -,Fortaleza,1109,18:29
+74,214,8,1202,2,16:00,61,Philipe Sampaio Azevedo -,Botafogo,1336,22:16
+75,217,19,1216,2,39:00,84,Savio Antonio Alves -,Goiás,1089,18:09
+76,218,10,1227,2,48:00,93,Vitor Benedito Leque da Silva -,Juventude,1338,22:18
+77,227,14,1263,1,44:00,44,Lucas Xavier Gazal -,Atlético,1124,18:44
+78,228,1,1271,1,28:00,28,Luiz Antonio Venker Menezes -,Internacional,1228,20:28
+79,237,14,1305,2,11:00,56,Hayner Willian Monjardim Cordeiro -,Atlético,1061,17:41
+80,237,19,1306,2,34:00,79,Caio Vinicius da Conceicao -,Goiás,1084,18:04
+81,241,7,1328,2,18:00,63,Joao Alves de Assis Silva -,Ceará,738,12:18
+82,241,15,1329,2,48:00,93,Gabriel Barbosa Almeida -,Flamengo,768,12:48
+83,248,13,1369,1,45:00,45,Bruno Amorim Lazaroni -,Cuiabá Saf,1185,19:45
+84,248,4,1370,2,9:00,54,Welington Damascena Santos -,São Paulo,1209,20:09
+85,248,4,1371,2,36:00,81,TGOctavio Jose Bittencourt Ambrogi Kalil Ohl -,São Paulo,1236,20:36
+86,250,0,1377,2,49:00,94,PFCristiano Garcia Nunes -,Atlético Mineiro,1129,18:49
+87,251,12,1381,1,45:00,45,Gaston Ricardo Liendo -,Fortaleza,1185,19:45
+88,258,5,1419,2,5:00,50,Vitor Hugo Naum dos Santos -,Athletico Paranaense,725,12:05
+89,259,14,1429,2,39:00,84,Eduardo Alexandre Baptista -,Atlético,1059,17:39
+90,261,2,1440,1,5:00,5,David Braz de Oliveira Filho -,Fluminense,965,16:05
+91,261,2,1441,2,42:00,87,Manoel Messias Silva Carvalho -,Fluminense,1062,17:42
+92,261,15,1442,2,42:00,87,Mario Sergio Santos Costa -,Flamengo,1062,17:42
+93,261,15,1443,2,45:00,90,Everton Sousa Soares -,Flamengo,1065,17:45
+94,261,2,1444,2,45:00,90,Caio Fernando de Oliveira -,Fluminense,1065,17:45
+95,263,6,1458,2,14:00,59,Danilo dos Santos de Oliveira -,Palmeiras,1184,19:44
+96,263,6,1459,2,47:00,92,Abel Fernando Moreira Ferreira -,Palmeiras,1217,20:17
+97,266,7,1479,1,38:00,38,Luiz Otavio Anacleto Leandro -,Ceará,998,16:38
+98,266,7,1480,2,39:00,84,Jose Roberto Assunçao de Araujo Filho -,Ceará,1059,17:39
+99,269,13,1499,1,46:00,46,Paulo Marcos de Jesus Ribeiro -,Cuiabá Saf,1186,19:46
+100,280,2,1558,2,17:00,62,Manoel Messias Silva Carvalho -,Fluminense,977,16:17
+101,281,11,1560,1,4:00,4,Luan Candido de Almeida -,Red Bull Bragantino,1144,19:04
+102,284,6,1578,2,23:00,68,Jose Rafael Vivian -,Palmeiras,1283,21:23
+103,294,3,1637,2,44:00,89,Nathan Santos de Araújo -,Santos,1394,23:14
+104,294,0,1638,2,41:00,86,TGRogerio Maia de Brum -,Atlético Mineiro,1391,23:11
+105,296,7,1650,2,15:00,60,Vinicius Goes Barbosa de Souza -,Ceará,1215,20:15
+106,302,4,1683,2,44:00,89,Leonardo Pinheiro da Conceicao -,São Paulo,1064,17:44
+107,309,18,1712,1,3:00,3,Warley Leandro da Silva -,Coritiba,1083,18:03
+108,310,12,1717,2,28:00,73,Caio Alexandre Sousa E Silva -,Fortaleza,1318,21:58
+109,312,11,1729,2,52:00,97,Lucas Evangelista Santana de Oliveira -,Red Bull Bragantino,1312,21:52
+110,313,4,1738,2,45:00,90,Lucas Lopes Beraldo -,São Paulo,1065,17:45
+111,313,4,1739,1,44:00,44,Nahuel Adolfo Ferraresi Hernandez -,São Paulo,1004,16:44
+112,316,13,1761,2,5:00,50,Igor Aquino da Silva -,Cuiabá Saf,1025,17:05
+113,324,9,1794,1,43:00,43,Yuri Alberto Monteiro da Silva -,Corinthians,1183,19:43
+114,324,3,1795,2,14:00,59,Lucas Henrique Barbosa -,Santos,1214,20:14
+115,336,18,1854,2,42:00,87,Guillermo Gabriel de Los Santos Viana -,Coritiba,1242,20:42
+116,337,19,1860,2,13:00,58,MDIgor de Castro Aquino -,Goiás,1378,22:58
+117,339,5,1872,2,15:00,60,Tomas Esteban Cuello -,Athletico Paranaense,1380,23:00
+118,342,0,1883,2,50:00,95,Avlamir Dirceo Stival -,Atlético Mineiro,1400,23:20
+119,346,7,1901,2,12:00,57,Cleber Bomfim de Jesus -,Ceará,1272,21:12
+120,351,4,1922,2,46:00,91,Marcio Rafael Ferreira de Souza -,São Paulo,1096,18:16
+121,355,5,1946,2,45:00,90,Thiago Heleno Henrique Ferreira -,Athletico Paranaense,1365,22:45
+122,356,14,1954,2,29:00,74,Luiz Fernando Moraes dos Santos -,Atlético,1049,17:29
+123,358,13,1969,1,48:00,48,Antonio José Cardoso de Oliveira -,Cuiabá Saf,1158,19:18
+124,361,19,1989,2,41:00,86,Fellipe Ramos Ignez Bastos -,Goiás,1241,20:41
+125,361,19,1990,2,6:00,51,Adailson Freire Pereira da Silva -,Goiás,1206,20:06
+126,369,9,2046,1,37:00,37,Bruno Mendez Cittadini -,Corinthians,1177,19:37
+127,369,9,2047,1,38:00,38,Vitor Manuel de Oliveira Lopes Pereira -,Corinthians,1178,19:38
+128,370,14,2054,1,38:00,38,Willian Marlon Ferreira Moraes -,Atlético,998,16:38
+129,378,18,2095,2,2:00,47,Alef Mangueira Severino Pereira -,Coritiba,1022,17:02

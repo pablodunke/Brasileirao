@@ -13,6 +13,8 @@ class Partida:
         self.data = ''
         self.horario = ''
         self.horarioInt = -1
+        self.horas = ''
+        self.periodo = ''
         self.estadio = ''
         self.casa = ''
         self.visitante = ''

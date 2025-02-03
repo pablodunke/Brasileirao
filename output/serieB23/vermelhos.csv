@@ -1,0 +1,131 @@
+id,partidaId,timeId,jogadorId,tempo,minuto,minutoGeral,jogador,time,horarioInt,horarioString
+0,1,3,10,1,20:00,20,Reverson Valuarth Paiva Silva -,Novorizontino,980,16:20
+1,1,3,11,2,49:00,94,MGAndre Baesso Rodrigues -,Novorizontino,1069,17:49
+2,11,13,65,2,18:00,63,Emerson Raymundo Santos -,Atlético,1068,17:48
+3,12,8,75,2,28:00,73,Thalisson Kelven da Silva -,Mirassol,1048,17:28
+4,12,1,76,2,57:00,102,João Vitor Xavier de Almeida -,Avaí,1077,17:57
+5,14,3,95,2,45:00,90,Roberto Heuchayer Santos de Araujo -,Novorizontino,1125,18:45
+6,16,7,105,2,43:00,88,Tiago Pagnussat -,Ceará,1198,19:58
+7,18,6,115,2,49:00,94,MDAlexandre Goncalves Santoro -,Ituano,769,12:49
+8,19,17,119,1,46:00,46,Felipe Garcia Goncalves -,Abc,1126,18:46
+9,22,1,145,1,42:00,42,Rafael Gustavo Meneghel Gava -,Avaí,1182,19:42
+10,23,18,150,2,10:00,55,Lucas de Oliveira Teodoro Falcao -,Crb,1090,18:10
+11,27,11,174,2,53:00,98,Jose Luiz Sant'ana -,Ponte Preta,1133,18:53
+12,30,15,195,2,12:00,57,Marcio Gleyson Leite da Silva -,Botafogo,1212,20:12
+13,39,12,244,2,19:00,64,TGCelio Jose Rossi -,Sampaio Corrêa,1219,20:19
+14,41,13,258,1,17:00,17,Airton Moises Santos Sousa -,Atlético,1217,20:17
+15,46,14,284,2,47:00,92,Emerson Gustavo Pinto dos Santos -,Juventude,1202,20:02
+16,46,12,285,1,45:00,45,Venicius dos Santos Cascais -,Sampaio Corrêa,1140,19:00
+17,48,5,302,2,14:00,59,Joao Pedro Mendes Santos -,Tombense,1169,19:29
+18,48,1,303,2,37:00,82,Victor Julio Alves de Paula -,Avaí,1192,19:52
+19,51,4,323,1,48:00,48,Eder Citadin Martins -,Criciúma,1188,19:48
+20,51,4,324,2,32:00,77,Rodrigo Fagundes de Freitas -,Criciúma,1232,20:32
+21,52,1,332,1,3:00,3,Felipe Florencio da Silva -,Avaí,1293,21:33
+22,58,11,368,2,1:00,46,Antonio Feliphe Costa Silva -,Ponte Preta,991,16:31
+23,69,18,415,2,19:00,64,Guilherme Kennedy Romao -,Crb,1174,19:34
+24,69,18,416,1,16:00,16,Lucas Eduardo Lima da Silva -,Crb,1111,18:31
+25,72,19,437,2,28:00,73,Luis Fernando Rosa Flores -,Sport,1378,22:58
+26,84,4,503,2,51:00,96,Claudio Coelho Salvatico -,Criciúma,1041,17:21
+27,88,5,523,2,46:00,91,Marcelo Augusto Oliveira Chamusca -,Tombense,1201,20:01
+28,96,7,576,2,54:00,99,Caique de Jesus Goncalves -,Ceará,1254,20:54
+29,97,1,588,2,52:00,97,TGMarcos Vicente dos Santos -,Avaí,1072,17:52
+30,104,0,625,2,35:00,80,Alan Santos da Silva -,Guarani,1235,20:35
+31,106,12,639,2,22:00,67,Marcio Fernandes Figueiredo -,Sampaio Corrêa,1222,20:22
+32,106,16,640,2,25:00,70,Paulo Roberto Moccelin -,Londrina,1225,20:25
+33,107,9,650,2,27:00,72,Gildson Pablo de Oliveira Silva -,Chapecoense,1227,20:27
+34,108,5,656,2,5:00,50,Roger de Carvalho -,Tombense,1205,20:05
+35,110,11,662,1,48:00,48,Fabio Pizarro Sanches -,Ponte Preta,708,11:48
+36,124,8,743,2,23:00,68,Fernando Jose Marques Maciel -,Mirassol,743,12:23
+37,125,14,747,2,13:00,58,Jadson Alves dos Santos -,Juventude,1363,22:43
+38,126,12,754,1,48:00,48,MGMarcos Riccelli Costa Mendes -,Sampaio Corrêa,978,16:18
+39,130,0,776,2,44:00,89,Matheus Bueno Batista -,Guarani,1394,23:14
+40,131,5,786,1,4:00,4,Bruno Cesar Pereira Silva -,Tombense,1294,21:34
+41,136,1,817,2,28:00,73,Natanael Batista Pimenta -,Avaí,1228,20:28
+42,139,17,841,2,2:00,47,Anderson Luiz Valinas dos Santos -,Abc,1202,20:02
+43,139,17,842,2,49:00,94,Felipe Garcia Goncalves -,Abc,1249,20:49
+44,139,13,843,2,31:00,76,Diego Terra Loureiro -,Atlético,1231,20:31
+45,148,9,892,2,39:00,84,Rodrigo dos Santos de Freitas -,Chapecoense,1389,23:09
+46,149,18,900,2,41:00,86,Auremir Evangelista dos Santos -,Crb,1196,19:56
+47,150,16,906,2,40:00,85,Gustavo Salomao Miguel -,Londrina,760,12:40
+48,152,11,922,2,42:00,87,Fabio Pizarro Sanches -,Ponte Preta,1122,18:42
+49,152,1,923,1,5:00,5,Alexander Silva de Lucena -,Avaí,1025,17:05
+50,152,1,924,2,15:00,60,Lucas Baptista Felix -,Avaí,1095,18:15
+51,158,12,955,2,49:00,94,Leandro Ferreira Pessoa -,Sampaio Corrêa,1189,19:49
+52,159,4,959,1,18:00,18,Walisson Moreira Farias Maia -,Criciúma,948,15:48
+53,161,19,965,2,33:00,78,Helber Italo dos Santos -,Sport,1383,23:03
+54,163,15,980,1,31:00,31,Jonas Gabriel da Silva Nunes -,Botafogo,1321,22:01
+55,163,15,981,1,32:00,32,TGMarco Aurelio Tedeschi dos Santos -,Botafogo,1322,22:02
+56,166,6,1008,2,20:00,65,Rafael dos Santos Carvalheira Natividade -,Ituano,1370,22:50
+57,167,17,1015,2,47:00,92,Richardson Jussier Medeiros Cabral -,Abc,767,12:47
+58,173,4,1048,2,23:00,68,Fabio Augusto Luciano da Silva -,Criciúma,1283,21:23
+59,177,9,1073,2,51:00,96,Gustavo Cazonatti -,Chapecoense,1251,20:51
+60,189,11,1144,2,13:00,58,Mateus Ferreira da Silva -,Ponte Preta,1213,20:13
+61,190,11,1151,1,15:00,15,Matheus Sousa de Jesus -,Ponte Preta,1095,18:15
+62,191,12,1157,2,52:00,97,Emerson Oliveira de Almeida -,Sampaio Corrêa,1192,19:52
+63,195,18,1177,2,14:00,59,Anderson Conceição Benedito -,Crb,1364,22:44
+64,197,8,1189,2,53:00,98,Julimar Silva Oliveira Junior -,Mirassol,773,12:53
+65,200,7,1208,2,46:00,91,Luiz Otavio Anacleto Leandro -,Ceará,1396,23:16
+66,207,3,1254,1,43:00,43,Renato Palm da Silveira -,Novorizontino,1333,22:13
+67,207,3,1255,2,50:00,95,Luiz Gabriel de Oliveira Fonseca -,Novorizontino,1400,23:20
+68,207,3,1256,1,45:00,45,PFFabio Rogerio Jacobasso Silva -,Novorizontino,1335,22:15
+69,208,9,1262,2,50:00,95,Gabriel Augusto Xavier -,Chapecoense,1400,23:20
+70,209,13,1266,2,18:00,63,Gabriel Baralhas dos Santos -,Atlético,1368,22:48
+71,217,14,1308,2,12:00,57,Thiago Carpini Barbosa -,Juventude,1152,19:12
+72,222,16,1334,2,12:00,57,Ezequiel Jacinto de Biasi -,Londrina,1002,16:42
+73,224,3,1346,1,27:00,27,Jenison de Jesus Brito E Brito -,Novorizontino,1167,19:27
+74,224,8,1347,1,36:00,36,Jose Roberto Assunçao de Araujo Filho -,Mirassol,1176,19:36
+75,224,3,1348,1,31:00,31,Eduardo Alexandre Baptista -,Novorizontino,1171,19:31
+76,225,10,1358,2,51:00,96,Wellington Silva Sanches Aguiar -,Vitória,1191,19:51
+77,225,10,1359,2,50:00,95,Jhonny Lucas Flora Barboza -,Vitória,1190,19:50
+78,236,11,1414,2,49:00,94,Artur Sergio Batista de Souza -,Ponte Preta,1189,19:49
+79,237,12,1420,1,30:00,30,Rafael da Cunha Jensen -,Sampaio Corrêa,1110,18:30
+80,237,12,1421,1,33:00,33,TGCelio Jose Rossi -,Sampaio Corrêa,1113,18:33
+81,241,10,1447,1,24:00,24,Cleidson Andrade de Souza Silva -,Vitória,1104,18:24
+82,250,0,1499,2,52:00,97,Ben-hur Moreira Peres -,Guarani,1192,19:52
+83,252,1,1518,2,51:00,96,Felipe Mercier de Lucena -,Avaí,1041,17:21
+84,252,1,1519,2,14:00,59,Denilson Pereira Junior -,Avaí,1004,16:44
+85,259,17,1573,2,50:00,95,Alex da Silva -,Abc,1130,18:50
+86,259,17,1574,2,48:00,93,Wallace Madeira Almeida -,Abc,1128,18:48
+87,275,10,1660,1,17:00,17,Renato de Cassio Negrao -,Vitória,1097,18:17
+88,279,17,1685,2,47:00,92,Glebson Robson Barroso de Lira -,Abc,1397,23:17
+89,280,11,1689,2,24:00,69,Jeferson Marinho dos Santos -,Ponte Preta,1224,20:24
+90,282,1,1701,2,5:00,50,Jael Ferreira Vieira -,Avaí,1175,19:35
+91,282,1,1702,2,36:00,81,Igor Inocencio de Oliveira -,Avaí,1206,20:06
+92,289,18,1747,2,40:00,85,Daniel Pollo Barion -,Crb,1120,18:40
+93,292,1,1764,2,49:00,94,Felipe Jose Almeida da Rocha -,Avaí,1249,20:49
+94,293,6,1770,2,23:00,68,Marcel Philipe Afonso Genestra Scalese -,Ituano,1103,18:23
+95,303,15,1826,2,54:00,99,Jose Edson Barros da Silva -,Botafogo,1134,18:54
+96,311,15,1875,1,42:00,42,Marcelo Augusto Oliveira Chamusca -,Botafogo,1332,22:12
+97,311,15,1876,1,23:00,23,Luis Felipe Rocha Davi Alves -,Botafogo,1313,21:53
+98,312,4,1878,2,22:00,67,Rayan Poltronieri Pereira -,Criciúma,1372,22:52
+99,314,3,1890,2,31:00,76,Georgemy Goncalves -,Novorizontino,1111,18:31
+100,315,0,1895,1,26:00,26,Matheus Bueno Batista -,Guarani,1106,18:26
+101,316,12,1903,2,10:00,55,Mateus Cardoso Francisco -,Sampaio Corrêa,1180,19:40
+102,322,7,1939,2,50:00,95,David Ricardo Loiola da Silva -,Ceará,1190,19:50
+103,330,0,1981,1,34:00,34,Lucas Cavalcante Silva Afonso -,Guarani,1324,22:04
+104,331,13,1987,2,19:00,64,Bruno Nunes de Barros -,Atlético,1219,20:19
+105,331,2,1988,2,36:00,81,Luciano Francisco Paulino -,Vila Nova,1236,20:36
+106,336,19,2019,2,21:00,66,Ronaldo Henrique Ferreira da Silva -,Sport,1221,20:21
+107,338,18,2027,2,25:00,70,Anselmo Ramon Alves Herculano -,Crb,1195,19:55
+108,346,12,2077,1,39:00,39,Erinaldo Santos Rabelo -,Sampaio Corrêa,1209,20:09
+109,347,6,2085,1,42:00,42,Claudio de Souza -,Ituano,1332,22:12
+110,347,6,2086,1,42:00,42,MDAlexandre Goncalves Santoro -,Ituano,1332,22:12
+111,348,0,2091,2,49:00,94,Alan Santos da Silva -,Guarani,1399,23:19
+112,348,16,2092,2,37:00,82,Paulo Roberto Moccelin -,Londrina,1387,23:07
+113,348,16,2093,1,45:00,45,TGEdson Luiz da Silva -,Londrina,1335,22:15
+114,352,18,2118,1,23:00,23,Daniel dos Santos Cerqueira -,Crb,1043,17:23
+115,355,19,2130,2,48:00,93,TGJorcey Anisio Garcia Santos -,Sport,1398,23:18
+116,356,8,2135,2,49:00,94,Rodrigo Eduardo da Silva -,Mirassol,1054,17:34
+117,357,15,2139,2,11:00,56,Lucas Vinicius Dias Costa -,Botafogo,1091,18:11
+118,359,14,2151,1,12:00,12,Jadson Alves dos Santos -,Juventude,1302,21:42
+119,359,17,2152,2,31:00,76,Jhonnathan Espedito Coco Wagner -,Abc,1381,23:01
+120,361,7,2167,2,36:00,81,Bruno Ferreira Ventura Diniz -,Ceará,1116,18:36
+121,363,9,2178,2,40:00,85,Cristiano da Silva Leite -,Chapecoense,1240,20:40
+122,366,1,2195,2,19:00,64,Felipe Mercier de Lucena -,Avaí,1279,21:19
+123,366,1,2196,1,8:00,8,Jonathan Aparecido de Oliveira da Costa -,Avaí,1208,20:08
+124,370,18,2216,1,12:00,12,Fabio Augusto Schirmann -,Crb,1032,17:12
+125,371,0,2219,1,47:00,47,João Victor Lima Ferreira -,Guarani,1067,17:47
+126,371,0,2220,1,34:00,34,Iago Teles da Silva -,Guarani,1054,17:34
+127,371,13,2221,1,47:00,47,Alix Vinicius de Souza Sampaio -,Atlético,1067,17:47
+128,376,14,2246,2,15:00,60,Luiz Gustavo Tavares Conde -,Juventude,1095,18:15
+129,377,9,2255,2,24:00,69,Gustavo Cazonatti -,Chapecoense,1104,18:24

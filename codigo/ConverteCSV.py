@@ -15,10 +15,13 @@ from codigo.Campeonato          import Campeonato,          adicionaCampeonato
 from codigo.Gol                 import Gol,                 adicionaGol, imprimeGols
 from codigo.Jogador             import Jogador,             adicionaJogador, imprimeJogadores
 from codigo.Partida             import Partida,             adicionaPartida, imprimePartidas, imprimeHorarioPartidas
-from codigo.Time                import Time,                adicionaTime, imprimeTimes
+from codigo.Time                import Time,                adicionaTime, imprimeTimes, buscaTime
 
-from codigo.CSV                 import                      imprimeCSV
+from codigo.Impressao           import                      imprimeCSV
 from codigo.Extrator            import                      extrai1Valor, extrai2Valores, extrai3Valores
+
+from analise.Basica             import                      basicaDescribe, basicaHistograma, basicaRelacionamento, basicaPorPeriodo
+from analise.Estatistica        import                      basicaNormalidade, basicaAnova, basicaKruskal, powerAnalysis
 
 Amarelos = []
 Vermelhos = []
@@ -30,24 +33,13 @@ Jogadores = []
 Partidas = []
 Times = []
 
-def buscaTime(linha, times):
+def converteCSVs(campeonato):
 
-    for time in times:
+    if campeonato == "":
+        campeonato = "dados"
 
-        if time.completo in linha:
-            return time.id
+    pasta = "pdfs/" + campeonato + "/";
 
-        #if linha.endswith(time.nome):
-            #return time.id
-
-        #elif re.search(r"\b" + re.escape(time.nome) + r"\b", linha):
-            #return time.id
-
-    return None
-
-def converteCSVs():
-
-    pasta = 'dados'
     arquivos = os.listdir(pasta)
     for pdf in [arquivo for arquivo in arquivos if arquivo.endswith('.pdf')]:
 
@@ -66,15 +58,19 @@ def converteCSVs():
                 texto = pagina.extract_text()
                 linhas = texto.split('\n')
 
-                if(pagina_num == 0):
-                
+                if pagina_num == 0:
+
+                    start = 0
+                    while linhas[start][0:5] != "Jogo:":
+                        start = start + 1
+
                     # Extrai as informacoes iniciais
-                    cbf = extrai1Valor(linhas[1], 'Jogo')
-                    camp, rodada = extrai2Valores(linhas[3], 'Campeonato', 'Rodada')
-                    data, horario, estadio = extrai3Valores(linhas[5], 'Data', 'Horário', 'Estádio')
+                    cbf = extrai1Valor(linhas[start], 'Jogo')
+                    camp, rodada = extrai2Valores(linhas[start + 2], 'Campeonato', 'Rodada')
+                    data, horario, estadio = extrai3Valores(linhas[start + 4], 'Data', 'Horário', 'Estádio')
 
                     # Extrai e cria o arbitro
-                    arbitroString = extrai1Valor(linhas[7], 'Arbitro')
+                    arbitroString = extrai1Valor(linhas[start + 6], 'Arbitro')
                     arbitroGrupo = re.match(r"(.+?)\s\((.+?)\s\/\s([A-Z]{2})\)", arbitroString)
                     arbitroNome = arbitroGrupo.group(1)
                     arbitroCredencial = arbitroGrupo.group(2)
@@ -85,7 +81,7 @@ def converteCSVs():
                     campeonatoId = adicionaCampeonato(Campeonatos, camp)
 
                     # Cria e preenche a partida
-                    jogo = extrai1Valor(linhas[1], 'Jogo')
+                    jogo = extrai1Valor(linhas[start], 'Jogo')
                     partidaId = adicionaPartida(Partidas, jogo)
                     Partidas[partidaId].campeonatoId = campeonatoId
                     Partidas[partidaId].arbitroId = arbitroId
@@ -98,8 +94,20 @@ def converteCSVs():
                     horas, minutos = horario.split(':')
                     Partidas[partidaId].horarioInt = int(horas) * 60 + int(minutos)
 
+                    Partidas[partidaId].horas = horas
+
+                    ihoras = int(horas)
+                    if ihoras >= 0 and ihoras < 6:
+                        Partidas[partidaId].periodo = 'Madrugada'
+                    elif ihoras >= 6 and ihoras < 12:
+                        Partidas[partidaId].periodo = 'Manha'
+                    elif ihoras >= 12 and ihoras < 18:
+                        Partidas[partidaId].periodo = 'Tarde'
+                    elif ihoras >= 18:
+                        Partidas[partidaId].periodo = 'Noite'
+
                     # Extrai os times
-                    times = extrai1Valor(linhas[4], 'Jogo')
+                    times = extrai1Valor(linhas[start + 3], 'Jogo')
                     time1, time2 = times.split(' X ')
 
                     nome1, estado1 = time1.split(' / ')
@@ -112,16 +120,16 @@ def converteCSVs():
                     Partidas[partidaId].casa = casaId
                     Partidas[partidaId].visitante = visitanteId
 
-                if(pagina_num == 1):
+                if pagina_num == 1:
 
                     num_linhas = len(linhas)
 
                     # Extrai cartoes amarelos
                     current = 0
-                    while(current < num_linhas and linhas[current] != 'Cartões Amarelos'):
+                    while current < num_linhas and linhas[current] != 'Cartões Amarelos':
                         current += 1
 
-                    if(current < num_linhas and linhas[current] == 'Cartões Amarelos'):
+                    if current < num_linhas and linhas[current] == 'Cartões Amarelos':
                         current += 1
 
                         minuto = ''
@@ -130,30 +138,15 @@ def converteCSVs():
                         timeId = -1
 
                         # Enquanto nao se encontra na secao de cartoes vermelhos
-                        while(current < num_linhas and linhas[current] != 'Cartões Vermelhos'):
-
-                            
-                            #print('timeId')
-                            #print(linhas[current])
-                            
+                        while current < num_linhas and linhas[current] != 'Cartões Vermelhos':
 
                             # Busca o time
                             timeId = buscaTime(linhas[current], Times)
 
-                            
-                            #print(timeId)
-
-                            
                             if(timeId != None):
 
                                 # Remove o nome do time da linha e entao extrai o resto
-                                #recorte = linhas[current].replace(Times[timeId].nome+"/"+Times[timeId].estado, "").strip()
-                                #recorte = linhas[current].replace(Times[timeId].nome, "").strip()
-                                
-                                #print(linhas[current])
-
                                 linhaSemTime = linhas[current].replace(" " + Times[timeId].nome + "/" + Times[timeId].estado, "")
-                                #print(linhaSemTime + "!")
 
                                 match = re.search(r"1T|2T|INT", linhaSemTime)
                                 if match:
@@ -169,38 +162,111 @@ def converteCSVs():
                                         numero = "".join([c for c in resto if c.isdigit()])
                                         nome = resto[len(numero):]
 
-                                    #print("bom")
-                                    #print(minuto + "!")
-                                    #print(tempo + "!")
-                                    #print(numero + "!")
-                                    #print(nome + "!")
-
                                     if minuto[0:1] == "+":
-                                        #print("###################")
-                                        #print(minuto[1:3])
-                                        #print(int(minuto[1:3]))
                                         acrescimo = 45 + int(minuto[1:3])
                                         minuto = str(acrescimo) + ":00"
 
+                                    itempo = 0
+                                    if tempo == "1T":
+                                        itempo = 1
+                                    elif tempo == "INT":
+                                        itempo = 1
+                                        minuto = "45:00"
+                                    elif tempo == "2T":
+                                        itempo = 2
+                                    
                                     # Cria o jogador e o cartao amarelo
                                     jogadorId = adicionaJogador(Jogadores, nome, numero)
-                                    amareloId = adicionaAmarelo(Amarelos, partidaId, timeId, jogadorId, int(tempo[0]), minuto)
-
-                                    # Define o horario em minutos desde a meia noite
-                                    #horas, minutos = horario.split(':')
-                                    #Amarelos[amareloId].horarioInt = int(horas) * 60 + int(minutos)
+                                    amareloId = adicionaAmarelo(Amarelos, partidaId, timeId, jogadorId, itempo, minuto)
 
                                     # Complementa tabela de amarelos
                                     Amarelos[amareloId].jogador = Jogadores[jogadorId].nome
                                     Amarelos[amareloId].time = Times[timeId].nome
 
                                     sMinutos, sSegundos = minuto.split(':')
-                                    Amarelos[amareloId].horarioInt = Partidas[partidaId].horarioInt + (int(sMinutos)) + ((int(tempo[0]) - 1) * 60)
+                                    Amarelos[amareloId].horarioInt = Partidas[partidaId].horarioInt + (int(sMinutos)) + ((itempo - 1) * 60)
                                     Amarelos[amareloId].horarioString = f"{Amarelos[amareloId].horarioInt // 60:02}:{Amarelos[amareloId].horarioInt % 60:02}"
 
                                     Partidas[partidaId].numAmarelos = Partidas[partidaId].numAmarelos + 1
 
                             current += 1
+
+                        if current < num_linhas and linhas[current] == 'Cartões Vermelhos':
+
+                            current = current + 1
+
+                            if current < num_linhas and linhas[current] == 'NÃO HOUVE EXPULSÕES':
+                                pula = 1
+                            elif current == num_linhas:
+                                print("Terminou")
+                            else:
+
+                                while current < num_linhas:
+
+                                    current = current + 1
+                                    if current < num_linhas:
+
+                                        # Busca o time
+                                        timeId = buscaTime(linhas[current], Times)
+
+                                        if timeId != None:
+
+                                            # Remove o nome do time da linha e entao extrai o resto
+                                            linhaSemTime = linhas[current].replace(" " + Times[timeId].nome + "/" + Times[timeId].estado, "")
+
+                                            match = re.search(r"1T|2T|INT", linhaSemTime)
+                                            if match:
+
+                                                minuto = linhaSemTime[0:match.start() - 1]
+                                                #print('minuto')
+                                                #print(minuto)
+
+                                                tempo = linhaSemTime[match.start():match.end()]
+
+                                                resto = linhaSemTime[match.end():len(linhaSemTime)]
+
+                                                if resto[0:2] == "AT" or resto[0:2] == "TC":
+                                                    numero = resto[0:2]
+                                                    nome = resto[2:len(resto)]
+                                                else:
+                                                    numero = "".join([c for c in resto if c.isdigit()])
+                                                    nome = resto[len(numero):]
+
+                                                if minuto[0:1] == "+":
+                                                    if minuto[3:4] == ":":
+                                                        acrescimo = 45 + int(minuto[1:3])
+                                                        minuto = str(acrescimo) + ":00"
+                                                    elif minuto [2:3] == ":":
+                                                        acrescimo = 45 + int(minuto[1:2])
+                                                        minuto = str(acrescimo) + ":00"
+
+                                                itempo = 0
+
+                                                if tempo == "1T":
+                                                    itempo = 1
+                                                elif tempo == "INT":
+                                                    itempo = 1
+                                                    minuto = "45:00"
+                                                elif tempo == "2T":
+                                                    itempo = 2
+                                    
+                                                # Cria o jogador e o cartao vermelho
+                                                jogadorId = adicionaJogador(Jogadores, nome, numero)
+                                                vermelhoId = adicionaAmarelo(Vermelhos, partidaId, timeId, jogadorId, itempo, minuto)
+
+                                                # Complementa tabela de vermelhos
+                                                Vermelhos[vermelhoId].jogador = Jogadores[jogadorId].nome
+                                                Vermelhos[vermelhoId].time = Times[timeId].nome
+
+                                                sMinutos, sSegundos = minuto.split(':')
+                                                Vermelhos[vermelhoId].horarioInt = Partidas[partidaId].horarioInt + (int(sMinutos)) + ((itempo - 1) * 60)
+                                                Vermelhos[vermelhoId].horarioString = f"{Vermelhos[vermelhoId].horarioInt // 60:02}:{Vermelhos[vermelhoId].horarioInt % 60:02}"
+
+                                                Partidas[partidaId].numVermelhos = Partidas[partidaId].numVermelhos + 1
+
+
+
+                        
 
                 """
                 for l in range(num_linhas):
@@ -213,16 +279,17 @@ def converteCSVs():
                                 current += 1
                 """
 
-    #imprimeArbitros(Arbitros)
-    #imprimeGols(Gols, Partidas, Times, Jogadores)
-    #imprimeJogadores(Jogadores)
-    #imprimePartidas(Partidas, Arbitros)
-    #imprimeHorarioPartidas(Partidas)
-    #imprimeTimes(Times)
+    imprimeCSV(campeonato, "amarelos", Amarelos)
 
-    imprimeCSV("amarelos", Amarelos)
-    imprimeCSV("arbitros", Arbitros)
-    #imprimeCSV("gols", Gols)
-    imprimeCSV("jogadores", Jogadores)
-    imprimeCSV("partidas", Partidas)
-    imprimeCSV("times", Times)
+    if len(Vermelhos) > 0:
+        imprimeCSV(campeonato, "vermelhos", Vermelhos)
+
+    imprimeCSV(campeonato, "arbitros", Arbitros)
+    #imprimeCSV(campeonato, "gols", Gols)
+    imprimeCSV(campeonato, "jogadores", Jogadores)
+    imprimeCSV(campeonato, "partidas", Partidas)
+    imprimeCSV(campeonato, "times", Times)
+
+    basicaDescribe(campeonato, "numAmarelos")
+    print("...")
+    basicaDescribe(campeonato, "numVermelhos")

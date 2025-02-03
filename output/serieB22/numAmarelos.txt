@@ -1,0 +1,31 @@
+Describe
+count    380.000000
+mean       4.839474
+std        2.128589
+min        0.000000
+25%        3.000000
+50%        5.000000
+75%        6.000000
+max       12.000000
+Sem elementos:
+3
+Média:
+horas
+11    4.225806
+16    5.043478
+17    6.000000
+18    4.133333
+19    4.794872
+20    4.600000
+21    5.237113
+Name: numAmarelos, dtype: float64
+Total:
+horas
+11     31
+16     69
+17      1
+18     30
+19    117
+20     35
+21     97
+Name: numAmarelos, dtype: int64

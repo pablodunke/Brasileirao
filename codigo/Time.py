@@ -21,3 +21,10 @@ def adicionaTime(times, pnome, pestado):
 def imprimeTimes(times):
     for time in times:
         print('Time ' + time.nome + ' do estado de ' + time.estado + '.')
+
+def buscaTime(linha, times):
+    for time in times:
+        if time.completo in linha:
+            return time.id
+
+    return None

@@ -1,0 +1,31 @@
+Describe
+count    380.000000
+mean       0.365789
+std        0.645985
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        1.000000
+max        3.000000
+Sem elementos:
+271
+Média:
+horas
+11    0.111111
+16    0.450980
+17    0.666667
+18    0.432432
+19    0.174603
+20    0.327586
+21    0.394366
+Name: numVermelhos, dtype: float64
+Total:
+horas
+11      9
+16    102
+17      3
+18     74
+19     63
+20     58
+21     71
+Name: numVermelhos, dtype: int64
