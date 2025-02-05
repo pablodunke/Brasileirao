@@ -6,6 +6,33 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
+
+def exibeCampeonatos(pasta, planilha):
+
+    # Carregar o DataFrame
+    df = pd.read_csv("output/" + pasta + "/" + planilha + ".csv")
+
+    # Garantir que a coluna rodada está como inteiro
+    df["rodada"] = df["rodada"].astype(int)
+
+    # Ordenar por campeonato e rodada
+    df = df.sort_values(["campeonatoId", "rodada"])
+
+    # Criar uma contagem acumulada de cartões por campeonato
+    df["cartoes_acumulados"] = df.groupby("campeonatoId").cumcount() + 1
+
+    # Criar o gráfico
+    plt.figure(figsize=(10, 5))
+    sns.lineplot(data=df, x="rodada", y="cartoes_acumulados", hue="campeonatoId", marker="o")
+
+    # Personalizar eixos
+    plt.xlabel("Rodada")
+    plt.ylabel("Cartões Acumulados")
+    plt.title("Evolução dos Cartões ao Longo do Campeonato")
+    plt.legend(title="Campeonato ID")
+    plt.grid(True)
+    plt.show()
 
 def exibeGraficos():
 

@@ -7,11 +7,11 @@
 import sys
 
 from codigo.ConverteCSV         import              converteCSVs
-from codigo.Graficos            import              exibeGraficos
+from codigo.Graficos            import              exibeGraficos, exibeCampeonatos
 from codigo.Selenium            import              baixaPDFs
 
 from analise.Basica             import              basicaDescribe, basicaHistograma, basicaRelacionamento, basicaPorPeriodo
-from analise.Estatistica        import              basicaNormalidade, basicaAnova, basicaKruskal, powerAnalysis
+from analise.Estatistica        import              basicaNormalidade, basicaAnova, basicaKruskal, basicaPermutacao, basicaRegressao, basicaPoisson, powerAnalysis
 
 if len(sys.argv) < 2:
     print("Faltou o argumento!")
@@ -32,6 +32,8 @@ elif sys.argv[1] == "converteCSVs":
     converteCSVs(sys.argv[2])
 elif sys.argv[1] == "exibeGraficos":
     exibeGraficos()
+elif sys.argv[1] == "exibeCampeonatos":
+    exibeCampeonatos(sys.argv[2], sys.argv[3])
 elif sys.argv[1] == "basicaDescribe":
     basicaDescribe(sys.argv[2], sys.argv[3])
 elif sys.argv[1] == "basicaHistograma":
@@ -46,6 +48,12 @@ elif sys.argv[1] == "basicaAnova":
     basicaAnova(sys.argv[2], sys.argv[3])
 elif sys.argv[1] == "basicaKruskal":
     basicaKruskal(sys.argv[2], sys.argv[3])
+elif sys.argv[1] == "basicaPermutacao":
+    basicaPermutacao(sys.argv[2], sys.argv[3])
+elif sys.argv[1] == "basicaRegressao":
+    basicaRegressao(sys.argv[2], sys.argv[3])
+elif sys.argv[1] == "basicaPoisson":
+    basicaPoisson(sys.argv[2], sys.argv[3])
 elif sys.argv[1] == "powerAnalysis":
     powerAnalysis(sys.argv[2], sys.argv[3])
 else:

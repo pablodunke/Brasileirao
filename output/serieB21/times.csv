@@ -1,0 +1,22 @@
+id,nome,estado,completo
+0,Vasco da Gama,RJ,Vasco da Gama/RJ
+1,Operário,PR,Operário/PR
+2,Vila Nova,GO,Vila Nova/GO
+3,Botafogo,RJ,Botafogo/RJ
+4,Guarani,SP,Guarani/SP
+5,Vitória,BA,Vitória/BA
+6,Náutico,PE,Náutico/PE
+7,Csa,AL,Csa/AL
+8,Brasil,RS,Brasil/RS
+9,Londrina,PR,Londrina/PR
+10,Crb,AL,Crb/AL
+11,Remo,PA,Remo/PA
+12,Coritiba,PR,Coritiba/PR
+13,Avaí,SC,Avaí/SC
+14,Brusque,SC,Brusque/SC
+15,Ponte Preta,SP,Ponte Preta/SP
+16,Confiança,SE,Confiança/SE
+17,Cruzeiro,MG,Cruzeiro/MG
+18,Sampaio Corrêa,MA,Sampaio Corrêa/MA
+19,Goiás,GO,Goiás/GO
+20,CRB,AL,CRB/AL

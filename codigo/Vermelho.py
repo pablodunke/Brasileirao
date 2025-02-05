@@ -4,17 +4,24 @@
 # @createdDate 2024/10/29
 
 class Vermelho:
-    def __init__(self, pId, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
+    def __init__(self, pId, pCampeonatoId, pRodada, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
         self.id = pId
+        self.campeonatoId = pCampeonatoId
+        self.rodada = pRodada.strip()
         self.partidaId = pPartidaId
         self.timeId = pTimeId
         self.jogadorId = pJogadorId
         self.tempo = pTempo
         self.minuto = pMinuto
-        self.minutoGeral = int(pMinuto[:2]) + ((pTempo - 1) * 45)
 
-def adicionaVermelho(vermelhos, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
-    vermelhos.append(Vermelho(len(vermelhos), pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto))
+        minuto = pMinuto[:2]
+        if pMinuto[1:2] == ":":
+            minuto = pMinuto[:1]
+
+        self.minutoGeral = int(minuto) + ((pTempo - 1) * 45)
+
+def adicionaVermelho(vermelhos, pCampeonatoId, pRodada, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
+    vermelhos.append(Vermelho(len(vermelhos), pCampeonatoId, pRodada, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto))
     return len(vermelhos) - 1
 
 def imprimeVermelhos(vermelhos, jogadores):

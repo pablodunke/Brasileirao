@@ -177,7 +177,7 @@ def converteCSVs(campeonato):
                                     
                                     # Cria o jogador e o cartao amarelo
                                     jogadorId = adicionaJogador(Jogadores, nome, numero)
-                                    amareloId = adicionaAmarelo(Amarelos, partidaId, timeId, jogadorId, itempo, minuto)
+                                    amareloId = adicionaAmarelo(Amarelos, campeonatoId, rodada, partidaId, timeId, jogadorId, itempo, minuto)
 
                                     # Complementa tabela de amarelos
                                     Amarelos[amareloId].jogador = Jogadores[jogadorId].nome
@@ -252,7 +252,7 @@ def converteCSVs(campeonato):
                                     
                                                 # Cria o jogador e o cartao vermelho
                                                 jogadorId = adicionaJogador(Jogadores, nome, numero)
-                                                vermelhoId = adicionaAmarelo(Vermelhos, partidaId, timeId, jogadorId, itempo, minuto)
+                                                vermelhoId = adicionaVermelho(Vermelhos, campeonatoId, rodada, partidaId, timeId, jogadorId, itempo, minuto)
 
                                                 # Complementa tabela de vermelhos
                                                 Vermelhos[vermelhoId].jogador = Jogadores[jogadorId].nome
@@ -289,6 +289,7 @@ def converteCSVs(campeonato):
     imprimeCSV(campeonato, "jogadores", Jogadores)
     imprimeCSV(campeonato, "partidas", Partidas)
     imprimeCSV(campeonato, "times", Times)
+    imprimeCSV(campeonato, "campeonatos", Campeonatos)
 
     basicaDescribe(campeonato, "numAmarelos")
     print("...")

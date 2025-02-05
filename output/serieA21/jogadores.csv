@@ -1,0 +1,1920 @@
+id,nome,cbf
+0,Guilherme de Aguiar Camacho,20
+1,Roni Medeiros de Moura,29
+2,Ramiro Moschen Benetti,8
+3,Angelo Giovani Araos Llanos,21
+4,Luan Guilherme de Jesus Vieira,7
+5,Marlon Rodrigues Freitas,8
+6,Nathanael Ananias da Silva,3
+7,Willian Marlon Ferreira Moraes,5
+8,Reinaldo Manoel da Silva,6
+9, Alejandro Gabriel Kohan,
+10,Yago Felipe da Costa Rocha,20
+11, Roger Machado Marques,
+12,Abel Mathias Hernandez Platero,32
+13,Allan Rodrigues de Souza,29
+14,Igor Rabello da Costa,16
+15,Lucas de Figueiredo Crispim,10
+16,Wellington Pereira do Nascimento,9
+17,Felipe Alves Raymundo,12
+18,Ederson Jose dos Santos Lourenco da Silva,13
+19,Carlos Eugenio Junior Tavares dos Santos,10
+20,Rafael Thyere de Albuquerque Marques,15
+21,Lucas Ribeiro dos Santos,14
+22,Mauricio Magalhaes Prado,27
+23,Moises Roberto Barbosa,20
+24,Carlosalonso Enrique Palacios Nunez,16
+25,Thiago dos Santos,5
+26,Pedro Tonon Geromel,3
+27, Clesly Evandro Guimaraes,
+28,Jhonata Robert Alves da Silva,25
+29,Messias Rodrigues da Silva Junior,3
+30,Marcos Ytalo Benicio da Silva,27
+31,Charles Rigon Matos,35
+32,Matheus Bahia Santos,79
+33,Rosicley Pereira da Silva,7
+34,Patrick de Lucca Chaves de Oliveira,45
+35,Mario Sergio Santos Costa,11
+36,Alison Lopes Ferreira,5
+37,Luan Peres Petroni,14
+38,Anderson de Jesus Santos,4
+39,Jose Ricardo Barbosa Ribeiro Drumond,5
+40,Maycon Vinicius Ferreira da Cruz,11
+41,Moises Ribeiro Santos,5
+42,Alyson Vinicius Almeida Neves,6
+43,Eduardo Maciel de Barros,AT
+44,PFGian Pedro de Oliveira Vieira,
+45,Michel Macedo Rocha Machado,2
+46,Guilherme Castilho Carvalho,8
+47,Joao Lucas de Almeida Carvalho,13
+48,Matheus Martinelli Lima,38
+49,Yago Felipe da Costa Rocha,20
+50,Clayson Henrique da Silva Vieira,10
+51,Wesley Ribeiro Silva,11
+52,Raphael Cavalcante Veiga,23
+53,Luan Peres Petroni,14
+54,Marcos Rogerio Ricci Lopes,21
+55,Alison Lopes Ferreira,5
+56,Fernando Diniz Silva,TC
+57,Gabriel Santos Cordeiro Lacerda,15
+58,Angelo Giovani Araos Llanos,21
+59,Guilherme de Aguiar Camacho,20
+60,Gabriel Girotto Franco,5
+61,Luiz Carlos Cirne Lima de Lorenzi,TC
+62,Eduardo Gabriel dos Santos Bauermann,3
+63,Lucas Ribamar Lopes dos Santos Bibiano,19
+64,Jhonata Robert Alves da Silva,25
+65,Lucas Silva Borges,16
+66,Jaminton Leandro Campaz,7
+67,Rene Rodrigues Martins,6
+68,Robert Kenedy Nunes do Nascimento,33
+69,Brenno Oliveira Fraga Costa -,20
+70,Jhonata Robert Alves da Silva -,25
+71,Caio Vidal Rocha,47
+72,Thiago Galhardo do Nascimento Rocha,17
+73,Moises Roberto Barbosa,20
+74,Bruno Conceicao Praxedes,18
+75,Matheus Isaias dos Santos,16
+76,Vitor Hugo Batista Araujo de Mendonça -,32
+77,Pedro Henrique Alves Santana -,41
+78,Hyoran Kaue Dalmoro,20
+79,Igor Rabello da Costa,16
+80,Marcos Vinicius Sousa Natividade,97
+81,Gustavo Silva de Oliveira,39
+82,Rafael Thyere de Albuquerque Marques,15
+83,Jonas Gomes de Sousa,27
+84,Edson Fernando da Silva Gomes,35
+85,Matheus Galdezani,20
+86,Lucas Araujo de Oliveira,34
+87,Mauricio Nogueira Barbieri,TC
+88,Pedro Gabriel Pereira Lopes,33
+89,Jadsom Meemyas de Oliveira da Silva,5
+90,Jaime Alberto Alvarado Hoyos,15
+91,Antonio José Cardoso de Oliveira,AT
+92,Matheus Barcelos da Silva,21
+93,Paulo Autuori de Mello,TC
+94,Paulo Autuori de Mello -,TC
+95,Igor Vinicius de Souza,2
+96,Leonardo Pinheiro da Conceicao,16
+97,Reinaldo Manoel da Silva,6
+98,Rodrigo Nestor Bertalia,25
+99,Tiago Luis Volpi,1
+100,Willian Marlon Ferreira Moraes,5
+101,Natanael Batista Pimenta,11
+102,Lucas Gabriel Ribeiro Firmo,20
+103,Janderson Santos de Souza,7
+104,Renan Victor da Silva,3
+105,Wesley Ribeiro Silva,11
+106,Felipe Melo de Carvalho,30
+107,Jean Mota Oliveira de Sousa,41
+108,Luan Peres Petroni,14
+109,Guilherme Castilho Carvalho,8
+110,Elton Junior Melo Ataide,5
+111,Eduardo Maciel de Barros,AT
+112,Joao Victor da Vitoria Fernandes,7
+113,Bruno Fabiano Alves,3
+114,Thiago dos Santos,5
+115,Marcio Rafael Ferreira de Souza,13
+116,Matheus Henrique de Souza,7
+117,Aldemir dos Santos Ferreira,11
+118,Maicon Thiago Pereira de Souza,8
+119,Matheus Barcelos da Silva,21
+120,Christian Roberto Alves Cardoso,88
+121,Richard Candido Coelho,25
+122,Khellven Douglas Silva Oliveira,13
+123,Antonio José Cardoso de Oliveira,AT
+124,Umberto Lourenco Louzer Filho,TC
+125,Iago Justen Maidana Martins,6
+126,Paulo Roberto Moccelin,94
+127,Ricardo Ribeiro de Lima,20
+128,Carlos Emiliano Pereira,6
+129,David Correa da Fonseca,17
+130,Christian Chagas Tarouco,44
+131,Emaxwell Souza de Lima -,71
+132,Matheus Bahia Santos,79
+133,Matheus Henrique Teixeira,32
+134,Renan Guedes Borges,42
+135,Thonny Anderson da Silva Carvalho,22
+136,Luiz Eduardo Barros Cavalcanti,TC
+137,Yuri Alberto Monteiro da Silva,11
+138,Taison Barcellos Freda,10
+139,Leonardo Borges da Silva,36
+140,Heitor Rodrigues da Fonseca,2
+141,Lucas Ribeiro dos Santos -,14
+142,Natan Bernardo de Souza,21
+143,Jadsom Meemyas de Oliveira da Silva,5
+144,Lucas Evangelista Santana de Oliveira,8
+145,Luiz Henrique Andre Rosa da Silva,34
+146,Roger Machado Marques,TC
+147,Messias Rodrigues da Silva Junior,3
+148,Cleber Bomfim de Jesus,89
+149,Derlan de Oliveira Bento,34
+150,Bruno da Silva Costa,7
+151,Eduardo do Nascimento Souza,AT
+152,Janderson Santos de Souza,11
+153,Eduardo de Souza Barroca,TC
+154,Fernando Miguel Kaufmann,1
+155,Gabriel Baralhas dos Santos,18
+156,Eder Ferreira Graminho,4
+157,Paulo Marcos de Jesus Ribeiro,4
+158,Guilherme Nunes Rodrigues,23
+159,Elton Rodrigues Brandao,18
+160,Uillian Correia Granemann,5
+161,Osman de Menezes Venancio Junior,20
+162,Willian Marlon Ferreira Moraes -,5
+163,Madson Ferreira dos Santos,13
+164,Lucas Braga Ribeiro,30
+165,Alison Lopes Ferreira,5
+166,Caio Fernando de Oliveira,70
+167,Yago Felipe da Costa Rocha,20
+168,Kayky da Silva Chagas,37
+169,Abel Mathias Hernandez Platero,32
+170,Cassio Ramos,12
+171,Carlos Gilberto do Nascimento Silva,4
+172,Igor Matheus Liziero Pereira,14
+173,Luciano da Rocha Neves,11
+174,Igor Vinicius de Souza,2
+175,Alejandro Gabriel Kohan,AT
+176,Anselmo Ramon Alves Herculano,9
+177,Ravanelli Ferreira dos Santos,20
+178,Rodrigo Nestor Bertalia -,25
+179,Felipe Azevedo dos Santos,7
+180,Clayson Henrique da Silva Vieira,10
+181,Guilherme Antonio Arana Lopes,13
+182,Yuri Alberto Monteiro da Silva,11
+183,Victor Leandro Cuesta,15
+184,Danilo Fernandes Batista,1
+185,Avlamir Dirceo Stival -,AT
+186,Jonas Gomes de Sousa,27
+187,Matheus Henrique Teixeira,32
+188,Edson Fernando da Silva Gomes,35
+189,Thonny Anderson da Silva Carvalho,22
+190,Maycon Douglas Oliveira Silva,37
+191,Jorge de Moura Xavier,16
+192,Augusto Sergio Ferreira,TC
+193,John Steven Mendoza Valencia,10
+194,Bruno de Jesus Pacheco,6
+195,Gustavo Silva de Oliveira,39
+196,Santiago Trellez Vivero,9
+197,Andre Felipe Ribeiro de Souza,90
+198,PFMarcelo Rohling,
+199,Iago Justen Maidana Martins,6
+200,Paulo Roberto Moccelin,94
+201,Luiz Fernando Moraes dos Santos,33
+202,Walter Kannemann,4
+203,Marcio Rafael Ferreira de Souza,13
+204,Tiago Retzlaff Nunes,TC
+205,Matheus Henrique de Souza,7
+206,Andreas Hugo Hoelgebaum Pereira,18
+207,Leonardo Pereira,4
+208,Miguel David Terans Perez,80
+209,Thiago Heleno Henrique Ferreira,44
+210,Bruno Amorim Lazaroni,AT
+211,Nicolas Hernandez Rodriguez,2
+212,Renato Kayzer de Souza,79
+213,Marcos Luis Rocha Aquino,2
+214,Gabriel Vinicius Menino,25
+215,Breno Henrique Vasconcelos Lopes,19
+216,Luis Antonio Ferreira Rodrigues,15
+217,Igor Aquino da Silva,6
+218,TGEduardo do Nascimento Souza,
+219,Natanael Batista Pimenta,11
+220,Willian Marlon Ferreira Moraes,5
+221,Anderson Leal Gomes -,AT
+222,Aderlan de Lima Silva,13
+223,Artur Victor Guimaraes,7
+224,PFGuilherme Monroe Rondon,
+225,Lucas Evangelista Santana de Oliveira,8
+226,Bruno Henrique Pinto,27
+227,Willian Souza Arao da Silva,5
+228,Patrick de Paula Carreiro,5
+229,Renan Victor da Silva,3
+230,Jailson Marcelino dos Santos,42
+231,Ramon Rodrigo de Carvalho,5
+232,Alexandre Egea,11
+233,Mateus William Sabino Silva,15
+234,Geovane Nascimento Silva,7
+235,Cauan Felipe de Almeida -,AT
+236,Reinaldo Manoel da Silva,6
+237,Gabriel Davi Gomes Sara,21
+238,Igor Vinicius de Souza,2
+239,Martin Nicolas Benitez,8
+240,Kaio Jorge Pinto Ramos,9
+241,Vinicius Nelson de Souza Zanocelo,25
+242,Givanildo Vieira de Sousa,7
+243,Ignacio da Silva Oliveira,21
+244,Lucas Ribeiro dos Santos,14
+245,Leonardo Borges da Silva,36
+246,Fernando Pereira do Nascimento,8
+247,Vinicius Requia Machado,50
+248,Marlon Adriano Prezotti,25
+249,Guilherme de Jesus da Silva,2
+250,Luiz Henrique Araujo Silva,8
+251,Jose Romario Silva de Souza,20
+252,Gaston Ricardo Liendo,AT
+253,Gabriel Girotto Franco,5
+254,Ramiro Moschen Benetti,8
+255,Roni Medeiros de Moura,29
+256,Matheus Bahia Santos,79
+257,Matheus Barcelos da Silva,21
+258,Miguel David Terans Perez,80
+259,Joao Paulo da Silva Alves,10
+260,Jose Roberto Assunçao de Araujo Filho,9
+261,Vitor Mendes Alves,3
+262,Guilherme Castilho Carvalho,8
+263,Rafael Forster,4
+264,Marcos Vinicios Lopes Moura,18
+265,Marcio Rafael Ferreira de Souza,13
+266,Vanderson de Oliveira Campos,35
+267,Ruan Tressoldi Netto,44
+268,Thiago dos Santos,5
+269,Jean Pyerre Casagrande Silveira Correa,88
+270,Joao Lucas de Almeida Carvalho,2
+271,João Victor Gomes da Silva,35
+272,David Correa da Fonseca,17
+273,Victor Gabriel da Conceição Ribeiro,52
+274,Luan Polli Gomes,27
+275,Marcos Antonio Almeida Silva,77
+276,Welington Damascena Santos,34
+277,Alejandro Gabriel Kohan,AT
+278,Joao Lucas de Almeida Carvalho,2
+279,Elton Junior Melo Ataide,5
+280,Paulo Henrique Pereira da Silva,7
+281,Bruno dos Santos Nazario,18
+282,Ricardo Cesar Dantas da Silva,3
+283,Ricardo Cesar Dantas da Silva -,3
+284,Guilherme de Aguiar Camacho,29
+285,Jean Mota Oliveira de Sousa,41
+286,Fernando Diniz Silva,TC
+287,Mario Sergio Santos Costa,11
+288,Diego de Souza Andrade,29
+289,Aldemir dos Santos Ferreira,11
+290,Guilherme Antonio Arana Lopes,13
+291,Danilo das Neves Pinheiro,37
+292,Gabriel Costa Franca,30
+293,Rever Humberto Alves de Araujo,4
+294,Bruno de Jesus Pacheco,6
+295,Wendson dos Santos Lopes,23
+296,Saulo Rodrigues da Silva,73
+297,Thonny Anderson da Silva Carvalho,22
+298,Daniel Sampaio Simoes,8
+299,Antonio José Cardoso de Oliveira,AT
+300,Erick Luis Conrado Carvalho,26
+301,Marcio Almeida de Oliveira -,5
+302,Richard Candido Coelho -,25
+303,Marcos Luis Rocha Aquino,2
+304,Gustavo Henrique Furtado Scarpa,14
+305,Mayke Rocha de Oliveira,12
+306,Aderlan de Lima Silva,13
+307,Ytalo Jose Oliveira dos Santos,15
+308,Cleiton Schwengber,18
+309,Caio Vidal Rocha,47
+310,Edenilson Andrade dos Santos,8
+311,Jose Gabriel dos Santos Silva,35
+312,Derlan de Oliveira Bento,34
+313,Ronei Gebing,15
+314,Danilo Fernandes Batista -,1
+315,Caio Vidal Rocha -,47
+316,Bruno da Silva Costa -,7
+317,Gabriel Teixeira Aragao,39
+318,Marcilio Florencio Mota Filho,33
+319,PFMarcos de Seixas Correa,
+320,Luiz Henrique Andre Rosa da Silva,34
+321,Janderson Santos de Souza,7
+322,Nathanael Ananias da Silva,3
+323,Fernando Miguel Kaufmann,1
+324,Angelo Giovani Araos Llanos,21
+325,Danilo Carvalho Barcelos,14
+326,Luccas Claro dos Santos,4
+327,André Trindade da Costa Neto,35
+328,Abel Mathias Hernandez Platero -,32
+329,Danilo dos Santos de Oliveira,28
+330,Benjamin Kuscevic Jaramillo,4
+331,Abel Fernando Moreira Ferreira,TC
+332,Breno Henrique Vasconcelos Lopes,19
+333,Matheus Bahia Santos,79
+334,Rosicley Pereira da Silva,7
+335,Patrick de Lucca Chaves de Oliveira,45
+336,Thaciano Mickael da Silva,16
+337,Allan Rodrigues de Souza,29
+338,Guilherme Antonio Arana Lopes,13
+339,Federico Matias Zaracho,15
+340,Mario Sergio Santos Costa,11
+341,Marcos Rogerio Ricci Lopes,21
+342,Joao Paulo Silva Martins,34
+343,Marcos Guilherme de Almeida Santos Matos,23
+344,Allan Rodrigues de Souza -,29
+345,Lucas Ribeiro dos Santos,14
+346,Thiago Galhardo do Nascimento Rocha,17
+347,Edenilson Andrade dos Santos,8
+348,Carlos Eduardo Santos Oliveira,2
+349,Alan Luciano Ruschel,6
+350,Diogo Barbosa Mendanha,32
+351,Douglas Costa de Souza,10
+352,Ronald dos Santos Lopes,14
+353,Ederson Jose dos Santos Lourenco da Silva,13
+354,Christian Chagas Tarouco,44
+355,Osvaldo Lourenco Filho,11
+356,Walter Kannemann -,4
+357,Eder Citadin Martins,23
+358,Tobias Kohan,AT
+359,Reinaldo Manoel da Silva,6
+360,Anderson Hernanes de Carvalho Viana Lima,15
+361,Bruno Fabiano Alves,3
+362,Martin Nicolas Benitez,8
+363,Welington Damascena Santos,34
+364,Gabriel Santos Cordeiro Lacerda,15
+365,Jorge de Moura Xavier,16
+366,Jael Ferreira Vieira,9
+367,Saulo Rodrigues da Silva,73
+368,Joao Lucas de Almeida Carvalho,2
+369,Jose Ivaldo Almeida Silva,27
+370,Guilherme Natan de Lima,32
+371,Matheus Franca Silva,34
+372,Vitor Mendes Alves,34
+373,Matheus Vieira Campos Peixoto,9
+374,Weverton Guilherme da Silva Souza,17
+375,Edimar Curitiba Fraga,6
+376,Nathanael Ananias da Silva,3
+377,Andre Luis da Costa Alfredo,18
+378,Frederico Chaves Guedes,9
+379,Christian Roberto Alves Cardoso,88
+380,Richard Candido Coelho,25
+381,Mateus da Silva Vital Assumpção,22
+382,Igor Matheus Liziero Pereira,14
+383,Luiz Felipe do Nascimento dos Santos,2
+384,Jose Sabino Chagas Monteiro,35
+385,Andre Felipe Ribeiro de Souza,90
+386,Neilton Meira Mestzk,7
+387,Santiago Trellez Vivero,9
+388,Janderson Santos de Souza,7
+389,Natanael Batista Pimenta,11
+390,Abel Fernando Moreira Ferreira,TC
+391,Patrick de Paula Carreiro,5
+392,Jailson Marcelino dos Santos,42
+393,Rodrigo Dourado Cunha,13
+394,Caio Vidal Rocha,47
+395,Victor Leandro Cuesta,15
+396,Benjamin Kuscevic Jaramillo -,4
+397,Juan Sebastian Quintero Fletcher,3
+398,Felipe Alves Raymundo,12
+399,Marcelo da Conceiçao Benevenuto Malaquias,5
+400,Gaston Ricardo Liendo,AT
+401,Guilherme Natan de Lima,32
+402,Jair Zaksauskas Ribeiro Ventura,TC
+403,Vinicius Guedes,23
+404,Ravanelli Ferreira dos Santos,20
+405,Emilio Carlos Tannus Faro,AT
+406,Juan Sebastian Quintero Fletcher -,3
+407,Rodrigo Eduardo Costa Marinho,10
+408,Daniel Sampaio Simoes,8
+409,Rosicley Pereira da Silva,7
+410,Pedro Faria Gama,AT
+411,PFLuiz Fernando de Andrade Teixeira,
+412,Severino do Ramo Clementino da Silva,2
+413,Raul Lô Gonçalves,23
+414,Bruno de Jesus Pacheco,6
+415,Marlon Adriano Prezotti,25
+416,Cleber Bomfim de Jesus,89
+417,Cleber Bomfim de Jesus -,89
+418,Tiago Retzlaff Nunes,TC
+419,Elton Junior Melo Ataide,31
+420,Francisco Hyun Sol Kim,23
+421,Vitor Mendes Alves,34
+422,Victor Vinicius Coelho Santos,11
+423,Diego Ribas da Cunha,10
+424,Bruno Henrique Pinto,27
+425,Rodinei Marcelo de Almeida,20
+426,Max Alves da Siva,31
+427,Clayson Henrique da Silva Vieira,10
+428,Marllon Goncalves Jeronimo Borges,3
+429,Danilo Gomes Magalhaes,23
+430,Marcilio Florencio Mota Filho,33
+431,João Victor Gomes da Silva,35
+432,Victor Vinicius Coelho Santos,11
+433,Roni Medeiros de Moura,29
+434,Joao Victor da Silva Marcelino,33
+435,Edenilson Andrade dos Santos,8
+436,Victor Leandro Cuesta,15
+437,Luan Vinicius da Silva Santos,13
+438,Lucas Evangelista Santana de Oliveira,8
+439,Bruno Conceicao Praxedes,25
+440,Fernando Diniz Silva,TC
+441,Luiz Felipe do Nascimento dos Santos,2
+442,Marcos Rogerio Ricci Lopes,21
+443,Lucas Braga Ribeiro,30
+444,Lucas Ribamar Lopes dos Santos Bibiano,9
+445,Carlos Eduardo Santos Oliveira,2
+446,Vagner Carmo Mancini,TC
+447,Carlos Alberto Gomes da Silva Filho,24
+448,Jose Ricardo Barbosa Ribeiro Drumond,5
+449,Victor Bobsin Pereira,50
+450,Walter Kannemann,4
+451,Vanderson de Oliveira Campos,35
+452,Guilherme Castilho Carvalho,99
+453,Fernando José Pacheco Rivas,17
+454,Jael Ferreira Vieira,9
+455,Marcos Ytalo Benicio da Silva,27
+456,Guilherme Castilho Carvalho -,99
+457,Marcos Luis Rocha Aquino,2
+458,José Welison da Silva,14
+459,Umberto Lourenco Louzer Filho,TC
+460,Paulo Roberto Moccelin,94
+461,Robson dos Santos Fernandes,7
+462,Ronald dos Santos Lopes,14
+463,Glaybson Yago Souza Lisbôa,22
+464,Vitor Hugo Naum dos Santos,28
+465,Matheus Barcelos da Silva,21
+466,Abner Vinicius da Silva Santos,16
+467,Thonny Anderson da Silva Carvalho,22
+468,Ezequiel Jacinto de Biasi,30
+469,Derlan de Oliveira Bento,34
+470,Federico Matias Zaracho,15
+471,Marrony da Silva Liberato Silveira,38
+472,Uendel Pereira Goncalves,6
+473,Felipe Marques da Silva,18
+474,Rafael Elias da Silva,19
+475,Jonathan Renato Barbosa,20
+476,Joao Lucas de Almeida Carvalho,2
+477,Lucca Borges de Brito,7
+478,Marcilio Florencio Mota Filho,33
+479,FTCaio Henrique de Oliveira Sauro,
+480,Cleber Bomfim de Jesus,89
+481,Vinicius Goes Barbosa de Souza,29
+482,Augusto Sergio Ferreira,TC
+483,Pedro Henrique Naressi Machado,31
+484,Gabriel Vinicius Menino,25
+485,Joao Miguel Barreto Martins,AT
+486,Danilo dos Santos de Oliveira,28
+487,Thiago Gomes Pacheco,TC
+488,Matheus Henrique de Souza,7
+489,Vanderson de Oliveira Campos,35
+490,Luiz Felipe do Nascimento dos Santos,2
+491,Kaiky Fernandes Melo,28
+492,Thiago Heleno Henrique Ferreira,44
+493,Renato Kayzer de Souza,79
+494,Marrony da Silva Liberato Silveira,38
+495,João Victor Gomes da Silva,35
+496,Igor Silveira Gomes,26
+497,Leonardo Pinheiro da Conceicao,16
+498,Bruno Fabiano Alves,3
+499,Paulo Victor de Almeida Barbosa,23
+500,Rodrigo Oliveira Lindoso,19
+501,Carlos Alberto Gomes da Silva Filho,21
+502,Luis Antonio Ferreira Rodrigues,15
+503,Ederson Jose dos Santos Lourenco da Silva,13
+504,Daniel Sampaio Simoes,8
+505,Thaciano Mickael da Silva,16
+506,Paulo Henrique Pereira da Silva,11
+507,Wescley Gomes dos Santos,10
+508,Paulo Henrique de Oliveira Alves,96
+509,Edimar Curitiba Fraga,6
+510,Ytalo Jose Oliveira dos Santos,15
+511,Weverton Guilherme da Silva Souza,17
+512,Joao Pedro Vilardi Pinto,11
+513,Paulo Marcos de Jesus Ribeiro,4
+514,Ravanelli Ferreira dos Santos,20
+515,Fernando Jose Marques Maciel,11
+516,Anderson Leite Morais,26
+517,José Welison da Silva,14
+518,Luis Eduardo Marques dos Santos,2
+519,Anderson Leal Gomes,AT
+520,Jose Roberto Assunçao de Araujo Filho,20
+521,Eder Ferreira Graminho,4
+522,Andre Luis da Costa Alfredo,11
+523,Leonardo Pereira,4
+524,Giorgian Daniel de Arrascaeta Benedetti,14
+525,Victor Vinicius Coelho Santos,11
+526,Gabriel Dal Toe Busanello,6
+527,Fernando Jose Marques Maciel,11
+528,Anselmo Ramon Alves Herculano,9
+529,Emilio Carlos Tannus Faro,AT
+530,Jailson Marcelino dos Santos,42
+531,Fernando Diniz Silva,TC
+532,Jean Mota Oliveira de Sousa,41
+533,Mario Sergio Santos Costa,11
+534,Guilherme de Aguiar Camacho,29
+535,Kaiky Fernandes Melo,28
+536,Marcos Guilherme de Almeida Santos Matos,23
+537,Onitlasi Junior de Moraes Rodrigues,42
+538,Jonas Gomes de Sousa,27
+539,Igor Rabello da Costa,16
+540,Bruno dos Santos Nazario,10
+541,Bruno Mendez Cittadini,22
+542,Rodrigo Dourado Cunha,13
+543,Victor Bobsin Pereira,50
+544,Carlos Gilberto do Nascimento Silva,4
+545,Victor Danilo Cantillo Jimenez,24
+546,Marcos Vinicius Sousa Natividade,20
+547,Luis Antonio Ferreira Rodrigues,15
+548,Lucas de Figueiredo Crispim,10
+549,Jackson de Souza,4
+550,Glaybson Yago Souza Lisbôa,22
+551,Gaston Ricardo Liendo -,AT
+552,Marcos Antonio Almeida Silva,77
+553,Wellington Aparecido Martins,5
+554,Muriel Gustavo Becker,27
+555,Matheus Martins Silva dos Santos,18
+556,Artur Victor Guimaraes,7
+557,Helio Junio Nunes de Castro,11
+558,Weverton Guilherme da Silva Souza,17
+559,Jadsom Meemyas de Oliveira da Silva,5
+560,Vitor Mendes Alves,34
+561,Marcos Vinicios Lopes Moura,77
+562,Willian Marlon Ferreira Moraes,5
+563,Marlon Rodrigues Freitas,8
+564,Jael Ferreira Vieira,9
+565,Yony Alexander Gonzalez Copete,11
+566,Joao Pedro Vilardi Pinto,8
+567,Joelton Francisco Urtiga,AT
+568,Joao Pedro Vilardi Pinto -,8
+569,Walter Kannemann,4
+570,Fernando Henrique do Nascimento Pereira,42
+571,Jean Pyerre Casagrande Silveira Correa,88
+572,Diego de Souza Andrade,29
+573,Lucca Borges de Brito,7
+574,Jose Rodolfo Pires Ribeiro,6
+575,Junior Osmar Ignacio Alonso Mujica,3
+576,Antonio Javier Galeano Ferreira,27
+577,Joao Robin Rojas Mendoza,7
+578,Hernan Jorge Crespo,TC
+579,Leonardo Pinheiro da Conceicao,16
+580,TGJose Augusto da Cruz Albuquerque,
+581,David Correa da Fonseca,17
+582,Christian Chagas Tarouco,44
+583,Hayner Willian Monjardim Cordeiro,2
+584,Mailson Tenorio dos Santos,1
+585,Roberto Pimenta Vinagre Filho,18
+586,Jose Vitor Lima Cardoso,5
+587,Paulo Victor de Almeida Barbosa,23
+588,Edenilson Andrade dos Santos,8
+589,Pedro Henrique Alves Santana,41
+590,Caio Vidal Rocha,47
+591,Vitor Mendes Alves,34
+592,Wescley Gomes dos Santos,10
+593,Marcelo Henrique Passos Carne,22
+594,Paulo Henrique Pereira da Silva,11
+595,Marcos Vinicius Santos Goncalves,TC
+596,Guilherme Castilho Carvalho -,99
+597,Marcos Vinicius Santos Goncalves -,TC
+598,Marlon Adriano Prezotti,25
+599,Marcos Ytalo Benicio da Silva,27
+600,Vinicius Moreira de Lima,45
+601,Cristiano Pereira de Oliveira,99
+602,Vitor Hugo Naum dos Santos,28
+603,Maycon Vinicius Ferreira da Cruz,11
+604,Leonardo Cittadini,18
+605,Gilberto Oliveira Souza Junior,9
+606,Luis Antonio da Rocha Junior,29
+607,Matheus Galdezani,20
+608,Matheus Bahia Santos,79
+609,Edson Fernando da Silva Gomes,35
+610,Diego Ribas da Cunha,10
+611,Weverson Moreira da Costa,26
+612,Leonardo Rech Ortiz,3
+613,Tomas Esteban Cuello,28
+614,Mauricio Nogueira Barbieri,TC
+615,Felipe Jonatan Rocha Andrade,3
+616,Luiz Felipe do Nascimento dos Santos,2
+617,Carlos Andres Sanchez Arcosa,7
+618,Mario Sergio Santos Costa,11
+619,Vinicius Nelson de Souza Zanocelo,25
+620,Marcos Leonardo Santos Almeida,36
+621,Fernando Diniz Silva,TC
+622,Geuvanio Santos da Silva Lima,50
+623,Anselmo Ramon Alves Herculano,9
+624,Jenison de Jesus Brito E Brito,9
+625,Paulo Marcos de Jesus Ribeiro,4
+626,Wesley Ribeiro Silva,11
+627,Abel Fernando Moreira Ferreira,TC
+628,Vitor Ilidio Castanheiras Penas,AT
+629,Jose Roberto Assunçao de Araujo Filho,20
+630,Eder Ferreira Graminho,4
+631,Marcus Vinicius Oliveira Alencar,47
+632,Welington Damascena Santos,34
+633,Alejandro Gabriel Kohan,AT
+634,Emiliano Ariel Rigoni,77
+635,Reinaldo Manoel da Silva,6
+636,Igor Vinicius de Souza,2
+637,Martin Nicolas Benitez,8
+638,Rodrigo Caio Coquette Russo,3
+639,Willian Souza Arao da Silva,5
+640,Filipe Luis Kasmirski,16
+641,MDMarcio Alves Tannure -,
+642,Felipe Melo de Carvalho,30
+643,Frederico Chaves Guedes,9
+644,Manoel Messias Silva Carvalho,26
+645,Joao Paulo Silva Martins,34
+646,Mario Sergio Santos Costa,11
+647,Fernando Miguel Kaufmann,1
+648,Jose Roberto Assunçao de Araujo Filho,9
+649,Joao Paulo Imbernom Sanches,AT
+650,Jose Rodolfo Pires Ribeiro,6
+651,Mariano Ferreira Filho,25
+652,Rosicley Pereira da Silva,7
+653,Fernando Henrique do Nascimento Pereira,42
+654,Marcio Rafael Ferreira de Souza,13
+655,Darlan Pereira Mendes,15
+656,Alan Luciano Ruschel,6
+657,Jose Vitor Lima Cardoso,5
+658,Ramon Rodrigo de Carvalho,23
+659,Mauricio Nogueira Barbieri,TC
+660,Helio Junio Nunes de Castro,11
+661,Guilherme de Jesus da Silva,2
+662,Matheus de Vargas,96
+663,Luis Antonio Ferreira Rodrigues,15
+664,Matheus Isaias dos Santos,16
+665,Mauricio Nogueira Barbieri -,TC
+666,Marcos Antonio Almeida Silva,77
+667,Thiago Ferreira Lopes,19
+668,Paulo Roberto Moccelin,94
+669,Gustavo Silva de Oliveira,39
+670,Pedro Henrique Naressi Machado,31
+671,Yuri Alberto Monteiro da Silva,11
+672,Gabriel Boschilia,21
+673,Thiago Galhardo do Nascimento Rocha,17
+674,Diego Vicente Aguirre Camblor,TC
+675,Matheus Barcelos da Silva,21
+676,Vitor Hugo Naum dos Santos,28
+677,Bento Matheus Krepski,99
+678,Renato Kayzer de Souza,79
+679,Matheus Sousa de Jesus,8
+680,Joao Victor da Vitoria Fernandes,7
+681,Marcelo Henrique Passos Carne,22
+682,Jadson Alves dos Santos,16
+683,Vitor Mendes Alves,34
+684,Derlan de Oliveira Bento,34
+685,MDSamuel Ricardo Banaszeski -,
+686,Victor Danilo Cantillo Jimenez,24
+687,Marllon Goncalves Jeronimo Borges,3
+688,Joao Lucas de Almeida Carvalho,2
+689,Anderson Conceicao Benedito -,4
+690,Samuel Xavier Brito,2
+691,Jhon Adolfo Arias Andrade,21
+692,Matheus Sousa de Jesus,8
+693,Roni Medeiros de Moura,29
+694,Giorgian Daniel de Arrascaeta Benedetti,14
+695,Breno Henrique Vasconcelos Lopes,19
+696,Felipe Melo de Carvalho,30
+697,Danilo dos Santos de Oliveira,28
+698,Gabriel Davi Gomes Sara,21
+699,Rodrigo Nestor Bertalia,25
+700,Joao Miranda de Souza Filho,22
+701,Emiliano Ariel Rigoni -,77
+702,Antonio Fialho de Carvalho Neto,41
+703,Eduardo Jesus Vargas Rojas,10
+704,Mariano Ferreira Filho,25
+705,Antonio José Cardoso de Oliveira,TC
+706,Thiago Heleno Henrique Ferreira,44
+707,Bruno Amorim Lazaroni,AT
+708,Christian Roberto Alves Cardoso,88
+709,Erick Luis Conrado Carvalho,26
+710,Eduardo Jesus Vargas Rojas -,10
+711,Victor Leandro Cuesta,15
+712,Moises Roberto Barbosa,20
+713,Clayson Henrique da Silva Vieira,10
+714,Osman de Menezes Venancio Junior,20
+715,Paulo Marcos de Jesus Ribeiro,4
+716,Moises Roberto Barbosa -,20
+717,Marlon Adriano Prezotti,25
+718,Vinicius Goes Barbosa de Souza,29
+719,Alexandre Faganello,AT
+720,Gabriel Santos Cordeiro Lacerda,15
+721,Matheus de Vargas,96
+722,David Correa da Fonseca,17
+723,Christian Chagas Tarouco,44
+724,Patrick de Lucca Chaves de Oliveira,45
+725,Rosicley Pereira da Silva,7
+726,Mikael Filipe Viana de Sousa,99
+727,Luciano Batista da Silva Junior,46
+728,Santiago Trellez Vivero,9
+729,Jadsom Meemyas de Oliveira da Silva,5
+730,Bruno Cortes Barbosa,12
+731,Pedro Tonon Geromel,3
+732,Oliveira,AT
+733,Jair Zaksauskas Ribeiro Ventura,TC
+734,Keiller da Silva Nunes,1
+735,Keiller da Silva Nunes -,1
+736,Emilio Carlos Tannus Faro -,AT
+737,Andre Luis da Costa Alfredo,7
+738,Marlon Rodrigues Freitas,17
+739,Jonas Gabriel da Silva Nunes,19
+740,Gabriel Baralhas dos Santos,8
+741,FTJoao Rodrigues dos Santos Neto -,
+742,Pedro Henrique Alves Santana,41
+743,Carlosalonso Enrique Palacios Nunez,16
+744,Gabriel Barbosa Almeida,9
+745,Diego Ribas da Cunha,10
+746,Gabriel Barbosa Almeida -,9
+747,Gustavo Raul Gomez Portillo,15
+748,Renan Victor da Silva,3
+749,Vitor Ilidio Castanheiras Penas,AT
+750,Victor Luis Chuab Zamblauskas,26
+751,Patrick de Paula Carreiro,5
+752,Jose Rafael Vivian,8
+753,Gaston Ricardo Liendo,AT
+754,Luis Antonio Ferreira Rodrigues,15
+755,Igor Torres da Silva,77
+756,Victor Luis Chuab Zamblauskas -,26
+757,Luis Antonio Ferreira Rodrigues -,15
+758,Roni Medeiros de Moura,29
+759,Fernando Diniz Silva,TC
+760,Jean Mota Oliveira de Sousa,41
+761,Matheus Martinelli Lima,38
+762,Lucca Borges de Brito,7
+763,Felipe Azevedo dos Santos,11
+764,Patric Cabral Lalau,29
+765,Darlan Pereira Mendes,15
+766,Anselmo Ramon Alves Herculano,9
+767,Derlan de Oliveira Bento,34
+768,Denner Fernando Melz,88
+769,Marlon Adriano Prezotti,25
+770,Vinicius Goes Barbosa de Souza,29
+771,Arnaldo Manoel de Almeida,2
+772,Wanderson Santos Pereira,3
+773,Weverton Guilherme da Silva Souza,17
+774,Paulo Roberto Moccelin,94
+775,Everaldo Silva do Nascimento,37
+776,Gustavo Silva de Oliveira,39
+777,Hernan Jorge Crespo,TC
+778,Welington Damascena Santos,34
+779,Igor Vinicius de Souza,2
+780,Lucas Estella Perri,18
+781,Antonio Javier Galeano Ferreira,27
+782,Antonio José Cardoso de Oliveira,TC
+783,Richard Candido Coelho,25
+784,Thiago Heleno Henrique Ferreira,44
+785,Martin Nicolas Benitez -,8
+786,Dylan Felipe Borrero Caicedo,19
+787,Allan Rodrigues de Souza,29
+788,Jair Rodrigues Junior,8
+789,Avlamir Dirceo Stival,AT
+790,Rafael Forster,12
+791,Rosicley Pereira da Silva,7
+792,Hugo Rodallega Martinez,23
+793,Paulo Marcos de Jesus Ribeiro,4
+794,Felipe Marques da Silva -,18
+795,Ronaldo Henrique Ferreira da Silva,5
+796,Bruno Henrique Pinto,27
+797,Matheus Franca Silva,34
+798,Willian Souza Arao da Silva,5
+799,Max Alves da Siva,31
+800,Fabio Santos Romeu,26
+801,Jael Ferreira Vieira,9
+802,Igor Silveira Gomes,26
+803,Reinaldo Manoel da Silva,6
+804,Bruno Fabiano Alves,3
+805,Pedro Tonon Geromel,3
+806,Luiz Felipe Scolari,TC
+807,Patrick de Paula Carreiro,5
+808,Abel Fernando Moreira Ferreira,TC
+809,Ignacio Martin Fernandez,26
+810,Jair Rodrigues Junior,8
+811,Patrick de Paula Carreiro -,5
+812,Abel Fernando Moreira Ferreira -,TC
+813,Joao Miguel Barreto Martins -,AT
+814,Rodrigo Oliveira Lindoso,19
+815,Yuri Alberto Monteiro da Silva,11
+816,Marcos Guilherme de Almeida Santos Matos,23
+817,Glaybson Yago Souza Lisbôa,22
+818,Robson dos Santos Fernandes,7
+819,Marcelo Faria Fernandes -,AT
+820,Daniel Sampaio Simoes,8
+821,German Andres Conti,5
+822,Jadsom Meemyas de Oliveira da Silva,5
+823,Jan Carlos Hurtado Anchico,27
+824,Leandro Henrique do Nascimento,22
+825,Helio Junio Nunes de Castro,11
+826,Wagner Ferreira dos Santos,20
+827,Guilherme Castilho Carvalho,99
+828,Rafael Forster,12
+829,Francisco Hyun Sol Kim,23
+830,Alan Luciano Ruschel,6
+831,Ricardo Martins de Araujo,4
+832,Ricardo Martins de Araujo -,4
+833,Leonardo Cittadini,18
+834,Camilo Reijers de Oliveira,17
+835,Givanildo Vieira de Sousa,7
+836,Nathanael Ananias da Silva,40
+837,Abel Mathias Hernandez Platero,32
+838,Luiz Henrique Andre Rosa da Silva,34
+839,Yago Felipe da Costa Rocha,20
+840,Deyverson Brum Silva,16
+841,Joao Pedro Vilardi Pinto,8
+842,Wagner Leonardo Calvelo de Souza,14
+843,Luiz Felipe do Nascimento dos Santos,2
+844,Oliveira,AT
+845,Fernando Diniz Silva,TC
+846,Gabriel Ivan Mercado,25
+847,Rodrigo Oliveira Lindoso,19
+848,Fabricio Daniel de Souza,13
+849,Marcelo Aparecido Toscano,90
+850,Gilberto Oliveira Souza Junior,9
+851,Lucas Silva Borges,16
+852,João Victor Gomes da Silva,35
+853,Diego Ribas da Cunha,10
+854,Leonardo Pinheiro da Conceicao,16
+855,Igor Matheus Liziero Pereira,14
+856,Andre Felipe Ribeiro de Souza,90
+857,Paulo Roberto Moccelin,94
+858,Carlos Eduardo Ferreira de Souza,96
+859,Thiago Heleno Henrique Ferreira -,44
+860,Matheus Sousa de Jesus,8
+861,Luis Antonio Ferreira Rodrigues,15
+862,Matheus Antunes Ribeiro,2
+863,Keiller da Silva Nunes,1
+864,Anselmo Ramon Alves Herculano,9
+865,Luis Carlos de Oliveira Preto,TC
+866,Geuvanio Santos da Silva Lima,50
+867,Denner Fernando Melz,88
+868,Wanderson Santos Pereira,3
+869,TGEduardo do Nascimento Souza,
+870,Joao Paulo da Silva Alves,10
+871,Luis Carlos de Oliveira Preto -,TC
+872,Luis Eduardo Marques dos Santos -,13
+873,Rosicley Pereira da Silva,7
+874,Gilberto Oliveira Souza Junior,9
+875,Patrick de Lucca Chaves de Oliveira,45
+876,German Andres Conti,5
+877,Marcilio Florencio Mota Filho,33
+878,André Trindade da Costa Neto,35
+879,Jose Rafael Vivian,8
+880,Deyverson Brum Silva,16
+881,Felipe Melo de Carvalho,30
+882,Carlos Andres Sanchez Arcosa,7
+883,Fernando Diniz Silva,TC
+884,Felipe Jonatan Rocha Andrade,3
+885,Jean Mota Oliveira de Sousa,41
+886,Robson Alves Reis,26
+887,Mauricio Anibal Isla Isla,44
+888,Gustavo Henrique Vernes,2
+889,Diego Ribas da Cunha,10
+890,Bruno Viana Willemen da Silva,30
+891,Vinicius Goes Barbosa de Souza,29
+892,Jael Ferreira Vieira,9
+893,Fabricio Daniel de Souza,13
+894,Cassio Ramos,12
+895,Joao Victor da Silva Marcelino,33
+896,Maicon Thiago Pereira de Souza,8
+897,Maicon Thiago Pereira de Souza -,8
+898,Igor Torres da Silva,77
+899,Luis Antonio Ferreira Rodrigues,15
+900,Clayson Henrique da Silva Vieira,10
+901,Jenison de Jesus Brito E Brito,9
+902,Yuri Oliveira Lima,16
+903,Joao Pedro Vilardi Pinto,8
+904,Rafael Elias da Silva,19
+905,Thiago Neves Augusto,30
+906,Moises Ribeiro Santos,5
+907,Thiago Neves Augusto -,30
+908,Danilo das Neves Pinheiro,37
+909,Eduardo Colcenti Antunes,18
+910,Nathan Allan de Souza,23
+911,Matheus Mendes Werneck de Oliveira,31
+912,Jadsom Meemyas de Oliveira da Silva,5
+913,Leonardo Rech Ortiz,3
+914,Aderlan de Lima Silva,13
+915,Luan Vinicius da Silva Santos,13
+916,Igor Vinicius de Souza,2
+917,Leonardo Pinheiro da Conceicao,16
+918,Luciano da Rocha Neves,11
+919,Joao Miranda de Souza Filho,22
+920,William Matheus da Silva,66
+921,Ricardo Bueno da Silva,9
+922,Rodrigo Dourado Cunha,13
+923,Carlosalonso Enrique Palacios Nunez,16
+924,Jose Roberto Assunçao de Araujo Filho,9
+925,Gabriel Barbosa Almeida,9
+926,Andreas Hugo Hoelgebaum Pereira,18
+927,Igor Aquino da Silva,6
+928,Carlos Gilberto do Nascimento Silva,4
+929,Gustavo Henric da Silva,19
+930,Fagner Conserva Lemos,23
+931,Dawhan Fran Urano da Purificacao Oliveira,78
+932,William Matheus da Silva,66
+933,Paulo Henrique de Oliveira Alves,96
+934,Joao Victor da Vitoria Fernandes,7
+935,Joao Miranda de Souza Filho,22
+936,Reinaldo Manoel da Silva,6
+937,Robert Abel Arboleda Escobar,5
+938,Mauro Matias Zarate,99
+939,Danilo das Neves Pinheiro,37
+940,Ignacio Martin Fernandez,26
+941,Mariano Ferreira Filho,25
+942,Federico Matias Zaracho,15
+943,Allan Rodrigues de Souza,29
+944,Pedro Tonon Geromel,3
+945,MGAnderson Machado Meurer,
+946,Jaminton Leandro Campaz,7
+947,Lucas Silva Borges,16
+948,Douglas Costa de Souza,10
+949,Miguel Angel Borja Hernandez,9
+950,Marcio Rafael Ferreira de Souza,13
+951,Helio Junio Nunes de Castro,11
+952,Mauricio Nogueira Barbieri,TC
+953,Aderlan de Lima Silva,13
+954,Renzo Saravia,26
+955,Bruno Mendez Cittadini,22
+956,Gabriel Boschilia,21
+957,Mauricio Magalhaes Prado,27
+958,Jose Gabriel dos Santos Silva,35
+959,Jose Rafael Vivian,8
+960,Weverton Pereira da Silva,21
+961,Igor Inocencio de Oliveira,2
+962,Vinicius Goes Barbosa de Souza,29
+963,Erick de Arruda Serafim,97
+964,Luiz Otavio Anacleto Leandro,13
+965,Patrick de Lucca Chaves de Oliveira,45
+966,Matheus Henrique Teixeira,32
+967,Luis Antonio da Rocha Junior,29
+968,Christian Chagas Tarouco,44
+969,Anderson Hernanes de Carvalho Viana Lima,8
+970,Mailson Tenorio dos Santos,1
+971,Maycon Vinicius Ferreira da Cruz,11
+972,Anderson Hernanes de Carvalho Viana Lima -,8
+973,Marcos Guilherme de Almeida Santos Matos,23
+974,Camilo Reijers de Oliveira,8
+975,Yuri Oliveira Lima,15
+976,Elton Rodrigues Brandao,18
+977,Joao Miranda de Souza Filho,22
+978,Emiliano Ariel Rigoni,77
+979,Igor Silveira Gomes,26
+980,Gabriel Neves Perdomo,15
+981,Frederico Chaves Guedes,9
+982,Marcilio Florencio Mota Filho,33
+983,Luccas Claro dos Santos,4
+984,André Trindade da Costa Neto,35
+985,Raul Marcelo Bobadilla,19
+986,Pedro Guilherme Abreu dos Santos,21
+987,Victor Vinicius Coelho Santos,11
+988,Jose Rafael Vivian -,8
+989,Raniele Almeida Melo,14
+990,Severino do Ramo Clementino da Silva,2
+991,Eugenio Horacio Isnaldo,17
+992,German Andres Conti,5
+993,Lucas Braga Ribeiro,30
+994,Felipe Azevedo dos Santos,11
+995,Abner Vinicius da Silva Santos,16
+996,Jair Rodrigues Junior,8
+997,Mariano Ferreira Filho,25
+998,Alexi Stival,TC
+999,Guilherme de Jesus da Silva,2
+1000,Gustavo Atilano Florentin Morinigo,TC
+1001,Hayner Willian Monjardim Cordeiro,2
+1002,Andre Felipe Ribeiro de Souza,90
+1003,Sander Henrique Bortolotto,56
+1004,Marcos Antonio Almeida Silva,77
+1005,Yuri Alberto Monteiro da Silva,11
+1006,Weverton Guilherme da Silva Souza,17
+1007,Helio Junio Nunes de Castro,11
+1008,Tomas Esteban Cuello,28
+1009,Bruno Conceicao Praxedes,25
+1010,Gabriel Dal Toe Busanello,6
+1011,Anselmo Ramon Alves Herculano,9
+1012,Artur Victor Guimaraes -,7
+1013,Marcos Vinicios Lopes Moura,77
+1014,Dawhan Fran Urano da Purificacao Oliveira,78
+1015,William Matheus da Silva,66
+1016,Elton Rodrigues Brandao,9
+1017,Jenison de Jesus Brito E Brito,18
+1018,Yuri Oliveira Lima,17
+1019,Joao Lucas de Almeida Carvalho,2
+1020,Clayson Henrique da Silva Vieira,10
+1021,Clayson Henrique da Silva Vieira -,10
+1022,Raul Gustavo Pereira Bicalho,34
+1023,Fabio Santos Romeu,26
+1024,Igor Aquino da Silva,6
+1025,Willian Marlon Ferreira Moraes,5
+1026,Joao Paulo da Silva Alves,10
+1027,Jose Roberto Assunçao de Araujo Filho,9
+1028,Thiago dos Santos,5
+1029,Vanderson de Oliveira Campos,35
+1030,Mateus Ferreira,49
+1031,Miguel Angel Borja Hernandez,9
+1032,Mauricio Anibal Isla Isla,44
+1033,Bruno Henrique Pinto,27
+1034,Rodrigo Caio Coquette Russo,3
+1035,Gabriel Girotto Franco,5
+1036,Leonardo Pinheiro da Conceicao,16
+1037,Willian Marlon Ferreira Moraes,5
+1038,Natanael Batista Pimenta,11
+1039,Allan Rodrigues de Souza,29
+1040,Danilo das Neves Pinheiro,37
+1041,Santiago Trellez Vivero,9
+1042,Paulo Roberto Moccelin,94
+1043,TGJorcey Anisio Garcia Santos,
+1044,Rafael Thyere de Albuquerque Marques,15
+1045,Rodrigo Dourado Cunha,13
+1046,Bruno Mendez Cittadini,22
+1047,Moises Roberto Barbosa,20
+1048,Marcelo da Conceiçao Benevenuto Malaquias,5
+1049,David Correa da Fonseca -,17
+1050,Renzo Saravia -,26
+1051,Marcos Rogerio Ricci Lopes,21
+1052,Guilherme de Aguiar Camacho,29
+1053,Kelvyn Ramos da Fonseca,70
+1054,Messias Rodrigues da Silva Junior,3
+1055,Erick de Arruda Serafim,97
+1056,Hugo Rodallega Martinez,23
+1057,Aderlan de Lima Silva,13
+1058,Jadsom Meemyas de Oliveira da Silva,5
+1059,Cleiton Schwengber,18
+1060,Gabriel Novaes Fernandes,35
+1061,Douglas Alan Schuck Friedrich,32
+1062,Maycon Vinicius Ferreira da Cruz,11
+1063,Erick Luis Conrado Carvalho,26
+1064,Guilherme Bissoli Campos,17
+1065,Jose Ivaldo Almeida Silva,27
+1066,Nicolas Vichiatto da Silva,8
+1067,Rafael Forster -,12
+1068,Patrick de Paula Carreiro,5
+1069,Felipe Melo de Carvalho,30
+1070,Bruno da Silva Costa,7
+1071,Anderson Leite Morais,26
+1072,Gustavo Nonato Santana,8
+1073,PFMarcos de Seixas Correa,
+1074,Lucca Borges de Brito,7
+1075,Rafael Elias da Silva,9
+1076,Yesus Segundo Cabrera Ramirez,20
+1077,Marllon Goncalves Jeronimo Borges -,3
+1078,Leonardo Javier Realpe Montaño,2
+1079,Gabriel Novaes Fernandes,35
+1080,Matheus Martinelli Lima,38
+1081,Gustavo Nonato Santana,8
+1082,Fagner Conserva Lemos,23
+1083,Patrick de Paula Carreiro,5
+1084,Claudio Rodrigues Gomes,2
+1085,Joao Miranda de Souza Filho,22
+1086,Matheus Franca Silva,34
+1087,Ademir da Silva Santos Junior,10
+1088,Lucas Andres Mugni,19
+1089,Gilberto Oliveira Souza Junior,9
+1090,Heitor Rodrigues da Fonseca,2
+1091,Victor Leandro Cuesta,15
+1092,Guilherme Natan de Lima,32
+1093,Luis Carlos de Oliveira Preto,TC
+1094,Moises Ribeiro Santos,5
+1095,Anderson Jordan da Silva Cordeiro,55
+1096,Anderson Jordan da Silva Cordeiro -,55
+1097,Jose Sabino Chagas Monteiro,35
+1098,Hayner Willian Monjardim Cordeiro,2
+1099,Pedro Henrique Alves Santana,33
+1100,Anderson Hernanes de Carvalho Viana Lima,8
+1101,José Welison da Silva,14
+1102,Luis Antonio Ferreira Rodrigues,15
+1103,Lucas de Figueiredo Crispim,10
+1104,Ruan Tressoldi Netto,44
+1105,Miguel Angel Borja Hernandez,9
+1106,Mateus Ferreira,49
+1107,Marcio Rafael Ferreira de Souza,13
+1108,Douglas Costa de Souza,10
+1109,Jose Ivaldo Almeida Silva,27
+1110,William Matheus da Silva,66
+1111,Vitor Mendes Alves,34
+1112,Marcos Vinicios Lopes Moura,77
+1113,Andre Luis da Costa Alfredo,7
+1114,Joao Lucas de Almeida Carvalho,2
+1115,Auremir Evangelista dos Santos,5
+1116,Camilo Reijers de Oliveira,17
+1117,Max Alves da Siva,20
+1118,Giorgian Daniel de Arrascaeta Benedetti,14
+1119,Mauricio Anibal Isla Isla,44
+1120,Nicolas Vichiatto da Silva,8
+1121,Nicolas Hernandez Rodriguez,2
+1122,Eduardo Pereira Rodrigues,43
+1123,Jadson Alves dos Santos,16
+1124,Mario Sergio Santos Costa,11
+1125,Vinicius Nelson de Souza Zanocelo,25
+1126,Gustavo Nonato Santana,8
+1127,John Kennedy Batista de Souza,23
+1128,Ignacio Martin Fernandez,26
+1129,Guilherme Antonio Arana Lopes,13
+1130,Federico Matias Zaracho,15
+1131,TGRogerio Maia de Brum,
+1132,Junior Osmar Ignacio Alonso Mujica,3
+1133,Alexi Stival,TC
+1134,Rodrigo Dourado Cunha,13
+1135,Victor Leandro Cuesta,15
+1136,Everaldo Silva do Nascimento,37
+1137,Antonio Josenildo Rodrigues de Oliveira,26
+1138,Mathias Adalberto Villasanti Rolon,21
+1139,Juan Pablo Vojvoda,TC
+1140,Ederson Jose dos Santos Lourenco da Silva,13
+1141,Fernando Miguel Kaufmann,1
+1142,Willian Marlon Ferreira Moraes,5
+1143,Joao Paulo da Silva Alves,10
+1144,Igor Aquino da Silva,6
+1145,Lucas Araujo de Oliveira,34
+1146,Matheus Bahia Santos,79
+1147,MDRodrigo Daniel Sousa,
+1148,Alexandre Faganello,AT
+1149,Severino do Ramo Clementino da Silva,2
+1150,Bruno de Jesus Pacheco,6
+1151,Cleber Bomfim de Jesus,89
+1152,Cleber Bomfim de Jesus -,89
+1153,Antonio Javier Galeano Ferreira,27
+1154,Leonardo da Silva Gomes,16
+1155,Alexandre Egea,30
+1156,Patric Cabral Lalau,29
+1157,Paulo Marcos de Jesus Ribeiro,4
+1158,Frederico Chaves Guedes,9
+1159,Luiz Henrique Andre Rosa da Silva,34
+1160,Angelo Jose Henriquez Iturra,19
+1161,Marcelo da Conceiçao Benevenuto Malaquias,5
+1162,Lucas Araujo de Oliveira,34
+1163,Lucas Araujo de Oliveira -,34
+1164,Welington Damascena Santos,34
+1165,Mario Sergio Santos Costa,11
+1166,Vinicius Balieiro Lourenco de Carvalho,17
+1167,Danilo Boza Junior,22
+1168,Marcos Guilherme de Almeida Santos Matos,23
+1169,Gabriel Vinicius Menino,25
+1170,Jorge Marco de Oliveira Moraes,6
+1171,Felipe Melo de Carvalho,30
+1172,Eduardo Gabriel dos Santos Bauermann,3
+1173,Patric Cabral Lalau,29
+1174,Thiago dos Santos,5
+1175,Luiz Felipe Scolari,TC
+1176,Diego Churin,19
+1177,Alan Pereira Empereur,4
+1178,Jonathan Renato Barbosa,22
+1179,Lucas Ramon Batista Silva,13
+1180,Jorge de Amorim Campos,TC
+1181,Renzo Saravia,26
+1182,Moises Roberto Barbosa,20
+1183,Bruno de Jesus Pacheco,6
+1184,Vinicius Goes Barbosa de Souza,29
+1185,Marlon Adriano Prezotti,25
+1186,Luiz Otavio Anacleto Leandro,13
+1187,Igor Inocencio de Oliveira,2
+1188,Everaldo Silva do Nascimento,37
+1189,Anderson Hernanes de Carvalho Viana Lima,8
+1190,Michel Macedo Rocha Machado,88
+1191,Wagner Ferreira dos Santos,20
+1192,Mauricio Nogueira Barbieri,TC
+1193,Jadsom Meemyas de Oliveira da Silva,5
+1194,Andreas Hugo Hoelgebaum Pereira,18
+1195,Bruno Henrique Pinto,27
+1196,Robert Kenedy Nunes do Nascimento,33
+1197,Nathanael Ananias da Silva,40
+1198,Rene dos Santos Junior,23
+1199,Keiller da Silva Nunes,1
+1200,Erick Luis Conrado Carvalho,26
+1201,Miguel David Terans Perez,80
+1202,Jose Ivaldo Almeida Silva,27
+1203,Eder Ferreira Graminho,4
+1204,Jose Roberto Assunçao de Araujo Filho,9
+1205,Joao Paulo da Silva Alves,10
+1206,John Kennedy Batista de Souza,23
+1207,Luccas Claro dos Santos,4
+1208,Eder Ferreira Graminho,4
+1209,Ronald Pereira Martins,11
+1210,Eduardo do Nascimento Souza -,AT
+1211,Gabriel Veron Fonseca de Souza,27
+1212,Abel Fernando Moreira Ferreira,TC
+1213,Aderlan de Lima Silva,13
+1214,Fabricio Bruno Soares de Faria,14
+1215,Diego Tardelli Martins,99
+1216,Felipe Jonatan Rocha Andrade,3
+1217,Carlos Andres Sanchez Arcosa,7
+1218,Leonardo Micali Baptistao,9
+1219,Walter Kannemann,4
+1220,Antonio Josenildo Rodrigues de Oliveira,26
+1221,Lucas Silva Borges,16
+1222,Marcio Rafael Ferreira de Souza,13
+1223,Thiago dos Santos,5
+1224,Douglas Costa de Souza,10
+1225,Jair Rodrigues Junior,8
+1226,Geovane da Silva de Souza,21
+1227,Messias Rodrigues da Silva Junior,3
+1228,Bruno de Jesus Pacheco,6
+1229,Tiago Retzlaff Nunes -,TC
+1230,Daniel de Sousa Brito,42
+1231,Matheus Alfredo Cadorini da Silva,18
+1232,Moises Roberto Barbosa,20
+1233,Anderson Jordan da Silva Cordeiro,55
+1234,Victor Vinicius Coelho Santos,11
+1235,Rodrigo Caio Coquette Russo,3
+1236,Gaston Ricardo Liendo,AT
+1237,Ronald dos Santos Lopes -,14
+1238,Marcos Antonio Almeida Silva,77
+1239,Hector Mario Nuñez,AT
+1240,Paulo Roberto Moccelin,94
+1241,Sander Henrique Bortolotto,56
+1242,Danilo Fernandes Batista,21
+1243,Luiz Otavio da Silva Santos,3
+1244,Maycon Vinicius Ferreira da Cruz,11
+1245,Paulo Henrique Pereira da Silva,11
+1246,Dawhan Fran Urano da Purificacao Oliveira,78
+1247,Jadson Alves dos Santos,16
+1248,William Matheus da Silva,66
+1249,Rafael Forster,12
+1250,Marcos Vinicios Lopes Moura,77
+1251,Ademir da Silva Santos Junior,10
+1252,Alexandre Egea,30
+1253,Ricardo Cesar Dantas da Silva,45
+1254,Igor Silveira Gomes,26
+1255,Marcus Vinicius Oliveira Alencar,47
+1256,Jonathan Renato Barbosa,22
+1257,Auremir Evangelista dos Santos,5
+1258,Filipe Luis Kasmirski,16
+1259,Rene Rodrigues Martins,6
+1260,William Matheus da Silva,66
+1261,Juan Sebastian Quintero Fletcher,3
+1262,Vitor Mendes Alves,34
+1263,Fagner Conserva Lemos,23
+1264,Danilo Carvalho Barcelos,14
+1265,Luis Manuel Orejuela Garcia,20
+1266,Jonathan Calleri,30
+1267,Joao Miranda de Souza Filho,22
+1268,Fabio Goncalves,19
+1269,Willian Oliveira dos Santos,5
+1270,Richard de Oliveira Costa,91
+1271,Savio Moreira de Oliveira,33
+1272,Jose Rodolfo Pires Ribeiro,6
+1273,Marcos Rogerio Ricci Lopes,21
+1274,Raniel Santana de Vasconcelos,12
+1275,Lucas Braga Ribeiro,30
+1276,Joao Paulo Silva Martins,34
+1277,Wagner Leonardo Calvelo de Souza,14
+1278,Jean Mota Oliveira de Sousa,41
+1279,Mario Sergio Santos Costa,11
+1280,Paulo Victor de Almeida Barbosa,23
+1281,Felipe Azevedo dos Santos,11
+1282,Lucas Ribamar Lopes dos Santos Bibiano,7
+1283,Ruan Tressoldi Netto,44
+1284,Everton Cardoso da Silva,22
+1285,Luis Antonio Ferreira Rodrigues,15
+1286,Robson dos Santos Fernandes,7
+1287,Ronielson da Silva Barbosa,7
+1288,Benjamin Kuscevic Jaramillo,4
+1289,Daniel Sampaio Simoes,8
+1290,Ronaldo Cezar Soares dos Santos,57
+1291,Juan Pablo Ramirez Velasquez,15
+1292,Lucas Andres Mugni,19
+1293,Wesley Ribeiro Silva -,11
+1294,Eric dos Santos Rodrigues,16
+1295,Leonardo Rech Ortiz,3
+1296,Willian Marlon Ferreira Moraes,5
+1297,Janderson Santos de Souza,20
+1298,Ronald Pereira Martins,11
+1299,Arnaldo Manoel de Almeida,2
+1300,Eric dos Santos Rodrigues -,16
+1301,Thiago Heleno Henrique Ferreira,44
+1302,Pedro Henrique Azevedo Pereira,31
+1303,Jose Ivaldo Almeida Silva,27
+1304,Richard Candido Coelho,25
+1305,Maycon Vinicius Ferreira da Cruz,11
+1306,Rodrigo Araujo da Silva Filho,35
+1307,Gabriel Dal Toe Busanello,6
+1308,Anderson Leite Morais,26
+1309,Moises Ribeiro Santos,5
+1310,Adelino Pereira de Camargo Neto -,AT
+1311,Gustavo Atilano Florentin Morinigo,TC
+1312,Max Alves da Siva,11
+1313,Yuri Oliveira Lima,18
+1314,Joao Lucas de Almeida Carvalho,2
+1315,Alan Pereira Empereur,3
+1316,Filipe Luis Kasmirski,16
+1317,Marllon Goncalves Jeronimo Borges,13
+1318,Felipe Melo de Carvalho,30
+1319,Ronielson da Silva Barbosa,7
+1320,Gustavo Henrique Furtado Scarpa,14
+1321,Gabriel Ivan Mercado,25
+1322,Patrick Bezerra do Nascimento,88
+1323,Victor Leandro Cuesta,15
+1324,Heitor Rodrigues da Fonseca,2
+1325,Edenilson Andrade dos Santos -,8
+1326,Roger Krug Guedes,123
+1327,Joao Victor da Silva Marcelino,33
+1328,Gabriel Neves Perdomo,15
+1329,Robert Abel Arboleda Escobar,5
+1330,Igor Matheus Liziero Pereira,14
+1331,Lucas Andres Mugni,19
+1332,German Andres Conti,5
+1333,Marlon Matheus Lopes do Nascimento,66
+1334,Lucas Silva Borges,16
+1335,Roberson de Arruda Alves,19
+1336,Guilherme Castilho Carvalho,99
+1337,Guilherme Oliveira Santos,33
+1338,Luan Candido de Almeida,29
+1339,Emiliano Martinez Toranza,40
+1340,Pedro Gabriel Pereira Lopes,33
+1341,Jan Carlos Hurtado Anchico,27
+1342,Cristiano Claudinei Nogueira,38
+1343,Gabriel Novaes Fernandes,35
+1344,Jadsom Meemyas de Oliveira da Silva,5
+1345,Bruno de Jesus Pacheco,6
+1346,Gabriel Santos Cordeiro Lacerda,15
+1347,Wagner Leonardo Calvelo de Souza,14
+1348,Carlos Andres Sanchez Arcosa,7
+1349,Madson Ferreira dos Santos,13
+1350,Sander Henrique Bortolotto,56
+1351,Jhon Adolfo Arias Andrade,21
+1352,Nicolas Hernandez Rodriguez,2
+1353,Lucas Fasson dos Santos,37
+1354,Glaybson Yago Souza Lisbôa,22
+1355,Anderson Jordan da Silva Cordeiro,55
+1356,Geuvanio Santos da Silva Lima,50
+1357,Ignacio da Silva Oliveira,21
+1358,Jose Roberto Assunçao de Araujo Filho,9
+1359,John Kennedy Batista de Souza,23
+1360,David Braz de Oliveira Filho,44
+1361,Samuel Xavier Brito,2
+1362,André Trindade da Costa Neto,35
+1363,Abel Mathias Hernandez Platero,32
+1364,Marco Aurelio de Oliveira,TC
+1365,Lucca Borges de Brito,7
+1366,Diego Ribas da Cunha,10
+1367,Everton Augusto de Barros Ribeiro,7
+1368,Victor Vinicius Coelho Santos,11
+1369,Gustavo Raul Gomez Portillo,15
+1370,José Welison da Silva,14
+1371,Marcos Antonio Almeida Silva,77
+1372,Jose Sabino Chagas Monteiro,35
+1373,Guilherme de Aguiar Camacho,29
+1374,Marlon Matheus Lopes do Nascimento,66
+1375,Adilson dos Anjos Oliveira,8
+1376,Jean Mota Oliveira de Sousa -,41
+1377,Gabriel Girotto Franco,5
+1378,Renato Soares de Oliveira Augusto,8
+1379,Cassio Ramos,12
+1380,Taison Barcellos Freda,10
+1381,Rodrigo Dourado Cunha,13
+1382,Gabriel Ivan Mercado,25
+1383,Patrick Bezerra do Nascimento -,88
+1384,João Vitor Xavier de Almeida -,39
+1385,Robson dos Santos Fernandes,7
+1386,Ederson Jose dos Santos Lourenco da Silva,13
+1387,Bruno Amorim Lazaroni,AT
+1388,Fernando Canesin Matos,55
+1389,Christian Roberto Alves Cardoso,88
+1390,Rai Nascimento de Oliveira,18
+1391,Kaio Nunes Ferreira,96
+1392,Jadsom Meemyas de Oliveira da Silva,5
+1393,Helio Junio Nunes de Castro,11
+1394,Fabricio Bruno Soares de Faria,14
+1395,William Matheus da Silva,66
+1396,Joao Ricardo Riedi,1
+1397,Igor Inocencio de Oliveira,2
+1398,Aldemir dos Santos Ferreira,11
+1399,Walter Kannemann,4
+1400,Marcio Rafael Ferreira de Souza,13
+1401,Jonathan Doin,28
+1402,Luiz Fernando Moraes dos Santos,33
+1403,Thiago dos Santos,5
+1404,Miguel Angel Borja Hernandez,9
+1405,Joao Paulo Imbernom Sanches,AT
+1406,Andre Luis da Costa Alfredo,10
+1407,Willian Marlon Ferreira Moraes,5
+1408,Jonathan Doin -,28
+1409,Claudio Rodrigues Gomes,2
+1410,Nathanael Ananias da Silva,40
+1411,Everton Augusto de Barros Ribeiro,7
+1412,Bruno Henrique Pinto,27
+1413,Diego Alves Carreira,1
+1414,Rodinei Marcelo de Almeida,20
+1415,Renato Soares de Oliveira Augusto,8
+1416,TGCezar Augusto Capelari,
+1417,Keiller da Silva Nunes,1
+1418,Henrique Almeida Caixeta Nascentes,11
+1419,Ezequiel Jacinto de Biasi,30
+1420,Anselmo Ramon Alves Herculano,9
+1421,Kaique Rocha Lima,3
+1422,Victor Leandro Cuesta,15
+1423,Matheus Isaias dos Santos,16
+1424,Christian Chagas Tarouco,44
+1425,Lucas Rafael Araujo Lima,25
+1426,Jose Romario Silva de Souza,20
+1427,Ederson Jose dos Santos Lourenco da Silva,13
+1428,Joao Miguel Barreto Martins,AT
+1429,Felipe Melo de Carvalho,30
+1430,Luan Garcia Teixeira,13
+1431,Thiago dos Santos,5
+1432,Alisson Euler de Freitas Castro,23
+1433,Walter Kannemann,4
+1434,Jean Pyerre Casagrande Silveira Correa,88
+1435,Vagner Carmo Mancini,TC
+1436,André Trindade da Costa Neto,35
+1437,Frederico Chaves Guedes,9
+1438,John Steven Mendoza Valencia,10
+1439,Willian Oliveira dos Santos,5
+1440,Fabio Goncalves,19
+1441,Messias Rodrigues da Silva Junior,3
+1442,Gabriel Dias de Oliveira -,94
+1443,TGAndre Carvalho da Silva -,
+1444,Anderson Hernanes de Carvalho Viana Lima,8
+1445,José Welison da Silva,14
+1446,Mikael Filipe Viana de Sousa,99
+1447,Gustavo Silva de Oliveira,10
+1448,Ronald Pereira Martins,11
+1449,Arnaldo Manoel de Almeida,2
+1450,Fernando Miguel Kaufmann,1
+1451,Gustavo Atilano Florentin Morinigo -,TC
+1452,Joao Paulo Silva Martins,34
+1453,Vinicius Balieiro Lourenco de Carvalho,17
+1454,Jose Ivaldo Almeida Silva,27
+1455,Gilberto Oliveira Souza Junior,9
+1456,Fernando José Pacheco Rivas,17
+1457,Vitor Mendes Alves,34
+1458,Leonardo Rech Ortiz,3
+1459,Alerrandro Barra Mansa Realino de Souza,9
+1460,Weverson Moreira da Costa,26
+1461,Auremir Evangelista dos Santos,16
+1462,Joao Lucas de Almeida Carvalho,2
+1463,Luciano Batista da Silva Junior,46
+1464,Marlon Rodrigues Xavier,30
+1465,Roger Krug Guedes,123
+1466,Fagner Conserva Lemos,23
+1467,Victor Danilo Cantillo Jimenez,24
+1468,Lucas Rafael Araujo Lima,25
+1469,Robson dos Santos Fernandes,270
+1470,Luis Antonio Ferreira Rodrigues,267
+1471,Gaston Ricardo Liendo,AT
+1472,Gustavo Raul Gomez Portillo,15
+1473,Jose Rafael Vivian,8
+1474,Raniel Santana de Vasconcelos,12
+1475,Madson Ferreira dos Santos,13
+1476,Felipe Jonatan Rocha Andrade,3
+1477,Jefferson David Savarino Quintero,17
+1478,Junior Osmar Ignacio Alonso Mujica,3
+1479,Guilherme Antonio Arana Lopes,13
+1480,Fabricio Daniel de Souza,13
+1481,Bruno dos Santos Nazario,22
+1482,Renzo Saravia,26
+1483,Mathias Adalberto Villasanti Rolon,21
+1484,Pedro Tonon Geromel,3
+1485,Thiago dos Santos,5
+1486,Jael Ferreira Vieira,9
+1487,Luiz Otavio Anacleto Leandro,13
+1488,Messias Rodrigues da Silva Junior,3
+1489,Rafael Elias da Silva,19
+1490,Igor Matheus Liziero Pereira,14
+1491,Emiliano Ariel Rigoni,77
+1492,Patrick de Lucca Chaves de Oliveira,45
+1493,Eric dos Santos Rodrigues,16
+1494,Natan Bernardo de Souza,21
+1495,Jose Ivaldo Almeida Silva,27
+1496,Guilherme Bissoli Campos,17
+1497,Leonardo Cittadini,18
+1498,Matheus Franca Silva,34
+1499,Gabriel Barbosa Almeida,9
+1500,Bruno Viana Willemen da Silva,30
+1501,Kaio Nunes Ferreira,96
+1502,Alan Santos da Silva,8
+1503,Rene dos Santos Junior,23
+1504,Everton Augusto de Barros Ribeiro -,7
+1505,Kaio Nunes Ferreira -,96
+1506,Marcos Vinicios Lopes Moura,77
+1507,Ricardo Bueno da Silva,9
+1508,Willian Marlon Ferreira Moraes,5
+1509,Matheus Bahia Santos,79
+1510,German Andres Conti,5
+1511,Diego Ribas da Cunha -,10
+1512,Rosicley Pereira da Silva -,7
+1513,Matheus Bahia Santos -,79
+1514,Danilo dos Santos de Oliveira,28
+1515,Eder Ferreira Graminho,4
+1516,Janderson Santos de Souza,7
+1517,Lucas da Cruz Oliveira,14
+1518,Jadsom Meemyas de Oliveira da Silva,5
+1519,Vinicius Nelson de Souza Zanocelo,25
+1520,Joao Paulo Silva Martins,34
+1521,Giuliano Victor de Paula,11
+1522,Fabio Santos Romeu,26
+1523,Marcos da Silva Franca,11
+1524,Guilherme Antonio Arana Lopes,13
+1525,Lucas Silva Borges,16
+1526,Douglas Costa de Souza,10
+1527,Walter Kannemann,4
+1528,Marcilio Florencio Mota Filho,33
+1529,Rodrigo Nestor Bertalia,25
+1530,Gabriel Davi Gomes Sara,21
+1531,Martin Nicolas Benitez,8
+1532,Welington Damascena Santos,34
+1533,Eder Citadin Martins,23
+1534,Robson dos Santos Fernandes,7
+1535,Gaston Ricardo Liendo,AT
+1536,Felipe Alves Raymundo,12
+1537,Matheus Isaias dos Santos,16
+1538,Wellington Pereira do Nascimento,9
+1539,Santiago Trellez Vivero,9
+1540,Marcos Antonio Almeida Silva,77
+1541,Paulo Roberto Valoura Junior,55
+1542,Lucas Kal Schenfeld Prigioli,21
+1543,Alexandre Egea,30
+1544,Gustavo Silva de Oliveira -,10
+1545,Richard de Oliveira Costa,91
+1546,Joao Ricardo Riedi,1
+1547,Christian Roberto Alves Cardoso,88
+1548,Renato Kayzer de Souza,79
+1549,Abner Vinicius da Silva Santos,16
+1550,Aderbar Melo dos Santos Neto,1
+1551,Fernando Pereira do Nascimento -,8
+1552,Gabriel Ivan Mercado,25
+1553,Edenilson Andrade dos Santos,8
+1554,Rodrigo Dourado Cunha,13
+1555,Yuri Alberto Monteiro da Silva,11
+1556,William Matheus da Silva,66
+1557,Juan Sebastian Quintero Fletcher,3
+1558,Matheus Antunes Ribeiro,2
+1559,Osman de Menezes Venancio Junior,20
+1560,Felipe Melo de Carvalho,30
+1561,Luan Garcia Teixeira,13
+1562,Victor Luis Chuab Zamblauskas,26
+1563,Eduardo Pereira Rodrigues,43
+1564,Weverton Pereira da Silva,21
+1565,Marco Aurelio de Oliveira,TC
+1566,Frederico Chaves Guedes,9
+1567,Gabriel Teixeira Aragao,39
+1568,Samuel Xavier Brito,2
+1569,Eduardo Pereira Rodrigues -,43
+1570,Gustavo Henric da Silva,19
+1571,Joao Lucas de Almeida Carvalho,2
+1572,Shaylon Kallyson Cardozo,19
+1573,Matheus Franca Silva,34
+1574,Jonathan Calleri -,30
+1575,Ruan Tressoldi Netto,44
+1576,Ricardo Cesar Dantas da Silva,45
+1577,Matheus Fernando Cavichioli,1
+1578,Mauro Matias Zarate,99
+1579,Bruno Mendez Cittadini,22
+1580,Carlosalonso Enrique Palacios Nunez,16
+1581,Victor Leandro Cuesta,15
+1582,Moises Roberto Barbosa,20
+1583,Mauricio Magalhaes Prado,27
+1584,Rodrigo Oliveira Lindoso,19
+1585,Rodrigo Dourado Cunha,13
+1586,Thiago Heleno Henrique Ferreira,44
+1587,Marcio Almeida de Oliveira,5
+1588,Miguel David Terans Perez,80
+1589,Carlos Eduardo Soares Mota,92
+1590,Rafael Thyere de Albuquerque Marques,15
+1591,Jael Ferreira Vieira,9
+1592,Eduardo  Colcenti Antunes,18
+1593,Nathan Allan de Souza,23
+1594,MDRodrigo Campos Pace Lasmar,
+1595,Guilherme Antonio Arana Lopes,13
+1596,Lucas Andres Mugni,19
+1597,Daniel Sampaio Simoes,8
+1598,Bruno Conceicao Praxedes,25
+1599,Jadsom Meemyas de Oliveira da Silva,5
+1600,Cleiton Schwengber,18
+1601,Lucas Rafael Araujo Lima,25
+1602,Matheus Isaias dos Santos,16
+1603,Valentin Depietri,34
+1604,Bruno Ferreira Melo,30
+1605,TGNahuel Dario Martinez -,
+1606,Dawhan Fran Urano da Purificacao Oliveira,78
+1607,Marcos Vinicios Lopes Moura,77
+1608,Michel Macedo Rocha Machado,88
+1609,Matheus Antunes Ribeiro,2
+1610,Ignacio da Silva Oliveira,21
+1611,Mike dos Santos Nenatarvicius,17
+1612,Onitlasi Junior de Moraes Rodrigues,42
+1613,Kaiky Fernandes Melo,28
+1614,Danilo Boza Junior,22
+1615,Lucas Gabriel Ribeiro Firmo,22
+1616,Andre Luis da Costa Alfredo,7
+1617,Gabriel Pereira dos Santos,38
+1618,Joao Victor da Silva Marcelino,33
+1619,Vitor Gabriel Claudino Rego Ferreira,63
+1620,Patrick de Paula Carreiro,5
+1621,Vitor Frezarin Bueno,12
+1622,Eder Citadin Martins,23
+1623,Angelo Gabriel Borges Damaceno,27
+1624,Anderson Jordan da Silva Cordeiro,55
+1625,Gabriel Dal Toe Busanello,6
+1626,Paulo Roberto Valoura Junior,55
+1627,Igor Aquino da Silva,6
+1628,Julio Cesar de Souza Santos,1
+1629,Natan Bernardo de Souza,21
+1630,Fabio Goncalves,19
+1631,Joao Ricardo Riedi,1
+1632,Gabriel Dias de Oliveira,94
+1633,John Steven Mendoza Valencia,10
+1634,Marcelo da Conceiçao Benevenuto Malaquias,5
+1635,Gilberto Oliveira Souza Junior,9
+1636,Juan Pablo Ramirez Velasquez,15
+1637,Edson Fernando da Silva Gomes,35
+1638,Marcos Antonio Almeida Silva,77
+1639,Diego da Silva Costa,19
+1640,Jair Rodrigues Junior,8
+1641,Carlos Eduardo Ferreira de Souza,96
+1642,Lucca Borges de Brito,7
+1643,MDArthur da Rocha Nogueira Neto,
+1644,Guilherme Castilho Carvalho,99
+1645,Joao Victor da Vitoria Fernandes,7
+1646,Paulo Victor de Almeida Barbosa,23
+1647,Elton Rodrigues Brandao,19
+1648,Clayson Henrique da Silva Vieira,10
+1649,Yuri Oliveira Lima,18
+1650,Anderson Conceicao Benedito,14
+1651,André Trindade da Costa Neto,35
+1652,Alexandre Egea,30
+1653,Adilson dos Anjos Oliveira,8
+1654,Roni Medeiros de Moura,29
+1655,Reinaldo Manoel da Silva,6
+1656,Jonathan Calleri,30
+1657,Leonardo Pinheiro da Conceicao,16
+1658,Marcio Almeida de Oliveira,5
+1659,Aderbar Melo dos Santos Neto,1
+1660,Mariano Ferreira Filho,25
+1661,Dawhan Fran Urano da Purificacao Oliveira,78
+1662,Jadson Alves dos Santos,16
+1663,Bruno Mendez Cittadini,22
+1664,Moises Roberto Barbosa,20
+1665,Gabriel Barbosa Almeida,9
+1666,Jose Rafael Vivian,8
+1667,Gustavo Raul Gomez Portillo,15
+1668, Abel Fernando Moreira Ferreira,
+1669,Matheus Isaias dos Santos,16
+1670,David Correa da Fonseca,17
+1671,Marcelo da Conceiçao Benevenuto Malaquias,5
+1672,Luis Antonio da Rocha Junior,29
+1673,Artur Victor Guimaraes,7
+1674,Edimar Curitiba Fraga,6
+1675,Fabricio Bruno Soares de Faria,14
+1676,Sander Henrique Bortolotto,56
+1677,Gustavo Silva de Oliveira,10
+1678,Ewerthon Diogenes da Silva,66
+1679,Ronaldo Henrique Ferreira da Silva,5
+1680,Mikael Filipe Viana de Sousa,99
+1681,Anderson Hernanes de Carvalho Viana Lima,8
+1682,Bruno Cortes Barbosa,12
+1683,Anderson Leite Morais,26
+1684,Messias Rodrigues da Silva Junior,3
+1685,Jorge de Moura Xavier,16
+1686,Marcelo Ribeiro Cabo,TC
+1687,Victor Leandro Cuesta,15
+1688,Rodrigo Dourado Cunha,13
+1689,Renzo Saravia,26
+1690,Gabriel Ivan Mercado,25
+1691,Heitor Rodrigues da Fonseca,2
+1692,Wellington Aparecido Martins,5
+1693,Marlon Rodrigues Xavier,30
+1694,Yago Felipe da Costa Rocha,20
+1695,Lucas Felipe Calegari,31
+1696,Manoel Messias Silva Carvalho,26
+1697,Paulo Victor de Almeida Barbosa -,23
+1698,Deyverson Brum Silva,16
+1699,Marcos Luis Rocha Aquino,2
+1700,Gabriel Vinicius Menino,25
+1701,Renan Victor da Silva,3
+1702,Junior Osmar Ignacio Alonso Mujica,3
+1703,Diego da Silva Costa,19
+1704,Ignacio Martin Fernandez,26
+1705,Marcos Leonardo Santos Almeida,36
+1706,Marcos Guilherme de Almeida Santos Matos,23
+1707,Vinicius Nelson de Souza Zanocelo,25
+1708,Glaybson Yago Souza Lisbôa,22
+1709,Marcelo da Conceiçao Benevenuto Malaquias,5
+1710,Ricardo Cesar Dantas da Silva,45
+1711,Alexandre Egea,30
+1712,Gabriel Dal Toe Busanello,6
+1713,Moises Ribeiro Santos,5
+1714,Emiliano Ariel Rigoni,77
+1715,Joao Miranda de Souza Filho,22
+1716,Douglas Costa de Souza,10
+1717,Gabriel Hamester Grando,34
+1718,Miguel Angel Borja Hernandez,9
+1719,Cassio Ramos,12
+1720,Eduardo Santos Queiroz,37
+1721,Fagner Conserva Lemos,23
+1722,Gabriel Girotto Franco,5
+1723,Fernando Pereira do Nascimento,8
+1724,Joao Ricardo Riedi,1
+1725,Kelvyn Ramos da Fonseca,70
+1726,Anderson Hernanes de Carvalho Viana Lima,8
+1727,Paulo Roberto Moccelin,94
+1728,Rene Rodrigues Martins,6
+1729,Pedro Guilherme Abreu dos Santos,21
+1730,Bruno Viana Willemen da Silva,30
+1731,Fernando Canesin Matos,55
+1732,Miguel David Terans Perez,80
+1733,Nicolas Hernandez Rodriguez,2
+1734,Jose Ivaldo Almeida Silva,27
+1735,Joao Lucas de Almeida Carvalho,2
+1736,Rafael Gustavo Meneghel Gava,7
+1737,PFJorge Alberto Pinto Soter,
+1738,Clayson Henrique da Silva Vieira,23
+1739,Marllon Goncalves Jeronimo Borges,3
+1740,Elton Rodrigues Brandao,19
+1741,Walter Leandro Capeloza Artune,1
+1742,Clayson Henrique da Silva Vieira -,23
+1743,MDJhone Maykon Monteiro Pereira -,
+1744,Leonardo Rech Ortiz,3
+1745,Aderlan de Lima Silva,13
+1746,Jadsom Meemyas de Oliveira da Silva,5
+1747,Vitor Mendes Alves,34
+1748,Ricardo Ribeiro de Lima,5
+1749,Jadson Alves dos Santos,16
+1750,Jair Zaksauskas Ribeiro Ventura,TC
+1751,Lucas Andres Mugni,19
+1752,Patrick de Lucca Chaves de Oliveira,45
+1753,Luis Antonio da Rocha Junior,29
+1754,Eder Ferreira Graminho,3
+1755,Marlon Rodrigues Freitas,8
+1756,Gabriel Baralhas dos Santos,18
+1757,Janderson Santos de Souza,11
+1758,Jonas Gabriel da Silva Nunes,23
+1759,FTJoao Rodrigues dos Santos Neto,
+1760,Luis Antonio da Rocha Junior -,29
+1761,Gabriel Barbosa Almeida,9
+1762,Gustavo Henrique Vernes,2
+1763,Thiago Maia Alencar,8
+1764,Ramon Ramos Lima,36
+1765,Bruno Henrique Pinto,27
+1766,Everton Augusto de Barros Ribeiro,7
+1767,Vinicius Moreira de Lima,45
+1768,PFAndre Tadeo Gomes Volpe,
+1769,Gabriel Girotto Franco,5
+1770,Joao Victor da Silva Marcelino,33
+1771,Carlos Gilberto do Nascimento Silva,4
+1772,Fagner Conserva Lemos,23
+1773,Fabio Santos Romeu,26
+1774,Christian Roberto Alves Cardoso,88
+1775,Thiago Heleno Henrique Ferreira,44
+1776,Miguel David Terans Perez,80
+1777,Gustavo Silva de Oliveira,10
+1778,Junior Osmar Ignacio Alonso Mujica,3
+1779,Nathanael Ananias da Silva,40
+1780,Allan Rodrigues de Souza,29
+1781,Marcos da Silva Franca,11
+1782,Jair Rodrigues Junior,8
+1783,Diego da Silva Costa,19
+1784,David Braz de Oliveira Filho,44
+1785,Samuel Xavier Brito,2
+1786,Matheus Martins Silva dos Santos,18
+1787,PFMarcos de Seixas Correa,
+1788,Sandry Roberto Santos Goes,6
+1789,Marcos Rogerio Ricci Lopes,21
+1790,Joao Lucas de Souza Cardoso,30
+1791,Lucas de Figueiredo Crispim,10
+1792,Robson dos Santos Fernandes,7
+1793,Lucas Andres Mugni,19
+1794,Rodrigo Eduardo Costa Marinho,10
+1795,Severino do Ramo Clementino da Silva,2
+1796,Bruno Cortes Barbosa,12
+1797,Walter Kannemann,4
+1798,Vanderson de Oliveira Campos,35
+1799,Leonardo Rech Ortiz,3
+1800,Bruno Conceicao Praxedes,25
+1801,Fabricio Bruno Soares de Faria,14
+1802,Lucas Kal Schenfeld Prigioli,21
+1803,Mauro Matias Zarate,99
+1804,Bruno da Silva Costa,7
+1805,TGCezar Augusto Capelari,
+1806,Ezequiel Jacinto de Biasi,30
+1807,Eder Ferreira Graminho,3
+1808,Marlon Rodrigues Freitas,8
+1809,Arthur Henrique Peixoto Santos,6
+1810,Gustavo Garcia dos Santos,32
+1811,Gabriel Veron Fonseca de Souza,27
+1812,Joao Pedro Vilardi Pinto,8
+1813,Rafael Gustavo Meneghel Gava,7
+1814,Alan Pereira Empereur,3
+1815,Uendel Pereira Goncalves,6
+1816,Gabriel Veron Fonseca de Souza -,27
+1817,Joao Miguel Barreto Martins -,AT
+1818,Marcos Leonardo Santos Almeida,36
+1819,Kaiky Fernandes Melo,28
+1820,Raniel Santana de Vasconcelos,12
+1821,Rodinei Marcelo de Almeida,20
+1822,Pedro Guilherme Abreu dos Santos,21
+1823,Matheus Franca Silva,34
+1824,Roger Krug Guedes,123
+1825,Walter Kannemann,4
+1826,Marcio Rafael Ferreira de Souza,13
+1827,Pedro Tonon Geromel,3
+1828,Luciano da Rocha Neves,11
+1829,Igor Matheus Liziero Pereira,14
+1830,Robert Abel Arboleda Escobar,5
+1831,Igor Silveira Gomes,26
+1832,Leonardo Pinheiro da Conceicao,16
+1833,Rafael Forster,12
+1834,William Matheus da Silva,66
+1835,Joao Victor da Vitoria Fernandes,7
+1836,Givanildo Vieira de Sousa,7
+1837,Helio Junio Nunes de Castro,11
+1838,Artur Victor Guimaraes,7
+1839,Carlosalonso Enrique Palacios Nunez,16
+1840,Taison Barcellos Freda,10
+1841,Rodrigo Dourado Cunha,13
+1842,Rickson Barbosa Sa da Conceicao,10
+1843,Igor Aquino da Silva,17
+1844,Edison Luiz Ferreira Borges,AT
+1845,Marlon Matheus Lopes do Nascimento,66
+1846,Lucas Kal Schenfeld Prigioli,21
+1847,Gilberto Oliveira Souza Junior,9
+1848,Luis Antonio da Rocha Junior,29
+1849,Wellington Aparecido Martins,5
+1850,Yago Felipe da Costa Rocha,20
+1851,Frederico Chaves Guedes,9
+1852,Luccas Claro dos Santos,4
+1853,Raul Marcelo Bobadilla,19
+1854,Manoel Messias Silva Carvalho -,26
+1855,Rosicley Pereira da Silva -,7
+1856,Matheus Fernandes Siqueira,38
+1857,Fernando Canesin Matos,55
+1858,Jose Sabino Chagas Monteiro,35
+1859,José Welison da Silva,14
+1860,Rafael Thyere de Albuquerque Marques,15
+1861,Marcos Antonio Almeida Silva,77
+1862,Rene dos Santos Junior,23
+1863,Mike dos Santos Nenatarvicius,17
+1864,Moises Ribeiro Santos,5
+1865,Geuvanio Santos da Silva Lima -,50
+1866,Gaston Ricardo Liendo,AT
+1867,Marcelo da Conceiçao Benevenuto Malaquias,5
+1868,Matheus Isaias dos Santos,16
+1869,Ronald dos Santos Lopes,14
+1870,Paulo Marcos de Jesus Ribeiro,4
+1871,Gaston Ricardo Liendo -,AT
+1872,Matheus Martins Silva dos Santos,18
+1873,David Braz de Oliveira Filho,44
+1874,Abel Mathias Hernandez Platero,32
+1875,Ignacio da Silva Oliveira,21
+1876,Ronei Gebing,15
+1877,Vitor Hugo Ferreira Oliveira,57
+1878,Gabriel Silva Vieira,49
+1879,Vinicius Nelson de Souza Zanocelo,25
+1880,Walter Leandro Capeloza Artune,1
+1881,Joao Pedro Vilardi Pinto,8
+1882,Gabriel Neves Perdomo,15
+1883,Diego Henrique Costa Barbosa,4
+1884,Jose Ricardo Barbosa Ribeiro Drumond,5
+1885,Marcos Vinicius Santos Goncalves,TC
+1886,Ricardo Cesar Dantas da Silva,45
+1887,Dylan Felipe Borrero Caicedo,30
+1888,Diogo Barbosa Mendanha,32
+1889,Thiago dos Santos,5
+1890,Douglas Costa de Souza,10
+1891,Rai Nascimento de Oliveira,18
+1892,German Andres Conti,5
+1893,Alexandre Faganello,AT
+1894,Marcelo Boeck,1
+1895,Glaybson Yago Souza Lisbôa,22
+1896,Osvaldo Lourenco Filho,11
+1897,Matheus de Vargas,96
+1898,Everton Felipe de Oliveira Silva,97
+1899,Marcio Gonzaga de Azevedo,6
+1900,Jadsom Meemyas de Oliveira da Silva,5
+1901,Leonardo Rech Ortiz,3
+1902,Fabricio Bruno Soares de Faria,14
+1903,Artur Victor Guimaraes,7
+1904,Yuri Alberto Monteiro da Silva,11
+1905,Moises Roberto Barbosa,20
+1906,Renzo Saravia,26
+1907,Carlosalonso Enrique Palacios Nunez,16
+1908,Victor Leandro Cuesta,15
+1909,Carlos Gilberto do Nascimento Silva,4
+1910,Roni Medeiros de Moura,29
+1911,Guilherme Oliveira Santos,33
+1912,Fagner Conserva Lemos -,23
+1913,Leonardo Pereira,4
+1914,Robert Ayrton Piris da Motta Mendoza,26
+1915,Lucas da Cruz Oliveira,3
+1916,Willian Marlon Ferreira Moraes,5
+1917,Rickson Barbosa Sa da Conceicao,10
+1918,Marlon Rodrigues Freitas,8

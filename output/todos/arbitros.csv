@@ -1,112 +1,140 @@
 id,nome,credencial,estado
-0,Bruno Arleu de Araujo,FIFA,RJ
-1,Anderson Daronco,FIFA,RS
-2,Wagner do Nascimento Magalhaes,FIFA,RJ
+0,Anderson Daronco,FIFA,RS
+1,Felipe Fernandes de Lima,AB,MG
+2,Rodolpho Toski Marques,FIFA,PR
 3,Caio Max Augusto Vieira,AB,RN
-4,Wilton Pereira Sampaio,FIFA,GO
-5,Rodolpho Toski Marques,FIFA,PR
-6,Felipe Fernandes de Lima,AB,MG
-7,Braulio da Silva Machado,FIFA,SC
-8,Luiz Flavio de Oliveira,FIFA,SP
-9,Raphael Claus,FIFA,SP
-10,Ramon Abatti Abel,AB,SC
-11,Paulo Roberto Alves Junior,AB,PR
-12,Flavio Rodrigues de Souza,FIFA,SP
-13,Savio Pereira Sampaio,FIFA,DF
-14,Antonio Dib Moraes de Sousa,AB,PI
-15,Jefferson Ferreira de Moraes,AB,GO
-16,Leandro Pedro Vuaden,MTR,RS
-17,Douglas Marques das Flores,AB,SP
-18,Alexandre Vargas Tavares de Jesus,AB,RJ
-19,Marcelo de Lima Henrique,MTR,CE
-20,Andre Luiz de Freitas Castro,MTR,GO
-21,Paulo Henrique Schleich Vollkopf,AB,MS
-22,Jean Pierre Goncalves Lima,AB,RS
-23,Vinicius Gonçalves Dias Araujo,AB,SP
-24,Paulo Cesar Zanovelli da Silva,AB,MG
-25,Diego Pombo Lopez,AB,BA
-26,Edina Alves Batista,FIFA,SP
-27,Marielson Alves Silva,AB,BA
-28,Dyorgines Jose Padovani de Andrade,AB,ES
-29,José Mendonça da Silva Junior,AB,PR
-30,Maguielson Lima Barbosa,AB,DF
-31,Vinicius Goncalves Dias Araujo,AB,SP
-32,Rafael Rodrigo Klein,AB,RS
-33,Jose Mendonca da Silva Junior,AB,PR
-34,Rodrigo Jose Pereira de Lima,AB,PE
-35,Bruno Mota Correia,BAS,RJ
-36,Denis da Silva Ribeiro Serafim,AB,AL
-37,Joao Vitor Gobi,CD,SP
-38,Andre Luiz Skettino Policarpo Bento,AB,MG
-39,Yuri Elino Ferreira da Cruz,AB,RJ
-40,Matheus Delgado Candançan,CD,SP
-41,Arthur Gomes Rabelo,AB,ES
-42,Davi de Oliveira Lacerda,CD,ES
-43,Jonathan Benkenstein Pinheiro,CD,RS
-44,Paulo Belence Alves dos Prazeres Filho,CD,PE
-45,Alex Gomes Stefano,AB,RJ
-46,Bruno Pereira Vasconcelos,AB,BA
-47,Lucas Paulo Torezin,AB,PR
-48,Fabio Augusto Santos Sa Junior,AB,SE
-49,Gustavo Ervino Bauermann,AB,SC
-50,Kleber Ariel Goncalves da Silva,BAS,PR
-51,Anderson Ribeiro Goncalves,CD,GO
-52,Emerson Ricardo de Almeida Andrade,AB,BA
-53,Luciano da Silva Miranda Filho,AB,CE
-54,Lucas Casagrande,BAS,PR
-55,Thaillan Azevedo Gomes,CD,AP
-56,Thiago Luis Scarascati,AB,SP
-57,Alisson Sidnei Furtado,AB,TO
-58,Rodrigo Batista Raposo,AB,DF
-59,Fábio Augusto Santos Sá Junior,AB,SE
-60,Dewson Fernando Freitas da Silva,MTR,PA
-61,Ivan da Silva Guimarães Junior,AB,AM
-62,Zandick Gondim Alves Junior,AB,RN
-63,Rafael Martins de Sá,AB,RJ
-64,Rafael Traci,MTR,SC
-65,Douglas Schwengber da Silva,AB,RS
-66,Heber Roberto Lopes,MTR,SC
-67,Paulo Henrique de Melo Salmazio,AB,MS
-68,Luiz Augusto Silveira Tisne,AB,SC
-69,Diego da Costa Cidral,AB,SC
-70,Felipe da Silva Gonçalves Paludo,AB,RJ
-71,Leonardo Willers Lorenzatto,AB,MT
-72,Vinicius Gomes do Amaral,AB,MG
-73,Leonilson Fernandes Trigueiro Filho,AB,RN
-74,Leo Simão Holanda,AB,CE
-75,Roger Goulart,AB,RS
-76,Felipe da Silva Goncalves Paludo,AB,RJ
-77,Murilo Francisco Misson Junior,CD,MG
-78,Leonardo Ferreira Lima,AB,PR
-79,Michelangelo Martins de Almeida Junior,AB,PE
-80,Afro Rocha de Carvalho Filho,CD,PB
-81,Deborah Cecilia Cruz Correia,FIFA,PE
+4,Vinicius Gonçalves Dias Araujo,AB,SP
+5,Savio Pereira Sampaio,AB,DF
+6,Bruno Arleu de Araujo,FIFA,RJ
+7,Jefferson Ferreira de Moraes,AB,GO
+8,Marielson Alves Silva,AB,BA
+9,Denis da Silva Ribeiro Serafim,AB,AL
+10,Edina Alves Batista,FIFA,SP
+11,Leo Simão Holanda,AB,CE
+12,Jean Pierre Goncalves Lima,AB,RS
+13,Marcelo de Lima Henrique,MTR,RJ
+14,Braulio da Silva Machado,FIFA,SC
+15,Paulo Roberto Alves Junior,AB,PR
+16,Raphael Claus,FIFA,SP
+17,Vinicius Gomes do Amaral,AB,RS
+18,Paulo Cesar Zanovelli,CD,MG
+19,Diego Pombo Lopez,AB,BA
+20,Ramon Abatti Abel,AB,SC
+21,Flavio Rodrigues de Souza,FIFA,SP
+22,Alexandre Vargas Tavares de Jesus,AB,RJ
+23,Ricardo Marques Ribeiro,MTR,MG
+24,Wagner do Nascimento Magalhaes,FIFA,RJ
+25,Leandro Pedro Vuaden,MTR,RS
+26,Dyorgines Jose Padovani de Andrade,AB,ES
+27,Thiago Luis Scarascati,CD,SP
+28,Antonio Dib Moraes de Sousa,AB,PI
+29,Luiz Flavio de Oliveira,FIFA,SP
+30,Douglas Schwengber da Silva,AB,RS
+31,Alisson Sidnei Furtado,AB,TO
+32,Douglas Marques das Flores,AB,SP
+33,Wilton Pereira Sampaio,FIFA,GO
+34,Heber Roberto Lopes,MTR,SC
+35,Rafael Traci,FIFA,SC
+36,Andre Luiz de Freitas Castro,MTR,GO
+37,Adriano Barros Carneiro,AB,CE
+38,Paulo Cesar Zanovelli da Silva,AB,MG
+39,Zandick Gondim Alves Junior,AB,RN
+40,Paulo Henrique Schleich Vollkopf,AB,MS
+41,José Mendonça da Silva Junior,AB,PR
+42,Maguielson Lima Barbosa,AB,DF
+43,Vinicius Goncalves Dias Araujo,AB,SP
+44,Rafael Rodrigo Klein,AB,RS
+45,Jose Mendonca da Silva Junior,AB,PR
+46,Rodrigo Jose Pereira de Lima,AB,PE
+47,Bruno Mota Correia,BAS,RJ
+48,Joao Vitor Gobi,CD,SP
+49,Andre Luiz Skettino Policarpo Bento,AB,MG
+50,Yuri Elino Ferreira da Cruz,AB,RJ
+51,Matheus Delgado Candançan,CD,SP
+52,Arthur Gomes Rabelo,AB,ES
+53,Davi de Oliveira Lacerda,CD,ES
+54,Jonathan Benkenstein Pinheiro,CD,RS
+55,Paulo Belence Alves dos Prazeres Filho,CD,PE
+56,Alex Gomes Stefano,AB,RJ
+57,Bruno Pereira Vasconcelos,AB,BA
+58,Lucas Paulo Torezin,AB,PR
+59,Fabio Augusto Santos Sa Junior,AB,SE
+60,Gustavo Ervino Bauermann,AB,SC
+61,Kleber Ariel Goncalves da Silva,BAS,PR
+62,Anderson Ribeiro Goncalves,CD,GO
+63,Emerson Ricardo de Almeida Andrade,AB,BA
+64,Luciano da Silva Miranda Filho,AB,CE
+65,Lucas Casagrande,BAS,PR
+66,Thaillan Azevedo Gomes,CD,AP
+67,Rafael Carlos Salgueiro Lima,CD,AL
+68,Djonaltan Costa de Araujo,CD,PA
+69,Tiago Nascimento dos Santos,AB,PE
+70,Rodrigo Carvalhaes de Miranda,AB,RJ
+71,Felipe da Silva Gonçalves Paludo,CD,RJ
+72,Andre Rodrigo Rocha,AB,TO
+73,Dewson Fernando Freitas da Silva,MTR,PA
+74,Pablo Ramon Goncalves Pinheiro,AB,RN
+75,Jose Ricardo Vasconcellos Laranjeira,CD,AL
+76,Diego Fernando Silva de Lima,CD,PE
+77,Rodrigo Batista Raposo,AB,DF
+78,Salim Fende Chavez,AB,SP
+79,Leonardo Sígari Zanon,AB,PR
+80,Ricarle Gustavo Gonçalves Batista,CD,BA
+81,Fábio Augusto Santos Sá Junior,CD,SE
 82,Jonathan Antero Silva,AB,RO
-83,Rafael Martins Diniz,AB,DF
-84,Ivan da Silva Guimaraes Junior,AB,AM
-85,Thayslane de Melo Costa,FIFA,SE
-86,Tarcizo Pinheiro Caetano,CD,RJ
-87,Luiz Cesar de Oliveira Magalhaes,AB,CE
-88,Lucas Canetto Bellote,CD,SP
-89,Wallas Martins Lopes,BAS,MA
-90,Lucas Guimaraes Rechatiko Horn,CD,RS
-91,Fernando Antonio Mendes de Salles Nascimento Filho,CD,PA
-92,Paulo Jose Souza Mourão,CD,MA
-93,Marcos Sousa,BAS,TO
-94,Bruno Nogueira Prado,BAS,BA
-95,Marcio dos Santos Oliveira,CD,AL
-96,Angleison Marcos Vieira Monteiro,BAS,RO
-97,Fabiano Monteiro dos Santos,BAS,SP
-98,Joanilson Scarcella de Lima,CD,CE
-99,Emerson Souza Silva,BAS,BA
-100,Leo Simao Holanda,AB,CE
-101,Hieger Tulio Cardoso,BAS,MG
-102,Murilo Ugolini Klein,CD,PR
-103,Paulo Jose Souza Mourao,CD,MA
-104,Rodrigo da Fonseca Silva,AB,MT
-105,Kleber Ariel Goncalves Silva,BAS,PR
-106,Charly Wendy Straub Deretti,FIFA,SC
-107,Daiane Muniz,FIFA,SP
-108,Raimundo Rodrigues de Oliveira Junior,CD,CE
-109,Olivaldo Jose Alves Moraes,CD,PA
-110,Julio Cesar Pfleger,BAS,SC
+83,Vinicius Furlan,AB,SP
+84,Ivan da Silva Guimarães Junior,AB,AM
+85,Diego da Costa Cidral,CD,SC
+86,Rodrigo da Fonseca Silva,CD,MT
+87,Marco Aurelio Augusto Fazekas Ferreira,AB,MG
+88,Luiz Augusto Silveira Tisne,CD,SC
+89,Wanderson Alves de Sousa,AB,MG
+90,Rafael Martins de Sá,CD,RJ
+91,Adriano Milczvski,AB,PR
+92,Diego da Silva Castro,AB,PI
+93,Antonio Magno Lima Cordeiro,CD,CE
+94,Leonilson Fernandes Trigueiro Filho,CD,RN
+95,Igor Junio Benevenuto de Oliveira,AB,MG
+96,Elmo Alves Resende Cunha,MTR,GO
+97,Rodrigo Dalonso Ferreira,VAR-FIFA,SC
+98,Emerson de Almeida Ferreira,AB,MG
+99,Gilberto Rodrigues Castro Junior,AB,PE
+100,Daniel Nobre Bins,AB,RS
+101,Grazianni Maciel Rocha,AB,RJ
+102,Paulo Henrique de Melo Salmazio,AB,MS
+103,Paulo Renato Moreira da Silva Coelho,CD,RJ
+104,Leonardo Willers Lorenzatto,AB,MT
+105,Roger Goulart,AB,RS
+106,Felipe da Silva Goncalves Paludo,AB,RJ
+107,Murilo Francisco Misson Junior,CD,MG
+108,Leonardo Ferreira Lima,AB,PR
+109,Michelangelo Martins de Almeida Junior,AB,PE
+110,Afro Rocha de Carvalho Filho,CD,PB
+111,Deborah Cecilia Cruz Correia,FIFA,PE
+112,Rafael Martins Diniz,AB,DF
+113,Ivan da Silva Guimaraes Junior,AB,AM
+114,Thayslane de Melo Costa,FIFA,SE
+115,Tarcizo Pinheiro Caetano,CD,RJ
+116,Luiz Cesar de Oliveira Magalhaes,AB,CE
+117,Lucas Canetto Bellote,CD,SP
+118,Wallas Martins Lopes,BAS,MA
+119,Lucas Guimaraes Rechatiko Horn,CD,RS
+120,Fernando Antonio Mendes de Salles Nascimento Filho,CD,PA
+121,Paulo Jose Souza Mourão,CD,MA
+122,Marcos Sousa,BAS,TO
+123,Bruno Nogueira Prado,BAS,BA
+124,Marcio dos Santos Oliveira,CD,AL
+125,Angleison Marcos Vieira Monteiro,BAS,RO
+126,Fabiano Monteiro dos Santos,BAS,SP
+127,Joanilson Scarcella de Lima,CD,CE
+128,Emerson Souza Silva,BAS,BA
+129,Leo Simao Holanda,AB,CE
+130,Hieger Tulio Cardoso,BAS,MG
+131,Murilo Ugolini Klein,CD,PR
+132,Paulo Jose Souza Mourao,CD,MA
+133,Kleber Ariel Goncalves Silva,BAS,PR
+134,Charly Wendy Straub Deretti,FIFA,SC
+135,Daiane Muniz,FIFA,SP
+136,Raimundo Rodrigues de Oliveira Junior,CD,CE
+137,Olivaldo Jose Alves Moraes,CD,PA
+138,Julio Cesar Pfleger,BAS,SC

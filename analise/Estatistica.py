@@ -10,8 +10,11 @@ import seaborn as sns
 
 from scipy.stats import kruskal
 from scipy.stats import f_oneway
+from scipy.stats import permutation_test
 from scipy.stats import shapiro
 
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
 from statsmodels.stats.power import FTestAnovaPower
 
 def basicaNormalidade(pasta, coluna):
@@ -72,6 +75,53 @@ def basicaKruskal(pasta, coluna):
         print("Ha diferencas significativas entre os periodos.")
     else:
         print("Nenhuma diferenca significativa entre os periodos.")
+
+def basicaPermutacao(pasta, coluna):
+
+    df = pd.read_csv("output/" + pasta + "/partidas.csv")
+
+    # Criar os grupos de cartões amarelos por hora
+    grupos = [df[df["horas"] == h]["numAmarelos"].values for h in df["horas"].unique()]
+
+    # Definir a estatística F manualmente
+    def stat_func(*args):
+        return f_oneway(*args).statistic  # Retorna apenas o valor F
+
+    # Teste de permutação
+    result = permutation_test(grupos, statistic=stat_func, permutation_type="independent")
+
+    # Acessando os valores corretamente
+    print(f"Estatística F: {result.statistic}")
+    print(f"p-valor: {result.pvalue}")
+
+    if result.pvalue < 0.05:
+        print("Diferença significativa entre os horários!")
+    else:
+        print("Nenhuma diferença estatística entre os horários.")
+
+def basicaRegressao(pasta, coluna):
+
+    df = pd.read_csv("output/" + pasta + "/partidas.csv")
+
+    # Regressão de Poisson (útil para contagens)
+    modelo = smf.glm(coluna + " ~ C(horas)", data=df, family=sm.families.Poisson()).fit()
+    print(modelo.summary())
+
+def basicaPoisson(pasta, coluna):
+
+    df = pd.read_csv("output/" + pasta + "/partidas.csv")
+
+    # Criar o modelo usando 'numAmarelos' como variável dependente e 'horas' como explicativa
+    modelo = smf.glm(coluna + " ~ C(horas)", data=df, family=sm.families.Poisson()).fit()
+
+    # Exibir os resultados do modelo
+    print('Resultado: ')
+    print(modelo.summary())
+
+    print('Média:')
+    print(df[coluna].mean())
+    print('Variança:')
+    print(df[coluna].var())
 
 def powerAnalysis(pasta, coluna):
        

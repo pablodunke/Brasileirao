@@ -4,8 +4,10 @@
 # @createdDate 2024/10/29
 
 class Amarelo:
-    def __init__(self, pId, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
+    def __init__(self, pId, pCampeonatoId, pRodada, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
         self.id = pId
+        self.campeonatoId = pCampeonatoId
+        self.rodada = pRodada.strip()
         self.partidaId = pPartidaId
         self.timeId = pTimeId
         self.jogadorId = pJogadorId
@@ -18,8 +20,8 @@ class Amarelo:
 
         self.minutoGeral = int(minuto) + ((pTempo - 1) * 45)
 
-def adicionaAmarelo(amarelos, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
-    amarelos.append(Amarelo(len(amarelos), pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto))
+def adicionaAmarelo(amarelos, pCampeonatoId, pRodada, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto):
+    amarelos.append(Amarelo(len(amarelos), pCampeonatoId, pRodada, pPartidaId, pTimeId, pJogadorId, pTempo, pMinuto))
     return len(amarelos) - 1
 
 def imprimeAmarelos(amarelos, jogadores):

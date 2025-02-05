@@ -1,0 +1,121 @@
+id,partidaId,timeId,jogadorId,tempo,minuto,minutoGeral,jogador,time,horarioInt,horarioString
+0,1,2,7,1,40:00,40,Deivid Willian da Silva -,Vila Nova,1330,22:10
+1,2,5,11,2,45:00,90,Pedro Henrique Azevedo Pereira -,Vitória,1245,20:45
+2,4,9,23,1,34:00,34,Felipe Vieira Augusto -,Londrina,994,16:34
+3,7,15,37,2,46:00,91,PFJuvenilson Poyer Nogueira Souza -,Ponte Preta,766,12:46
+4,8,17,46,1,44:00,44,Fabio Deivson Lopes Maciel -,Cruzeiro,1034,17:14
+5,8,17,47,1,41:00,41,Adriano Firmino dos Santos da Silva -,Cruzeiro,1031,17:11
+6,16,4,88,2,42:00,87,Rafael Martins Claro dos Santos -,Guarani,1242,20:42
+7,16,1,89,2,42:00,87,Alex da Silva -,Operário,1242,20:42
+8,22,4,120,2,35:00,80,Julio Cesar Czarneski -,Guarani,1385,23:05
+9,22,4,121,2,35:00,80,Daniel dos Santos Cerqueira -,Guarani,1385,23:05
+10,23,17,124,1,46:00,46,Jadson Alves dos Santos -,Cruzeiro,1306,21:46
+11,38,8,217,1,39:00,39,Icaro Cosmo da Rocha -,Brasil,1329,22:09
+12,43,6,248,1,8:00,8,Helio Cezar Pinto dos Anjos -,Náutico,968,16:08
+13,44,8,253,2,30:00,75,Gabriel Martins Terra -,Brasil,1380,23:00
+14,46,17,265,1,30:00,30,Weverton Silva de Andrade -,Cruzeiro,1170,19:30
+15,53,17,298,1,36:00,36,Paulo Eduardo Ferreira Godinho -,Cruzeiro,1326,22:06
+16,53,0,299,1,36:00,36,Bruno Gomes da Silva Clevelario -,Vasco da Gama,1326,22:06
+17,59,11,331,2,49:00,94,Diogo dos Santos Carvalho -,Remo,1399,23:19
+18,61,19,347,2,25:00,70,TGEdimar Torquato de Souza -,Goiás,1375,22:55
+19,66,16,375,2,30:00,75,MGEraldo Feitosa Filho -,Confiança,1230,20:30
+20,67,10,384,1,19:00,19,Renan Bardini Bressan -,Crb,1009,16:49
+21,71,0,408,1,5:00,5,Bruno Gomes da Silva Clevelario -,Vasco da Gama,1145,19:05
+22,78,16,444,2,15:00,60,Sergio Antonio Borges Junior -,Confiança,1215,20:15
+23,82,4,466,1,45:00,45,TGSilvano de Morais Silva -,Guarani,705,11:45
+24,98,5,553,2,28:00,73,Pablo Fabricio Siles Morales -,Vitória,1228,20:28
+25,100,17,567,2,11:00,56,Mozart Santos Batista Junior -,Cruzeiro,1061,17:41
+26,104,1,593,2,43:00,88,Fabiano da Silva Souza -,Operário,1393,23:13
+27,108,5,624,2,17:00,62,Thiago Kosloski -,Vitória,1367,22:47
+28,115,2,661,2,47:00,92,Alan Sebastiao Alexandre -,Vila Nova,1337,22:17
+29,118,16,680,2,30:00,75,Nery Ruben Bareiro Zorrilla -,Confiança,1230,20:30
+30,119,18,689,2,36:00,81,Luiz Daniel de Carvalho Silva -,Sampaio Corrêa,1386,23:06
+31,123,6,706,2,47:00,92,Lucas Henrique de Sousa Queiroga -,Náutico,1397,23:17
+32,126,12,727,2,18:00,63,Natanael Moreira Milouski -,Coritiba,1218,20:18
+33,126,12,728,2,44:00,89,Gustavo Eliseo Morinigo Vazquez -,Coritiba,1244,20:44
+34,129,17,744,2,24:00,69,Matheus Barbosa Teixeira -,Cruzeiro,1224,20:24
+35,136,1,776,2,27:00,72,Leandro Vilela Sales Teixeira -,Operário,1182,19:42
+36,136,1,777,2,40:00,85,Matheus Silva Ferreira da Costa -,Operário,1195,19:55
+37,137,8,785,2,30:00,75,Emilton Pedroso Domingues -,Brasil,1320,22:00
+38,137,13,786,1,21:00,21,Joao Paulo Ferreira Lourenco -,Avaí,1251,20:51
+39,137,13,787,2,24:00,69,TGAnderson Moreira de Souza -,Avaí,1314,21:54
+40,138,3,797,2,33:00,78,Warley Leandro da Silva -,Botafogo,1083,18:03
+41,138,3,798,2,14:00,59,Enderson Alves Moreira -,Botafogo,1064,17:44
+42,143,17,821,2,48:00,93,Denis Yashiro Camargo Iwamura -,Cruzeiro,1398,23:18
+43,145,15,830,2,6:00,51,Jose Cleylton de Morais dos Santos -,Ponte Preta,1161,19:21
+44,153,16,868,2,50:00,95,Sosthenes Jose Santos Salles -,Confiança,1100,18:20
+45,153,6,869,2,50:00,95,Carlos Eduardo da Silva Santos -,Náutico,1100,18:20
+46,158,5,903,2,45:00,90,Marcelo Alves Santos -,Vitória,1275,21:15
+47,159,1,910,1,4:00,4,Rafael Batista -,Operário,964,16:04
+48,161,19,927,2,44:00,89,Adailson Freire Pereira da Silva -,Goiás,1394,23:14
+49,169,6,979,2,40:00,85,Cleidson Andrade de Souza Silva -,Náutico,1390,23:10
+50,171,4,989,2,50:00,95,Thales Natanael Lira de Matos -,Guarani,1250,20:50
+51,172,16,997,2,41:00,86,Nirley da Silva Fonseca -,Confiança,1091,18:11
+52,177,6,1019,2,6:00,51,Bryan Borges Mascarenhas -,Náutico,1206,20:06
+53,178,5,1023,2,43:00,88,Pablo Fabricio Siles Morales -,Vitória,1063,17:43
+54,179,0,1028,2,21:00,66,Vanderlei Farias da Silva -,Vasco da Gama,1371,22:51
+55,185,10,1059,2,14:00,59,Pablo Dyego da Silva Rosa -,Crb,1364,22:44
+56,196,0,1110,2,47:00,92,Andrew Erik Feitosa -,Vasco da Gama,1247,20:47
+57,199,11,1126,2,37:00,82,TGJose Carlos Goncalves Junior -,Remo,1357,22:37
+58,203,6,1140,2,49:00,94,Vinicius Santos Silva -,Náutico,1069,17:49
+59,204,11,1147,2,49:00,94,Renan Gorne Silva -,Remo,1249,20:49
+60,204,8,1148,2,21:00,66,Rildo Goncalves de Amorim Filho -,Brasil,1221,20:21
+61,208,16,1170,1,32:00,32,MGEraldo Feitosa Filho -,Confiança,1052,17:32
+62,209,7,1175,2,39:00,84,Everton Jose Modesto Silva -,Csa,1359,22:39
+63,213,6,1199,1,41:00,41,Iago Angelo Dias -,Náutico,1076,17:56
+64,213,4,1200,1,45:00,45, Silvano de Morais Silva -,Guarani,1080,18:00
+65,217,14,1219,2,6:00,51,Jose Carlos dos Anjos Savio -,Brusque,1206,20:06
+66,220,9,1234,1,14:00,14,Marcelo Antonio de Oliveira -,Londrina,1004,16:44
+67,228,5,1264,2,52:00,97,Caique Luiz Santos da Purificacao -,Vitória,1252,20:52
+68,231,19,1277,2,52:00,97,Iago Pereira Mendonça -,Goiás,1252,20:52
+69,233,17,1289,2,52:00,97,Vanderlei Luxemburgo da Silva -,Cruzeiro,1252,20:52
+70,233,1,1290,2,52:00,97,Leandro Carlos Silveira Niehues -,Operário,1252,20:52
+71,233,17,1291,2,52:00,97,TGAndre Croda Borges -,Cruzeiro,1252,20:52
+72,233,17,1292,2,52:00,97,Copertino -,Cruzeiro,1252,20:52
+73,239,13,1323,2,31:00,76,Edilson Mendes Guimaraes -,Avaí,1381,23:01
+74,239,11,1324,2,20:00,65,Victor Andrade Santos -,Remo,1370,22:50
+75,246,15,1362,2,44:00,89,Fabio Pizarro Sanches -,Ponte Preta,1394,23:14
+76,246,15,1363,2,27:00,72,André Luiz Guimarães Siqueira Junior -,Ponte Preta,1377,22:57
+77,246,15,1364,2,46:00,91,TGRoberto Vlademir Guastali -,Ponte Preta,1396,23:16
+78,250,18,1392,1,46:00,46,Joecio Barbosa dos Santos -,Sampaio Corrêa,1141,19:01
+79,253,17,1410,2,40:00,85,Rafael Augusto Sobis -,Cruzeiro,1060,17:40
+80,257,0,1427,1,43:00,43,Leonardo de Matos Cruz -,Vasco da Gama,1333,22:13
+81,259,6,1441,2,45:00,90,Carlos Eduardo da Silva Santos -,Náutico,1245,20:45
+82,261,1,1453,2,33:00,78,Fabio Augusto Schirmann -,Operário,1383,23:03
+83,262,4,1460,2,49:00,94,Matheus Lima Beltrao Oliveira -,Guarani,1249,20:49
+84,265,15,1478,2,55:00,100,Gilson Kleina -,Ponte Preta,1405,23:25
+85,268,3,1498,2,24:00,69,Victor Hugo Soares dos Santos -,Botafogo,1374,22:54
+86,268,5,1499,2,37:00,82,Samuel Vanderlei da Silva -,Vitória,1387,23:07
+87,269,11,1506,2,18:00,63,Victor Andrade Santos -,Remo,1368,22:48
+88,280,20,1551,1,32:00,32,Joao Victor Andrade Caetano -,CRB,1172,19:32
+89,281,2,1559,1,42:00,42,Bruno Bairros Collaço -,Vila Nova,1182,19:42
+90,284,8,1582,2,41:00,86,Wesley Hudson da Silva -,Brasil,1061,17:41
+91,285,14,1588,1,45:00,45,Carlos Alberto de Souza Melo -,Brusque,1305,21:45
+92,285,14,1589,2,24:00,69,Ianson Acosta Soares -,Brusque,1344,22:24
+93,287,13,1599,2,33:00,78,Bruno Cesar Pereira Silva -,Avaí,1233,20:33
+94,289,18,1610,1,43:00,43,Luis Gustavo Lopes Santos -,Sampaio Corrêa,1303,21:43
+95,289,18,1611,2,32:00,77,TGCelio Jose Rossi -,Sampaio Corrêa,1352,22:32
+96,301,10,1678,1,38:00,38,Marthã Fernando Goncalves Pimenta -,Crb,1238,20:38
+97,302,4,1682,2,37:00,82,Thales Natanael Lira de Matos -,Guarani,1237,20:37
+98,302,4,1683,2,20:00,65,Bruno Savio da Silva -,Guarani,1220,20:20
+99,304,9,1695,2,28:00,73,Marcelo Antonio de Oliveira -,Londrina,1228,20:28
+100,313,11,1738,1,45:00,45,Felipe de Oliveira Conceicao -,Remo,1335,22:15
+101,313,17,1739,2,50:00,95,Vitor Benedito Leque da Silva -,Cruzeiro,1400,23:20
+102,319,18,1769,2,19:00,64,Luis Gustavo Lopes Santos -,Sampaio Corrêa,1219,20:19
+103,324,13,1793,1,28:00,28,Bruno Cesar Pereira Silva -,Avaí,988,16:28
+104,325,18,1797,2,48:00,93,Leonardo Artur de Melo -,Sampaio Corrêa,1398,23:18
+105,328,7,1812,2,21:00,66,Everton Jose Modesto Silva -,Csa,1041,17:21
+106,330,0,1818,1,25:00,25,Leonardo de Matos Cruz -,Vasco da Gama,985,16:25
+107,331,4,1825,2,6:00,51,Daniel dos Santos Cerqueira -,Guarani,1161,19:21
+108,333,6,1835,2,25:00,70,Jean Carlos Vicente -,Náutico,1060,17:40
+109,333,12,1836,2,25:00,70,Gustavo Costa da Silva Machado -,Coritiba,1060,17:40
+110,336,1,1848,2,31:00,76,Leandro Vilela Sales Teixeira -,Operário,1201,20:01
+111,355,16,1937,2,4:00,49,Jonathan Ferreira da Silva -,Confiança,1354,22:34
+112,360,11,1955,2,24:00,69,Victor Andrade Santos -,Remo,1224,20:24
+113,362,19,1973,2,38:00,83,Nicolas Godinho Johann -,Goiás,1298,21:38
+114,363,13,1979,2,42:00,87,Iury de Oliveira Nascimento -,Avaí,1242,20:42
+115,364,3,1985,2,14:00,59,Gustavo Bonatto Barreto -,Botafogo,1034,17:14
+116,365,5,1990,2,47:00,92,Joao Pedro Mendes Santos -,Vitória,1187,19:47
+117,368,16,2007,2,39:00,84,Sosthenes Jose Santos Salles -,Confiança,1089,18:09
+118,370,4,2015,1,36:00,36,Bruno Aparecido Reis Ezequiel -,Guarani,996,16:36
+119,377,18,2051,2,36:00,81,Watson Rennio Pires dos Santos Silva -,Sampaio Corrêa,1056,17:36

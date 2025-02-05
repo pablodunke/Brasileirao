@@ -73,13 +73,14 @@ def baixaPDFs(pAno, pCampeonato, pRodada):
             first_page_text = first_page.extract_text()
             linhas = first_page_text.split('\n')
 
-            #print('Ué')
-            #print(linhas[1])
+            start = 0
+            while linhas[start][0:5] != "Jogo:":
+                start = start + 1
 
-            jogo = linhas[1].split(' CBF')[0].split('Jogo: ')[1]
+            jogo = linhas[start].split(' CBF')[0].split('Jogo: ')[1]
             srodada = "{:03}".format(int(jogo))
 
-            times = extrai1Valor(linhas[4], 'Jogo')
+            times = extrai1Valor(linhas[start + 3], 'Jogo')
 
             nome_arquivo = pCampeonato + ' ' + pAno + ' ' + srodada + ' - ' + times.replace(' / ', ' ')
 
